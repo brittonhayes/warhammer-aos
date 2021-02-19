@@ -1,0 +1,69 @@
+{
+  "faction": "hosts_of_slaanesh",
+  "items": [
+    {
+      "name": "Chaos Lord of Slaanesh",
+      "size": "32 mm"
+    },
+    {
+      "name": "Daemonettes of Slaanesh",
+      "size": "25 mm"
+    },
+    {
+      "name": "Exalted Greater Daemon of Slaanesh",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Exalted Seekers Chariots of Slaanesh",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Fiends",
+      "size": "75 x 42 mm"
+    },
+    {
+      "name": "Hellflayers of Slaanesh",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Hellstriders of Slaanesh",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Herald of Slaanesh",
+      "size": "25 mm"
+    },
+    {
+      "name": "Herald of Slaanesh on Exalted Seeker Chariot",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Herald of Slaanesh on Seeker Chariot",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Infernal Enrapturess",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Keeper of Secrets",
+      "size": "60 mm"
+    },
+    {
+      "name": "Lord of Slaanesh on Daemonic Mount",
+      "size": "60 mm"
+    },
+    {
+      "name": "Seeker Chariots of Slaanesh",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Seekers of Slaanesh",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "The Masque of Slaanesh",
+      "size": "25 mm"
+    }
+  ]
+}
