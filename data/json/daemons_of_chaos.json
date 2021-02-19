@@ -1,6 +1,6 @@
 {
   "faction": "daemons_of_chaos",
-  "items": [
+  "units": [
     {
       "name": "Be’lakor Chaos Daemon Prince",
       "size": "60mm"

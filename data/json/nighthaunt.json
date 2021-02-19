@@ -1,6 +1,6 @@
 {
   "faction": "nighthaunt",
-  "items": [
+  "units": [
     {
       "name": "Black Coach",
       "size": "170 x 105 mm"

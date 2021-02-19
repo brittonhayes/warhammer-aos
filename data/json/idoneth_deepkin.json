@@ -1,6 +1,6 @@
 {
   "faction": "idoneth_deepkin",
-  "items": [
+  "units": [
     {
       "name": "Akhelian Allopex",
       "size": "90 x 52 mm"

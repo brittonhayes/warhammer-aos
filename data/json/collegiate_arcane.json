@@ -1,6 +1,6 @@
 {
   "faction": "collegiate_arcane",
-  "items": [
+  "units": [
     {
       "name": "Battlemage",
       "size": "25 mm"

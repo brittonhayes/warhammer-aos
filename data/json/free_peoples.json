@@ -1,6 +1,6 @@
 {
   "faction": "free_peoples",
-  "items": [
+  "units": [
     {
       "name": "Demigryph Knights",
       "size": "75 x 42 mm"

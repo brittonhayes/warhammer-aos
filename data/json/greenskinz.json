@@ -1,6 +1,6 @@
 {
   "faction": "greenskinz",
-  "items": [
+  "units": [
     {
       "name": "Orruk Boar Chariots",
       "size": "120 x 92 mm"

@@ -1,6 +1,6 @@
 {
   "faction": "beastclaw_raiders",
-  "items": [
+  "units": [
     {
       "name": "Frost Sabres",
       "size": "60 x 35 mm"

@@ -1,6 +1,6 @@
 {
   "faction": "disposessed",
-  "items": [
+  "units": [
     {
       "name": "Dispossessed Warriors",
       "size": "25 mm"

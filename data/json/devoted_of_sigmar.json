@@ -1,6 +1,6 @@
 {
   "faction": "devoted_of_sigmar",
-  "items": [
+  "units": [
     {
       "name": "Excelsior Warpriest",
       "size": "32 mm"

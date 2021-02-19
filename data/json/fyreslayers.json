@@ -1,6 +1,6 @@
 {
   "faction": "fyreslayers",
-  "items": [
+  "units": [
     {
       "name": "Auric Hearthguard",
       "size": "32 mm"

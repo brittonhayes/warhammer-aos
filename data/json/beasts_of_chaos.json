@@ -1,6 +1,6 @@
 {
   "faction": "beasts_of_chaos",
-  "items": [
+  "units": [
     {
       "name": "Beastlord",
       "size": "32mm"
