@@ -2,9 +2,7 @@ package main
 
 import (
 	"embed"
-	_ "embed"
 	"encoding/json"
-	"fmt"
 	"os"
 	"text/template"
 )
@@ -27,8 +25,6 @@ type Mini struct {
 
 func main() {
 	genJSON()
-	// genCSV()
-	fmt.Println(r)
 }
 
 func genJSON() {
