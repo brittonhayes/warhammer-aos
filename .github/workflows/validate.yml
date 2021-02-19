@@ -1,0 +1,19 @@
+name: "Validate JSON"
+
+on: [pull_request]
+
+jobs:
+  json-validation:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '12'
+    - name: "Install validator"
+      runs: |
+        npm install ajv-cli
+    - name: "Validate JSON"
+      continue-on-error: true
+      runs: |
+        ajv validate -s schema.json -d ./data/json/*.json --strict=false
