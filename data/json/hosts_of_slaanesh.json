@@ -1,6 +1,6 @@
 {
   "faction": "hosts_of_slaanesh",
-  "items": [
+  "units": [
     {
       "name": "Chaos Lord of Slaanesh",
       "size": "32 mm"

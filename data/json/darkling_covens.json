@@ -1,6 +1,6 @@
 {
   "faction": "darkling_covens",
-  "items": [
+  "units": [
     {
       "name": "Black Guard",
       "size": "25 mm"

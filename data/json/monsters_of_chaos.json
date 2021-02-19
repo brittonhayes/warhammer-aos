@@ -1,6 +1,6 @@
 {
   "faction": "monsters_of_chaos",
-  "items": [
+  "units": [
     {
       "name": "Chaos Siege Gargant",
       "size": "120 x 92 mm"

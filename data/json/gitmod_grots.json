@@ -1,6 +1,6 @@
 {
   "faction": "gitmod_grots",
-  "items": [
+  "units": [
     {
       "name": "Doom Diver",
       "size": "32 mm"

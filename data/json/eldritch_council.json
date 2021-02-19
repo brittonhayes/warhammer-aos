@@ -1,6 +1,6 @@
 {
   "faction": "eldritch_council",
-  "items": [
+  "units": [
     {
       "name": "Archmage",
       "size": "25 mm"

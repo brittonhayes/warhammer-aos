@@ -1,6 +1,6 @@
 {
   "faction": "maneaters",
-  "items": [
+  "units": [
     {
       "name": "Maneaters",
       "size": "50 mm"

@@ -1,6 +1,6 @@
 {
   "faction": "wanderers",
-  "items": [
+  "units": [
     {
       "name": "Eternal Guard",
       "size": "25 mm"

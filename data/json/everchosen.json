@@ -1,6 +1,6 @@
 {
   "faction": "everchosen",
-  "items": [
+  "units": [
     {
       "name": "Archaon",
       "size": "160 mm"

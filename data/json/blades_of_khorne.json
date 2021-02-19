@@ -1,6 +1,6 @@
 {
   "faction": "blades_of_khorne",
-  "items": [
+  "units": [
     {
       "name": "Aspiring Deathbringer",
       "size": "32mm"

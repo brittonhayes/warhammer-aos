@@ -1,6 +1,6 @@
 {
   "faction": "ironweld_arsenal",
-  "items": [
+  "units": [
     {
       "name": "Cannon",
       "size": "90 x 52 mm"

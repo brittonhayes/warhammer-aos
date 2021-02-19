@@ -1,6 +1,6 @@
 {
   "faction": "flesheater_courts",
-  "items": [
+  "units": [
     {
       "name": "Abhorrant Archregent",
       "size": "40 mm"

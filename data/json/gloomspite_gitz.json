@@ -1,6 +1,6 @@
 {
   "faction": "gloomspite_gitz",
-  "items": [
+  "units": [
     {
       "name": "Aleguzzler Gargant",
       "size": "90 x 52 mm"

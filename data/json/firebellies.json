@@ -1,6 +1,6 @@
 {
   "faction": "firebellies",
-  "items": [
+  "units": [
     {
       "name": "Firebelly",
       "size": "50 mm"

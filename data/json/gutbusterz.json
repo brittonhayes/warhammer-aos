@@ -1,6 +1,6 @@
 {
   "faction": "gutbusterz",
-  "items": [
+  "units": [
     {
       "name": "Butcher",
       "size": "40 mm"
