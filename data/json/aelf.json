@@ -3,7 +3,17 @@
   "items": [
     {
       "name": "Mistweaver Saih",
-      "size": "32 mm"
+      "size": "32 mm",
+      "wounds": "7",
+      "save": "3+",
+      "move": [
+        {
+          "wounds_suffered":
+        }
+      ],
+      "move": [12, 11, 10, 8],
+      "wound track": [4, 8, 12, 16]
+      
     },
     {
       "name": "Tenebrael Shard",
