@@ -1,0 +1,65 @@
+{
+  "faction": "fyreslayers",
+  "items": [
+    {
+      "name": "Auric Hearthguard",
+      "size": "32 mm"
+    },
+    {
+      "name": "Auric Runefather",
+      "size": "32 mm"
+    },
+    {
+      "name": "Auric Runefather on Magmadroth",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Auric Runemaster",
+      "size": "32 mm"
+    },
+    {
+      "name": "Auric Runesmiter",
+      "size": "32 mm"
+    },
+    {
+      "name": "Auric Runesmiter on Magmadroth",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Auric Runeson",
+      "size": "32 mm"
+    },
+    {
+      "name": "Auric Runeson on Magmadroth",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Battlesmith",
+      "size": "32 mm"
+    },
+    {
+      "name": "Doomseeker",
+      "size": "32 mm"
+    },
+    {
+      "name": "Fjul-Grimnir",
+      "size": "32 mm"
+    },
+    {
+      "name": "Grimwrath Berzerker",
+      "size": "32 mm"
+    },
+    {
+      "name": "Hearthguard Berzerkers",
+      "size": "32 mm"
+    },
+    {
+      "name": "The Chosen Axes",
+      "size": "32 mm"
+    },
+    {
+      "name": "Vulkite Berzerkers",
+      "size": "32 mm"
+    }
+  ]
+}

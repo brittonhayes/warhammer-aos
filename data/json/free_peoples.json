@@ -1,0 +1,49 @@
+{
+  "faction": "free_peoples",
+  "items": [
+    {
+      "name": "Demigryph Knights",
+      "size": "75 x 42 mm"
+    },
+    {
+      "name": "Freeguild Archers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild Crossbowmen",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild General",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild General on Griffon",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Freeguild General on Warhorse",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Freeguild Greatswords",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild Handgunners",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild Outriders",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Freeguild Pistoliers",
+      "size": "60 x 35 mm"
+    }
+  ]
+}

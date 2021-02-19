@@ -1,0 +1,13 @@
+[
+{{range . }}
+    {
+    "faction": "{{.Faction}}",
+    "items": [
+    {{range .Items}}
+        {"name":"{{.Name}}","size":"{{.Size}}"},
+    {{end -}}
+    ],
+    },
+{{end}}
+]
+

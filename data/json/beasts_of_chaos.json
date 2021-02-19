@@ -1,0 +1,189 @@
+{
+  "faction": "beasts_of_chaos",
+  "items": [
+    {
+      "name": "Beastlord",
+      "size": "32mm"
+    },
+    {
+      "name": "Bestigors",
+      "size": "32mm"
+    },
+    {
+      "name": "Bullgors",
+      "size": "50mm"
+    },
+    {
+      "name": "Centigors",
+      "size": "60 x 35mm"
+    },
+    {
+      "name": "Chaos Gargant",
+      "size": "90 x 52mm"
+    },
+    {
+      "name": "Chaos Warhounds",
+      "size": "60 x 35mm"
+    },
+    {
+      "name": "Chimera",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Cockatrice",
+      "size": "60mm"
+    },
+    {
+      "name": "Cygor",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Doomblast Dirgehorn",
+      "size": "40mm"
+    },
+    {
+      "name": "Doombull",
+      "size": "50mm"
+    },
+    {
+      "name": "Dragon Ogor Shaggoth",
+      "size": "90 x 52mm"
+    },
+    {
+      "name": "Dragon Ogors",
+      "size": "90 x 52mm"
+    },
+    {
+      "name": "Ghorgon",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Gors",
+      "size": "32mm"
+    },
+    {
+      "name": "Great Bray-Shaman",
+      "size": "32mm"
+    },
+    {
+      "name": "Jabberslythe",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Ravening Direflock",
+      "size": "40mm"
+    },
+    {
+      "name": "Razorgors",
+      "size": "75 x 42mm"
+    },
+    {
+      "name": "Tuskgor Chariots",
+      "size": "105 x 70mm"
+    },
+    {
+      "name": "Ungor Raiders",
+      "size": "25mm"
+    },
+    {
+      "name": "Ungors",
+      "size": "25mm"
+    },
+    {
+      "name": "Wildfire Taurus",
+      "size": "105 x 70mm"
+    },
+    {
+      "name": "Aspiring Deathbringer",
+      "size": "32mm"
+    },
+    {
+      "name": "Aspiring Deathbringer with Goreaxe and Skullhammer",
+      "size": "40mm"
+    },
+    {
+      "name": "Bleeding Icon",
+      "size": "105 x 70mm"
+    },
+    {
+      "name": "Blood Throne",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Blood Warriors",
+      "size": "32mm"
+    },
+    {
+      "name": "Bloodcrushers",
+      "size": "90 x 52mm"
+    },
+    {
+      "name": "Bloodletters",
+      "size": "32mm"
+    },
+    {
+      "name": "Bloodmaster Herald of Khorne",
+      "size": "40mm"
+    },
+    {
+      "name": "Bloodreavers",
+      "size": "32mm"
+    },
+    {
+      "name": "Bloodsecrator",
+      "size": "32mm"
+    },
+    {
+      "name": "Bloodstoker",
+      "size": "40mm"
+    },
+    {
+      "name": "Bloodthirster of Insensate Rage",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Bloodthirster of Unfettered Fury",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Exalted Deathbringer with Bloodbite Axe",
+      "size": "40mm"
+    },
+    {
+      "name": "Exalted Deathbringer with Impaling Spear",
+      "size": "40mm"
+    },
+    {
+      "name": "Exalted Deathbringer with Ruinous Axe",
+      "size": "40mm"
+    },
+    {
+      "name": "Exalted Greater Daemon of Khorne",
+      "size": "160mm"
+    },
+    {
+      "name": "Flesh Hounds",
+      "size": "60 x 35mm"
+    },
+    {
+      "name": "Garrek’s Reavers",
+      "size": "32mm"
+    },
+    {
+      "name": "Hexgorger Skulls",
+      "size": "60mm"
+    },
+    {
+      "name": "Karanak",
+      "size": "75 x 42mm"
+    },
+    {
+      "name": "Khorgoraths",
+      "size": "90 x 52mm"
+    },
+    {
+      "name": "Korghos Khul",
+      "size": "60mm"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "faction": "everchosen",
+  "items": [
+    {
+      "name": "Archaon",
+      "size": "160 mm"
+    },
+    {
+      "name": "Gaunt Summoner of Tzeentch",
+      "size": "40 mm"
+    },
+    {
+      "name": "Varanguard",
+      "size": "75 x 42 mm"
+    }
+  ]
+}
