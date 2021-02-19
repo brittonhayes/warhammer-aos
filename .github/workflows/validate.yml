@@ -1,6 +1,10 @@
 name: "Validate JSON"
 
-on: [pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   json-validation:
