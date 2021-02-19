@@ -34,7 +34,7 @@ func genJSON() {
 	}
 
 	var sections []Section
-	for i, file := range folder {
+	for _, file := range folder {
 		b, err := f.ReadFile("data/json/" + file.Name())
 		if err != nil {
 			panic(err)
@@ -44,10 +44,6 @@ func genJSON() {
 		err = json.Unmarshal(b, &s)
 		if err != nil {
 			panic(err)
-		}
-
-		if i < 3 {
-			sections = append(sections, s)
 		}
 	}
 

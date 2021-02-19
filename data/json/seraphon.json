@@ -1,0 +1,117 @@
+{
+  "faction": "seraphon",
+  "items": [
+    {
+      "name": "Bastiladon",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Chameleon Skinks",
+      "size": "25 mm"
+    },
+    {
+      "name": "Dread Saurian",
+      "size": "280 x 210 mm"
+    },
+    {
+      "name": "Engine of the Gods",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Kroxigor",
+      "size": "50 mm"
+    },
+    {
+      "name": "Lord Kroak",
+      "size": "50 mm"
+    },
+    {
+      "name": "Razordons",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Ripperdactyl Riders",
+      "size": "50 mm"
+    },
+    {
+      "name": "Salamanders",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Saurus Astrolith Bearer",
+      "size": "40 mm"
+    },
+    {
+      "name": "Saurus Eternity Warden",
+      "size": "40 mm"
+    },
+    {
+      "name": "Saurus Guard",
+      "size": "32 mm"
+    },
+    {
+      "name": "Saurus Knights",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Saurus Oldblood",
+      "size": "32 mm"
+    },
+    {
+      "name": "Saurus Oldblood on Carnosaur",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Saurus Scar-Veteran on Carnosaur",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Saurus Scar-Veteran on Cold One",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Saurus Sunblood",
+      "size": "32 mm"
+    },
+    {
+      "name": "Saurus Warriors",
+      "size": "32 mm"
+    },
+    {
+      "name": "Skink Handlers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Skink Priest",
+      "size": "25 mm"
+    },
+    {
+      "name": "Skink Starpriest",
+      "size": "25 mm"
+    },
+    {
+      "name": "Skink Starseer",
+      "size": "50 mm"
+    },
+    {
+      "name": "Skinks",
+      "size": "25 mm"
+    },
+    {
+      "name": "Slann Starmaster",
+      "size": "50 mm"
+    },
+    {
+      "name": "Stegadon",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Terradon Riders",
+      "size": "50 mm"
+    },
+    {
+      "name": "Troglodon",
+      "size": "120 x 92 mm"
+    }
+  ]
+}

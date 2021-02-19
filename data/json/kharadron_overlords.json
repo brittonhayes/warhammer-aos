@@ -1,0 +1,53 @@
+{
+  "factions": "",
+  "items": [
+    {
+      "name": "Aether-Khemist",
+      "size": "32 mm"
+    },
+    {
+      "name": "Aetheric Navigator",
+      "size": "32 mm"
+    },
+    {
+      "name": "Arkanaut Admiral",
+      "size": "32 mm"
+    },
+    {
+      "name": "Arkanaut Company",
+      "size": "25 mm"
+    },
+    {
+      "name": "Arkanaut Frigate",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Arkanaut Ironclad",
+      "size": "170 x 105 mm"
+    },
+    {
+      "name": "Brokk Grungsson Lord-Magnate of Barak-Nar",
+      "size": "50 mm"
+    },
+    {
+      "name": "Endrinmaster",
+      "size": "32 mm"
+    },
+    {
+      "name": "Endrinriggers",
+      "size": "32 mm"
+    },
+    {
+      "name": "Grundstok Gunhauler",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Grundstok Thunderers",
+      "size": "32 mm"
+    },
+    {
+      "name": "Skywardens",
+      "size": "32 mm"
+    }
+  ]k
+}

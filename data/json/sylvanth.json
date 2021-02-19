@@ -1,0 +1,53 @@
+{
+  "faction": "",
+  "items": [
+    {
+      "name": "Alarielle the Everqueen",
+      "size": "160 mm"
+    },
+    {
+      "name": "Branchwraith",
+      "size": "32 mm"
+    },
+    {
+      "name": "Branchwych",
+      "size": "32 mm"
+    },
+    {
+      "name": "Drycha Hamadreth",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Kurnoth Hunters",
+      "size": "50 mm"
+    },
+    {
+      "name": "Spirit of Durthu",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Spite-Revenants",
+      "size": "32 mm"
+    },
+    {
+      "name": "Sylvaneth Dryads",
+      "size": "32 mm"
+    },
+    {
+      "name": "Sylvaneth Wyldwood",
+      "size": "Use model mm"
+    },
+    {
+      "name": "Tree-Revenants",
+      "size": "32 mm"
+    },
+    {
+      "name": "Treelord",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Treelord Ancient",
+      "size": "105 x 70 mm"
+    }
+  ]
+}

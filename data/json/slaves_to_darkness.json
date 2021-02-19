@@ -1,0 +1,101 @@
+{
+  "faction": "",
+  "items": [
+    {
+      "name": "Chaos Chariots",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Chaos Chosen",
+      "size": "32 mm"
+    },
+    {
+      "name": "Chaos Gorebeast Chariots",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Chaos Knights",
+      "size": "75 x 42 mm"
+    },
+    {
+      "name": "Chaos Lord on Daemonic Mount",
+      "size": "75 x 42 mm"
+    },
+    {
+      "name": "Chaos Lord on Manticore",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Chaos Marauder Horsemen",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Chaos Marauders",
+      "size": "25 mm"
+    },
+    {
+      "name": "Chaos Sorcerer Lord",
+      "size": "32 mm"
+    },
+    {
+      "name": "Chaos Sorcerer Lord on Chaos Steed",
+      "size": "75 x 42 mm"
+    },
+    {
+      "name": "Chaos Sorcerer Lord on Manticore",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Chaos Spawn",
+      "size": "50 mm"
+    },
+    {
+      "name": "Chaos Warriors",
+      "size": "32 mm"
+    },
+    {
+      "name": "Chaos Warshrine",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Daemon Prince",
+      "size": "60 mm"
+    },
+    {
+      "name": "Darkoath Chieftain",
+      "size": "32 mm"
+    },
+    {
+      "name": "Darkoath Warqueen",
+      "size": "32 mm"
+    },
+    {
+      "name": "Exalted Hero of Chaos",
+      "size": "32 mm"
+    },
+    {
+      "name": "Lord of Chaos",
+      "size": "32 mm"
+    },
+    {
+      "name": "Nightmaw",
+      "size": "50 mm"
+    },
+    {
+      "name": "Sayl the Faithless",
+      "size": "32 mm"
+    },
+    {
+      "name": "The Godsworn Hunt",
+      "size": "32 mm"
+    },
+    {
+      "name": "The Godsworn Hunt - Grawl",
+      "size": "25 mm"
+    },
+    {
+      "name": "Theddra Skull-Scryer",
+      "size": "32 mm"
+    }
+  ]
+}

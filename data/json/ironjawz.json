@@ -1,0 +1,41 @@
+{
+  "faction": "ironjawz",
+  "items": [
+    {
+      "name": "Ardboys",
+      "size": "32 mm"
+    },
+    {
+      "name": "Brutes",
+      "size": "40 mm"
+    },
+    {
+      "name": "Gordrakk the Fist of Gork",
+      "size": "160 mm"
+    },
+    {
+      "name": "Gore-gruntas",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Ironskulls Boyz",
+      "size": "32 mm"
+    },
+    {
+      "name": "Megaboss",
+      "size": "60 mm"
+    },
+    {
+      "name": "Megaboss on Maw-krusha",
+      "size": "160 mm"
+    },
+    {
+      "name": "Warchanter",
+      "size": "40 mm"
+    },
+    {
+      "name": "Weirdnob Shaman",
+      "size": "40 mm"
+    }
+  ]
+}

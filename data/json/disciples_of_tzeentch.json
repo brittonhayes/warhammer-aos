@@ -1,0 +1,125 @@
+{
+  "faction": "",
+  "items": [
+    {
+      "name": "Blue Horrors of Tzeentch",
+      "size": "25mm"
+    },
+    {
+      "name": "Brimstone Horrors of Tzeentch",
+      "size": "25mm"
+    },
+    {
+      "name": "Burning Chariots of Tzeentch",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Curseling Eye of Tzeentch",
+      "size": "32mm"
+    },
+    {
+      "name": "Exalted Flamers of Tzeentch",
+      "size": "75 x 42mm"
+    },
+    {
+      "name": "Exalted Greater Daemon of Tzeentch",
+      "size": "130mm"
+    },
+    {
+      "name": "Eyes of the Nine",
+      "size": "32mm"
+    },
+    {
+      "name": "Fatemaster",
+      "size": "60mm"
+    },
+    {
+      "name": "Flamers of Tzeentch",
+      "size": "32mm"
+    },
+    {
+      "name": "Gaunt Summoner",
+      "size": "40mm"
+    },
+    {
+      "name": "Gaunt Summoner of Tzeentch",
+      "size": "40mm"
+    },
+    {
+      "name": "Gaunt Summoner’s Chaos Familiars",
+      "size": "25mm"
+    },
+    {
+      "name": "Herald of Tzeentch",
+      "size": "32mm"
+    },
+    {
+      "name": "Herald of Tzeentch on Burning Chariot",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Herald of Tzeentch on Disc",
+      "size": "60mm"
+    },
+    {
+      "name": "Kairic Acolytes",
+      "size": "32mm"
+    },
+    {
+      "name": "Kairos Fateweaver",
+      "size": "100mm"
+    },
+    {
+      "name": "Lord of Change",
+      "size": "100mm"
+    },
+    {
+      "name": "Magister",
+      "size": "32mm"
+    },
+    {
+      "name": "Mutalith Vortex Beast of Tzeentch",
+      "size": "120 x 92mm"
+    },
+    {
+      "name": "Ogroid Thaumaturge",
+      "size": "50mm"
+    },
+    {
+      "name": "Pink Horrors of Tzeentch",
+      "size": "32mm"
+    },
+    {
+      "name": "Screamers of Tzeentch",
+      "size": "32mm"
+    },
+    {
+      "name": "The Blue Scribes",
+      "size": "60mm"
+    },
+    {
+      "name": "The Changeling",
+      "size": "40mm"
+    },
+    {
+      "name": "Tzaangor Enlightened",
+      "size": "40mm"
+    },
+    {
+      "name": "Tzaangor Shaman",
+      "size": "40mm"
+    },
+    {
+      "name": "Tzaangor Skyfires",
+      "size": "40mm"
+    },
+    {
+      "name": "Tzaangors",
+      "size": "32mm"
+    },
+    {
+      "name": "Vortemis the All-seeing",
+      "size": "32mm"
+    }
+  ]
+}
