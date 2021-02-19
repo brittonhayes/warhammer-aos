@@ -17,3 +17,4 @@ jobs:
       continue-on-error: true
       runs: |
         ajv validate -s schema.json -d ./data/json/*.json --strict=false
+        
