@@ -36,8 +36,8 @@
           "desc": "In your hero phase you can pick 1 friendly Skyfarers unit wholly within 12\" of this model. Until your next hero phase, you can re-roll wound rolls of 1 for attacks made by that unit. This ability cannot be used by an Aether-Khemist that is part of a garrison, or on a friendly unit that is part of a garrison."
         },
         {
-          "name":"Atmospheric Isolation",
-          "desc":"Subtract 1 from hit rolls for attacks made by enemy models while they are within 3\" of any friendly models with this ability. This ability cannot be used by an AetherKhemist that is part of a garrison."
+          "name": "Atmospheric Isolation",
+          "desc": "Subtract 1 from hit rolls for attacks made by enemy models while they are within 3\" of any friendly models with this ability. This ability cannot be used by an AetherKhemist that is part of a garrison."
         }
       ],
       "keywords": [
@@ -52,47 +52,959 @@
     },
     {
       "name": "Aetheric Navigator",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "4",
+      "save": "3+",
+      "bravery": "7",
+      "wounds": "5",
+      "missile_weapon": [
+        {
+          "name": "Ranging Pistol",
+          "range": "15",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "1"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Zephyrscope",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Aethersight",
+          "desc": "This model can attempt to dispel 1 endless spell at the start of your hero phase and attempt to unbind 1 spell in the enemy hero phase, in the same manner as a wizard."
+        },
+        {
+          "name": "Aetherstorm",
+          "desc": "In your hero phase, you can pick 1 enemy unit within 36\" of this model that is visible to them and can fly, and roll a dice. On a 1-2 nothing happens. On a 3-5 halve the Move characteristic of that unit until your next hero phase. On a 6, halve the Move characteristic of that unit until your next hero phase, and that unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "Read the Winds",
+          "desc": "You can re-roll run and charge rolls for friendly skyvessels that are visible to a friendly aetheric navigator that has not attempted to use the aetherstorm ability in the same turn."
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "DUARDIN",
+        "KHARADRON OVERLORDS",
+        "HERO",
+        "SKYFARER",
+        "MARINE",
+        "AETHERIC NAVIGATOR"
+      ]
     },
     {
       "name": "Arkanaut Admiral",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "4",
+      "save": "3+",
+      "bravery": "8",
+      "wounds": "6",
+      "missile_weapon": [
+        {
+          "name": "Volley Pistol",
+          "range": "9",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Skalfhammer",
+          "range": "1",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "2"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "If you want a job done...",
+          "desc": "You can re-roll hit and wound rolls of 1 for attacks made with a melee weapon by this model that target a hero or monster."
+        },
+        {
+          "name": "Protect the Admiral!",
+          "desc": "Do not take battleshock tests for friendly Kharadron Overlords units while they are wholly within 12\" of this model. In addition, roll a dice before you allocate a wound or mortal wound to a friendly Arkanaut Admiral while it is within 3\" of any friendly Skyfarers units with 5 or more models. On a 5+, you must allocate that wound or mortal wound to a friendly Skyfarers unit with 5 or more models that is within 3\" of that Arkanaut Admiral, instead of to that Arkanaut Admiral."
+        }
+      ],
+      "command_abilites": [
+        {
+          "name": "Master of the Skies",
+          "desc": "You can use this command ability at the start of your shooting phase. If you do so, pick 1 friendly Skyvessel that has a model with this command ability in its garrison. That Skyvessel can shoot in that phase even if it ran earlier in the same turn."
+        },
+        {
+          "name": "On My Mark, Fire!",
+          "desc": "You can use this command ability at the start of your shooting phase. If you do so, pick 1 friendly Skyvessel that has a model with this command ability in its garrison. You can re-roll hit rolls of 1 for attacks made by that Skyvessel in that phase."
+        },
+        {
+          "name": "Repel Boarders!",
+          "desc": "You can use this command ability at the start of your combat phase. If you do so, pick 1 friendly Skyvessel that has a model with this command ability in its garrison. Add 1 to hit rolls for attacks made by that Skyvessel and any models in its garrison in that phase."
+        },
+        {
+          "name": "Up And At Them!",
+          "desc": "You can use this command ability at the start of your charge phase. If you do so, pick 1 friendly Skyfarers unit that is wholly within 12\" of a friendly model with this command ability. You can re-roll charge rolls for that unit in that phase."
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "DUARDIN",
+        "KHARADRON OVERLORDS",
+        "HERO",
+        "SKYFARER",
+        "MARINE",
+        "ARKANAUT ADMIRAL"
+      ]
     },
     {
       "name": "Arkanaut Company",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "4",
+      "save": "4+",
+      "bravery": "6",
+      "wounds": "1",
+      "missile_weapon": [
+        {
+          "name": "Privateer Pistol",
+          "range": "9",
+          "attacks": "2",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Aethermatic Volley Gun",
+          "range": "12",
+          "attacks": "6",
+          "to_hit": "5+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Light Skyhook",
+          "range": "18",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "Aetherflare Pistol",
+          "range": "9",
+          "attacks": "2",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Volley Pistol",
+          "range": "9",
+          "attacks": "3",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Arkanaut Cutter",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Gun Butt",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Skypike",
+          "range": "2",
+          "attacks": "2",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "D3"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Glory-seekers",
+          "desc": "You can re-roll battleshock tests for this unit while it is wholly within 9\" of an objective, and add 1 to hit rolls for attacks made by this unit while it is wholly within 9\" of an objective. This ability cannot be used if this unit is part of a garrison."
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "DUARDIN",
+        "KHARADRON OVERLORDS",
+        "SKYFARER",
+        "MARINE",
+        "ARKANAUT COMPANY"
+      ]
     },
     {
       "name": "Arkanaut Frigate",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": [
+        {
+          "wound_track_position": "1",
+          "move": "12",
+          "max_wounds_suffered": "3"
+        },
+        {
+          "wound_track_position": "2",
+          "move": "10",
+          "max_wounds_suffered": "6"
+        },
+        {
+          "wound_track_position": "3",
+          "move": "8",
+          "max_wounds_suffered": "9"
+        },
+        {
+          "wound_track_position": "4",
+          "move": "6",
+          "max_wounds_suffered": "12"
+        },
+        {
+          "wound_track_position": "5",
+          "move": "4",
+          "max_wounds_suffered": "14"
+        }
+      ],
+      "save": "4+",
+      "bravery": "8",
+      "wounds": "14",
+      "missile_weapon": [
+        {
+          "name": "Heavy Sky Cannon: Shrapnel",
+          "range": "24",
+          "attacks": "D6",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
+        },
+        {
+          "name": "Heavy Sky Cannon: Shell",
+          "range": "30",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D6"
+        },
+        {
+          "name": "Heavy Skyhook",
+          "range": "24",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D6"
+        },
+        {
+          "name": "Aethershot Carbines",
+          "range": "12",
+          "attacks": "4",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Boarding Weapons",
+          "range": "1",
+          "attacks": [
+            {
+              "wound_track_position": "1",
+              "attacks": "6",
+              "max_wounds_suffered": "3"
+            },
+            {
+              "wound_track_position": "2",
+              "attacks": "5",
+              "max_wounds_suffered": "6"
+            },
+            {
+              "wound_track_position": "3",
+              "attacks": "4",
+              "max_wounds_suffered": "9"
+            },
+            {
+              "wound_track_position": "4",
+              "attacks": "3",
+              "max_wounds_suffered": "12"
+            },
+            {
+              "wound_track_position": "5",
+              "attacks": "2",
+              "max_wounds_suffered": "14"
+            }
+          ],
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Flying Transport",
+          "desc": "This model can fly, and can be garrisoned by up to 15 friendly Marine models even though it is not a terrain feature. Halve this model’s Move characteristic and it cannot Fly High if there are 11 or more models in its garrison. Units cannot join or leave this model’s garrison if it has made a move or flown high in the same phase (they can join or leave before it does so). Models in the garrison are not counted towards gaining control of an objective. An attack made by a weapon that is in range of this model can target either this model or a unit in its garrison. If this model is destroyed, before it is removed from play, roll 1 dice for each model in its garrison. On a 1, that model is slain. Set up any surviving models wholly within 3\" of this model and more than 3\" from any enemy units"
+        },
+        {
+          "name": "Aetheric Navigator and Endrinrigger",
+          "desc": "In your hero phase, you can heal 1 wound allocated to this model. In addition, you can re‑roll run rolls for this model."
+        },
+        {
+          "name": "Bomb Racks",
+          "desc": "At the start of the combat phase, you can pick 1 enemy unit within 1\" of this model and roll a dice. Add the Bomb Rack modifier from this model’s damage table to the roll. On a 4+, that enemy unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "Disengage",
+          "desc": "This model and any models in its garrison can still shoot if this model retreats in the same turn, as long as there are no enemy units that can fly within 3\" of this model at the start of the retreat move and there are less than 10 wounds allocated to this model at the start of the retreat move."
+        },
+        {
+          "name": "Fly High",
+          "desc": "Instead of making a normal move with this model, if there are less than 7 wounds currently allocated to this model, you can say that it will fly high (it can retreat and disengage). If you do so, remove this model from the battlefield and set it up again more than 1\" from any terrain features or objectives and more than 9\" from any enemy models."
+        },
+        {
+          "name": "Heavy Skyhook",
+          "desc": "Add 2 to charge rolls for this model if it is armed with a Heavy Skyhook."
+        },
+        {
+          "name": "Heavy Sky Cannon",
+          "desc": "Before attacking with a Heavy Sky Cannon, choose either the Shrapnel or Shell missile weapon characteristics for that shooting attack."
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "DUARDIN",
+        "KHARADRON OVERLORDS",
+        "WAR MACHINE",
+        "SKYVESSEL",
+        "ARKANAUT FRIGATE"
+      ]
     },
     {
       "name": "Arkanaut Ironclad",
-      "size": "170 x 105 mm"
+      "size": "170 x 105 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Brokk Grungsson Lord-Magnate of Barak-Nar",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "12",
+      "save": "3+",
+      "bravery": "8",
+      "wounds": "8",
+      "missile_weapon": [
+        {
+          "name": "Grungsson's Boast",
+          "range": "18",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "The Magnate's Charter",
+          "range": "18",
+          "attacks": "6",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Aetherblasters",
+          "range": "9",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Aethermatic Saw",
+          "range": "1",
+          "attacks": "4",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D3"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Hitcher",
+          "desc": "If this model is wholly within 6\" of a friendly Skyvessel immediately before the Skyvessel uses its Fly High ability, you can say that this model will hitch a lift instead of making a normal move (as long as this model has not already made a normal move in the same phase). If you do so, after that Skyvessel has moved, remove this model from the battlefield and set it up again wholly within 6\" of that Skyvessel, more than 1\" from any terrain features or objectives and more than 9\" from any enemy models. No more than 7 models can hitch a lift on the same Skyvessel in the same turn."
+        },
+        {
+          "name": "Custom-built Dirigible Suit",
+          "desc": "After this model makes a charge move, you can pick 1 enemy unit within 1\" of this model and roll a dice. On a 2+, that enemy unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "Endrinharness",
+          "desc": "If the unmodified hit roll for an attack made with a melee weapon by this model is 6, that attack inflicts D3 mortal wounds and the attack sequence ends (do not make a wound or save roll)."
+        }
+      ],
+      "command_abilites": [
+        {
+          "name": "First Rule of Grungsson",
+          "desc": "You can use this command ability at the start of your charge phase if a friendly model with this command ability is on the battlefield. If you do so, pick 1 friendly model with this command ability. You can re-roll charge rolls for friendly BarakNar units that are wholly within 24\" of that model until the end of that phase."
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "DUARDIN",
+        "KHARADRON OVERLORDS",
+        "BARAK-NAR",
+        "HERO",
+        "SKYFARER",
+        "BROKK GRUNGSSON"
+      ]
     },
     {
       "name": "Endrinmaster",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "4",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "6",
+      "missile_weapon": [
+        {
+          "name": "Gaze of Grungni",
+          "range": "9",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-1",
+          "damage": "D3"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Aethermight Hammer",
+          "range": "1",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "D3"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Endrinmaster",
+          "desc": "At the start of your hero phase, you can pick 1 friendly Skyvessel within 1\" of this model. Heal up to D3 wounds allocated to that Skyvessel."
+        },
+        {
+          "name": "Endrinharness",
+          "desc": "If the unmodified hit roll for an attack made with a melee weapon by this model is 6, that attack inflicts 3 mortal wounds and the attack sequence ends (do not make a wound or save roll)."
+        }
+      ],
+      "command_abilites": [
+        {
+          "name": "By Grungni, I Have My Eye On You!",
+          "desc": "You can use this command ability in your hero phase before a friendly Endrinriggers unit wholly within 18\" of a friendly model with this command ability uses its Endrincraft ability. If you do so, you can re-roll any of the dice that determine how many wounds are healed by that Endrinriggers unit in that phase."
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "DUARDIN",
+        "KHARADRON OVERLORDS",
+        "HERO",
+        "SKYFARER",
+        "MARINE",
+        "ENDRINMASTER"
+      ]
     },
     {
       "name": "Endrinriggers",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "12",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "2",
+      "missile_weapon": [
+        {
+          "name": "Aethermatic Volley Gun",
+          "range": "24",
+          "attacks": "6",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Grapnel Launcher or Skyhook",
+          "range": "24",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "3"
+        },
+        {
+          "name": "Drill Launcher",
+          "range": "24",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-3",
+          "damage": "D3"
+        },
+        {
+          "name": "Rapid-Fire Rivet Gun",
+          "range": "12",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Aethermatic Saw",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "Gun Butt",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "2+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Drill Launcher",
+          "desc": "If the unmodified hit roll for an attack made with a Drill Launcher is 6, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll)."
+        },
+        {
+          "name": "Endrincraft",
+          "desc": "At the start of your hero phase, you can pick 1 friendly Skyvessel within 1\" of this unit and roll 1 dice for each model in this unit. For each 4+, heal 1 wound allocated to that Skyvessel"
+        },
+        {
+          "name": "Grapnel Launcher",
+          "desc": "Enemy units cannot retreat if they are within 3\" of any models from this unit armed with a Grapnel Launcher."
+        },
+        {
+          "name": "Hitchers",
+          "desc": "If this unit is wholly within 6\" of a friendly Skyvessel immediately before the Skyvessel uses its Fly High ability, you can say that this unit will hitch a lift instead of making a normal move (as long as this unit has not already made a normal move in the same phase). If you do so, after that Skyvessel has moved, remove this unit from the battlefield and set it up again wholly within 6\" of that Skyvessel, more than 1\" from any terrain features or objectives and more than 9\" from any enemy models. No more than 7 models can hitch a lift on the same Skyvessel in the same turn."
+        },
+        {
+          "name": "Skyhook",
+          "desc": "Add 1 to charge rolls for this unit if any models from this unit are armed with a Skyhook."
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "DUARDIN",
+        "KHARADRON OVERLORDS",
+        "SKYFARER",
+        "ENDRINRIGGERS"
+      ]
     },
     {
       "name": "Grundstok Gunhauler",
-      "size": "105 x 70 mm"
+      "size": "105 x 70 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Grundstok Thunderers",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "4",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "2",
+      "missile_weapon": [
+        {
+          "name": "Aethershot Rifle",
+          "range": "18",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Double-barrelled Aethershot Rifle",
+          "range": "18",
+          "attacks": "4",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Aetheric Fumigator",
+          "range": "9",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Decksweeper",
+          "range": "12",
+          "attacks": "4",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Aethercannon",
+          "range": "12",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "Grundstok Mortar",
+          "range": "12",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "D3"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Drillbill",
+          "range": "3",
+          "attacks": "D3",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Gun Bill",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Choking Fug",
+          "desc": "Subtract 1 from hit rolls for attacks made by enemy models within 3\" of any friendly models armed with an Aetheric Fumigator. This ability cannot be used by a model that is part of a garrison"
+        },
+        {
+          "name": "Drive Them Back!",
+          "desc": "Add 1 to the Attacks characteristic of missile weapons used by this unit while any enemy units are within 3\" of this unit. This ability cannot be used by a model that is part of a garrison."
+        },
+        {
+          "name": "Pin Them, Shred Them, Finish Them",
+          "desc": "Add 1 to hit rolls for attacks made with a Grundstok Mortar, Decksweeper or Aethercannon when it is used by a unit that has at least 1 of each of these weapons (i.e. at least 1 Grundstok Mortar, and at least 1 Decksweeper, and at least 1 Aethercannon). This ability cannot be used by a model that is part of a garrison"
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "DUARDIN",
+        "KHARADRON OVERLORDS",
+        "SKYFARER",
+        "MARINE",
+        "GRUNDSTOK THUNDERERS"
+      ]
     },
     {
       "name": "Skywardens",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Endrinmaster with Dirigible Suit",
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Thundrik's Profiteers",
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Bjorgen Thundrik",
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     }
   ]
 }
