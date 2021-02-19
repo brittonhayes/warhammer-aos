@@ -3,8 +3,6 @@ version: '3'
 includes:
   win: ./Taskfile_windows.yml
 
-output: 'group'
-
 tasks:
   validate:
     desc: Validate JSON files against schema
@@ -14,9 +12,9 @@ tasks:
       This ensures that we've got consistency between data sources across
       the repository.
     cmds:
-      - ajv validate -s schema.json -d ./data/json/*.json --strict=false --errors=line
+      - ajv validate -s schema.json -d "./data/json/*.json" --strict=false
   build:
-    desc: Build Go binary for multiple distributions 
+    desc: Build Go binary for multiple distributions
     cmds:
       - goreleaser build --rm-dist --skip-validate
   lint:
@@ -27,4 +25,4 @@ tasks:
     desc: Run the test suite
     cmds:
       - go test -v ./...
-      
+

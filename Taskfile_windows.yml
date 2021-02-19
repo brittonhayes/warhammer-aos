@@ -4,5 +4,5 @@ tasks:
   validate:
     desc: Validate JSON files against schema - Windows
     cmds:
-      - ajv validate -s schema.json -d .\data\json\*.json --strict=false --verbose
-      
+      - ajv validate -s schema.json -d ".\data\json\*.json" --strict=false --verbose
+
