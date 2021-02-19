@@ -1,0 +1,41 @@
+{
+  "faction": "greenskinz",
+  "items": [
+    {
+      "name": "Orruk Boar Chariots",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Orruk Boarboys",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Orruk Great Shaman",
+      "size": "32 mm"
+    },
+    {
+      "name": "Orruk Warboss",
+      "size": "32 mm"
+    },
+    {
+      "name": "Orruk Warboss on War Boar",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Orruk Warboss on Wyvern",
+      "size": "100 mm"
+    },
+    {
+      "name": "Orruk Warboss with Banner",
+      "size": "32 mm"
+    },
+    {
+      "name": "Orruks",
+      "size": "32 mm"
+    },
+    {
+      "name": "Rogue Idol",
+      "size": "170 x 105 mm"
+    }
+  ]
+}

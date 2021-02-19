@@ -1,0 +1,45 @@
+{
+  "faction": "gutbusterz",
+  "items": [
+    {
+      "name": "Butcher",
+      "size": "40 mm"
+    },
+    {
+      "name": "Butcher with Cauldron",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Gorgers",
+      "size": "50 mm"
+    },
+    {
+      "name": "Grot Scraplauncher",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Grots",
+      "size": "25 mm"
+    },
+    {
+      "name": "Ironblaster",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Ironguts",
+      "size": "40 mm"
+    },
+    {
+      "name": "Leadbelchers",
+      "size": "40 mm"
+    },
+    {
+      "name": "Ogors",
+      "size": "40 mm"
+    },
+    {
+      "name": "Tyrant",
+      "size": "50 mm"
+    }
+  ]
+}
