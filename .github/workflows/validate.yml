@@ -15,10 +15,10 @@ jobs:
       with:
         node-version: '12'
     - name: "Install validator"
-      runs: |
+      run: |
         npm install ajv-cli
     - name: "Validate JSON"
       continue-on-error: true
-      runs: |
+      run: |
         ajv validate -s schema.json -d ./data/json/*.json --strict=false
-        
+
