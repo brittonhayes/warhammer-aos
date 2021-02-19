@@ -1,0 +1,619 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "army": "Kharadron Overlords",
+            "units": [
+                {
+                    "name": "Aether-Khemist",
+                    "size": "32 mm",
+                    "move": "4",
+                    "save": "4+",
+                    "bravery": "7",
+                    "wounds": "5",
+                    "missile_weapon": [
+                        {
+                            "name": "Atmospheric Anatomiser",
+                            "range": "9",
+                            "attacks": "3D6",
+                            "to_hit": "4+",
+                            "to_wound": "4+",
+                            "rend": "-2",
+                            "damage": "1"
+                        }
+                    ],
+                    "melee_weapon": [
+                        {
+                            "name": "Heavy Instruments",
+                            "range": "1",
+                            "attacks": "2",
+                            "to_hit": "4+",
+                            "to_wound": "4+",
+                            "rend": "-",
+                            "damage": "1"
+                        }
+                    ],
+                    "keywords": [
+                        "ORDER",
+                        "DUARDIN",
+                        "KHARADRON OVERLORDS",
+                        "HERO",
+                        "SKYFARER",
+                        "MARINE",
+                        "AETHER-KHEMIST"
+                    ]
+                },
+                {
+                    "name": "Aetheric Navigator",
+                    "size": "32 mm"
+                },
+                {
+                    "name": "Arkanaut Admiral",
+                    "size": "32 mm"
+                },
+                {
+                    "name": "Arkanaut Company",
+                    "size": "25 mm"
+                },
+                {
+                    "name": "Arkanaut Frigate",
+                    "size": "120 x 92 mm"
+                },
+                {
+                    "name": "Arkanaut Ironclad",
+                    "size": "170 x 105 mm"
+                },
+                {
+                    "name": "Brokk Grungsson Lord-Magnate of Barak-Nar",
+                    "size": "50 mm"
+                },
+                {
+                    "name": "Endrinmaster",
+                    "size": "32 mm"
+                },
+                {
+                    "name": "Endrinriggers",
+                    "size": "32 mm"
+                },
+                {
+                    "name": "Grundstok Gunhauler",
+                    "size": "105 x 70 mm"
+                },
+                {
+                    "name": "Grundstok Thunderers",
+                    "size": "32 mm"
+                },
+                {
+                    "name": "Skywardens",
+                    "size": "32 mm"
+                }
+            ]
+        }
+    ],
+    "required": [
+        "army",
+        "units"
+    ],
+    "properties": {
+        "army": {
+            "$id": "#/properties/army",
+            "type": "string",
+            "title": "The army schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Kharadron Overlords"
+            ]
+        },
+        "units": {
+            "$id": "#/properties/units",
+            "type": "array",
+            "title": "The units schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "name": "Aether-Khemist",
+                        "size": "32 mm",
+                        "move": "4",
+                        "save": "4+",
+                        "bravery": "7",
+                        "wounds": "5",
+                        "missile_weapon": [
+                            {
+                                "name": "Atmospheric Anatomiser",
+                                "range": "9",
+                                "attacks": "3D6",
+                                "to_hit": "4+",
+                                "to_wound": "4+",
+                                "rend": "-2",
+                                "damage": "1"
+                            }
+                        ],
+                        "melee_weapon": [
+                            {
+                                "name": "Heavy Instruments",
+                                "range": "1",
+                                "attacks": "2",
+                                "to_hit": "4+",
+                                "to_wound": "4+",
+                                "rend": "-",
+                                "damage": "1"
+                            }
+                        ],
+                        "keywords": [
+                            "ORDER",
+                            "DUARDIN",
+                            "KHARADRON OVERLORDS",
+                            "HERO",
+                            "SKYFARER",
+                            "MARINE",
+                            "AETHER-KHEMIST"
+                        ]
+                    },
+                    {
+                        "name": "Aetheric Navigator",
+                        "size": "32 mm"
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/units/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/units/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "name": "Aether-Khemist",
+                                "size": "32 mm",
+                                "move": "4",
+                                "save": "4+",
+                                "bravery": "7",
+                                "wounds": "5",
+                                "missile_weapon": [
+                                    {
+                                        "name": "Atmospheric Anatomiser",
+                                        "range": "9",
+                                        "attacks": "3D6",
+                                        "to_hit": "4+",
+                                        "to_wound": "4+",
+                                        "rend": "-2",
+                                        "damage": "1"
+                                    }
+                                ],
+                                "melee_weapon": [
+                                    {
+                                        "name": "Heavy Instruments",
+                                        "range": "1",
+                                        "attacks": "2",
+                                        "to_hit": "4+",
+                                        "to_wound": "4+",
+                                        "rend": "-",
+                                        "damage": "1"
+                                    }
+                                ],
+                                "keywords": [
+                                    "ORDER",
+                                    "DUARDIN",
+                                    "KHARADRON OVERLORDS",
+                                    "HERO",
+                                    "SKYFARER",
+                                    "MARINE",
+                                    "AETHER-KHEMIST"
+                                ]
+                            }
+                        ],
+                        "required": [
+                            "name",
+                            "size",
+                            "move",
+                            "save",
+                            "bravery",
+                            "wounds",
+                            "missile_weapon",
+                            "melee_weapon",
+                            "keywords"
+                        ],
+                        "properties": {
+                            "name": {
+                                "$id": "#/properties/units/items/anyOf/0/properties/name",
+                                "type": "string",
+                                "title": "The name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Aether-Khemist"
+                                ]
+                            },
+                            "size": {
+                                "$id": "#/properties/units/items/anyOf/0/properties/size",
+                                "type": "string",
+                                "title": "The size schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "32 mm"
+                                ]
+                            },
+                            "move": {
+                                "$id": "#/properties/units/items/anyOf/0/properties/move",
+                                "type": "string",
+                                "title": "The move schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "4"
+                                ]
+                            },
+                            "save": {
+                                "$id": "#/properties/units/items/anyOf/0/properties/save",
+                                "type": "string",
+                                "title": "The save schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "4+"
+                                ]
+                            },
+                            "bravery": {
+                                "$id": "#/properties/units/items/anyOf/0/properties/bravery",
+                                "type": "string",
+                                "title": "The bravery schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "7"
+                                ]
+                            },
+                            "wounds": {
+                                "$id": "#/properties/units/items/anyOf/0/properties/wounds",
+                                "type": "string",
+                                "title": "The wounds schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "5"
+                                ]
+                            },
+                            "missile_weapon": {
+                                "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon",
+                                "type": "array",
+                                "title": "The missile_weapon schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": [],
+                                "examples": [
+                                    [
+                                        {
+                                            "name": "Atmospheric Anatomiser",
+                                            "range": "9",
+                                            "attacks": "3D6",
+                                            "to_hit": "4+",
+                                            "to_wound": "4+",
+                                            "rend": "-2",
+                                            "damage": "1"
+                                        }
+                                    ]
+                                ],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon/items/anyOf/0",
+                                            "type": "object",
+                                            "title": "The first anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": {},
+                                            "examples": [
+                                                {
+                                                    "name": "Atmospheric Anatomiser",
+                                                    "range": "9",
+                                                    "attacks": "3D6",
+                                                    "to_hit": "4+",
+                                                    "to_wound": "4+",
+                                                    "rend": "-2",
+                                                    "damage": "1"
+                                                }
+                                            ],
+                                            "required": [
+                                                "name",
+                                                "range",
+                                                "attacks",
+                                                "to_hit",
+                                                "to_wound",
+                                                "rend",
+                                                "damage"
+                                            ],
+                                            "properties": {
+                                                "name": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon/items/anyOf/0/properties/name",
+                                                    "type": "string",
+                                                    "title": "The name schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "Atmospheric Anatomiser"
+                                                    ]
+                                                },
+                                                "range": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon/items/anyOf/0/properties/range",
+                                                    "type": "string",
+                                                    "title": "The range schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "9"
+                                                    ]
+                                                },
+                                                "attacks": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon/items/anyOf/0/properties/attacks",
+                                                    "type": "string",
+                                                    "title": "The attacks schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "3D6"
+                                                    ]
+                                                },
+                                                "to_hit": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon/items/anyOf/0/properties/to_hit",
+                                                    "type": "string",
+                                                    "title": "The to_hit schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "4+"
+                                                    ]
+                                                },
+                                                "to_wound": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon/items/anyOf/0/properties/to_wound",
+                                                    "type": "string",
+                                                    "title": "The to_wound schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "4+"
+                                                    ]
+                                                },
+                                                "rend": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon/items/anyOf/0/properties/rend",
+                                                    "type": "string",
+                                                    "title": "The rend schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "-2"
+                                                    ]
+                                                },
+                                                "damage": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/missile_weapon/items/anyOf/0/properties/damage",
+                                                    "type": "string",
+                                                    "title": "The damage schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "1"
+                                                    ]
+                                                }
+                                            },
+                                            "additionalProperties": true
+                                        }
+                                    ]
+                                }
+                            },
+                            "melee_weapon": {
+                                "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon",
+                                "type": "array",
+                                "title": "The melee_weapon schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": [],
+                                "examples": [
+                                    [
+                                        {
+                                            "name": "Heavy Instruments",
+                                            "range": "1",
+                                            "attacks": "2",
+                                            "to_hit": "4+",
+                                            "to_wound": "4+",
+                                            "rend": "-",
+                                            "damage": "1"
+                                        }
+                                    ]
+                                ],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon/items/anyOf/0",
+                                            "type": "object",
+                                            "title": "The first anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": {},
+                                            "examples": [
+                                                {
+                                                    "name": "Heavy Instruments",
+                                                    "range": "1",
+                                                    "attacks": "2",
+                                                    "to_hit": "4+",
+                                                    "to_wound": "4+",
+                                                    "rend": "-",
+                                                    "damage": "1"
+                                                }
+                                            ],
+                                            "required": [
+                                                "name",
+                                                "range",
+                                                "attacks",
+                                                "to_hit",
+                                                "to_wound",
+                                                "rend",
+                                                "damage"
+                                            ],
+                                            "properties": {
+                                                "name": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon/items/anyOf/0/properties/name",
+                                                    "type": "string",
+                                                    "title": "The name schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "Heavy Instruments"
+                                                    ]
+                                                },
+                                                "range": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon/items/anyOf/0/properties/range",
+                                                    "type": "string",
+                                                    "title": "The range schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "1"
+                                                    ]
+                                                },
+                                                "attacks": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon/items/anyOf/0/properties/attacks",
+                                                    "type": "string",
+                                                    "title": "The attacks schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "2"
+                                                    ]
+                                                },
+                                                "to_hit": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon/items/anyOf/0/properties/to_hit",
+                                                    "type": "string",
+                                                    "title": "The to_hit schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "4+"
+                                                    ]
+                                                },
+                                                "to_wound": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon/items/anyOf/0/properties/to_wound",
+                                                    "type": "string",
+                                                    "title": "The to_wound schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "4+"
+                                                    ]
+                                                },
+                                                "rend": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon/items/anyOf/0/properties/rend",
+                                                    "type": "string",
+                                                    "title": "The rend schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "-"
+                                                    ]
+                                                },
+                                                "damage": {
+                                                    "$id": "#/properties/units/items/anyOf/0/properties/melee_weapon/items/anyOf/0/properties/damage",
+                                                    "type": "string",
+                                                    "title": "The damage schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "1"
+                                                    ]
+                                                }
+                                            },
+                                            "additionalProperties": true
+                                        }
+                                    ]
+                                }
+                            },
+                            "keywords": {
+                                "$id": "#/properties/units/items/anyOf/0/properties/keywords",
+                                "type": "array",
+                                "title": "The keywords schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": [],
+                                "examples": [
+                                    [
+                                        "ORDER",
+                                        "DUARDIN"
+                                    ]
+                                ],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/units/items/anyOf/0/properties/keywords/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/units/items/anyOf/0/properties/keywords/items/anyOf/0",
+                                            "type": "string",
+                                            "title": "The first anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": "",
+                                            "examples": [
+                                                "ORDER",
+                                                "DUARDIN"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "additionalProperties": true
+                    },
+                    {
+                        "$id": "#/properties/units/items/anyOf/1",
+                        "type": "object",
+                        "title": "The second anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "name": "Aetheric Navigator",
+                                "size": "32 mm"
+                            }
+                        ],
+                        "required": [
+                            "name",
+                            "size"
+                        ],
+                        "properties": {
+                            "name": {
+                                "$id": "#/properties/units/items/anyOf/1/properties/name",
+                                "type": "string",
+                                "title": "The name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Aetheric Navigator"
+                                ]
+                            },
+                            "size": {
+                                "$id": "#/properties/units/items/anyOf/1/properties/size",
+                                "type": "string",
+                                "title": "The size schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "32 mm"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": true
+}
