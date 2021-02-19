@@ -27,3 +27,4 @@ tasks:
     desc: Run the test suite
     cmds:
       - go test -v ./...
+      
