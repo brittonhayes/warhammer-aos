@@ -10,15 +10,15 @@ jobs:
   json-validation:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '12'
-    - name: "Install validator"
-      run: |
-        npm install -g ajv-cli
-    - name: "Validate JSON"
-      continue-on-error: true
-      run: |
-        ajv validate -s schema.json -d "./data/json/*.json" --strict=false
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - name: "Install validator"
+        run: |
+          npm install -g ajv-cli
+      - name: "Validate JSON"
+        continue-on-error: true
+        run: |
+          ajv validate -s schema.json -d "./data/json/*.json" --strict=false
 

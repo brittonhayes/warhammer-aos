@@ -4,6 +4,7 @@ includes:
   win: ./Taskfile_windows.yml
 
 tasks:
+
   validate:
     desc: Validate JSON files against schema
     summary: |
@@ -13,16 +14,35 @@ tasks:
       the repository.
     cmds:
       - ajv validate -s schema.json -d "./data/json/*.json" --strict=false
+
   build:
     desc: Build Go binary for multiple distributions
     cmds:
-      - goreleaser build --rm-dist --skip-validate
+      - export GO111MODULE=on
+      - env GOOS=linux go build -ldflags="-s -w" -o bin/hello hello/main.go
+
   lint:
     desc: Lint code for quality controls
     cmds:
       - golangci-lint run ./...
+
   test:
     desc: Run the test suite
     cmds:
       - go test -v ./...
 
+  clean:
+    desc: Clean up resources
+    cmds:
+      - rm -rf ./bin ./vendor go.sum
+
+  deploy:
+    desc: Deploy serverless functions
+    cmds:
+      - sls deploy --verbose
+
+  gomodgen:
+    desc: Generate go.mod
+    cmds:
+      - chmod u+x ./scripts/gomod.sh
+      - ./scripts/gomod.sh

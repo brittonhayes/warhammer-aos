@@ -1,0 +1,23 @@
+service: http-service
+app: warhammer-aos
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: go1.x
+  lambdaHashingVersion: 20201221
+
+package:
+  exclude:
+    - ./**
+  include:
+    - ./bin/**
+
+#functions:
+#  hello:
+#    handler: bin/hello
+#    events:
+#      - httpApi:
+#          path: /hello
+#          method: get
