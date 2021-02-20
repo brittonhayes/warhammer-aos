@@ -1,0 +1,9 @@
+{
+  "army": "Monsters of Order",
+  "units": [
+    {
+      "name": "Carmine Dragon",
+      "size": "100 mm"
+    }
+  ]
+}

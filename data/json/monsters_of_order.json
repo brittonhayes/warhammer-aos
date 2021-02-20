@@ -1,9 +1,0 @@
-{
-  "factions": "monsters_of_order",
-  "units": [
-    {
-      "name": "Carmine Dragon",
-      "size": "100 mm"
-    }
-  ]
-}

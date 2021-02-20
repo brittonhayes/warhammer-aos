@@ -1,0 +1,73 @@
+{
+  "army": "gitmod_grots",
+  "units": [
+    {
+      "name": "Doom Diver",
+      "size": "32 mm"
+    },
+    {
+      "name": "Doom Diver Catapult",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Doom Diver Catapult Crew with Hammer",
+      "size": "25 mm"
+    },
+    {
+      "name": "Doom Diver Catapult Crew with Rope",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Grot Rock Lobber",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Grot Rock Lobber Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Grot Rock Lobber Orruk Bully",
+      "size": "32 mm"
+    },
+    {
+      "name": "Grot Shaman",
+      "size": "25 mm"
+    },
+    {
+      "name": "Grot Shaman on Wolf",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Grot Spear Chukka",
+      "size": "50 mm"
+    },
+    {
+      "name": "Grot Spear Chukka Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Grot Wolf Chariots",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Grot Wolf Riders",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Grots",
+      "size": "25 mm"
+    },
+    {
+      "name": "Nasty Skulkers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Snotling Pump Wagons",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Snotlings",
+      "size": "50 mm"
+    }
+  ]
+}
