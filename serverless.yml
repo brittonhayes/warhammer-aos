@@ -7,6 +7,8 @@ provider:
   name: aws
   runtime: go1.x
   lambdaHashingVersion: 20201221
+  apiGateway:
+    shouldStartNameWithService: true
 
 package:
   exclude:
@@ -14,10 +16,10 @@ package:
   include:
     - ./bin/**
 
-#functions:
-#  hello:
-#    handler: bin/hello
-#    events:
-#      - httpApi:
-#          path: /hello
-#          method: get
+functions:
+  armies:
+    handler: ./bin/armies
+    events:
+      - http:
+          path: armies
+          method: GET

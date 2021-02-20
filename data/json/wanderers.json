@@ -1,5 +1,5 @@
 {
-  "faction": "wanderers",
+  "army": "wanderers",
   "units": [
     {
       "name": "Eternal Guard",
