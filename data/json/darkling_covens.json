@@ -1,0 +1,33 @@
+{
+  "army": "darkling_covens",
+  "units": [
+    {
+      "name": "Black Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Bleakswords",
+      "size": "25 mm"
+    },
+    {
+      "name": "Darkshards",
+      "size": "25 mm"
+    },
+    {
+      "name": "Dreadspears",
+      "size": "25 mm"
+    },
+    {
+      "name": "Executioners",
+      "size": "25 mm"
+    },
+    {
+      "name": "Sorceress",
+      "size": "25 mm"
+    },
+    {
+      "name": "Sorceress on Black Dragon",
+      "size": "105 x 70 mm"
+    }
+  ]
+}

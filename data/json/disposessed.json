@@ -1,0 +1,45 @@
+{
+  "army": "disposessed",
+  "units": [
+    {
+      "name": "Dispossessed Warriors",
+      "size": "25 mm"
+    },
+    {
+      "name": "Hammerers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Ironbreakers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Irondrakes",
+      "size": "25 mm"
+    },
+    {
+      "name": "Longbeards",
+      "size": "25 mm"
+    },
+    {
+      "name": "Quarrellers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Runelord",
+      "size": "25 mm"
+    },
+    {
+      "name": "Thunderers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Unforged",
+      "size": "25 mm"
+    },
+    {
+      "name": "Warden King",
+      "size": "25 mm"
+    }
+  ]
+}

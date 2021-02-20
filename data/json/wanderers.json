@@ -1,0 +1,49 @@
+{
+  "army": "wanderers",
+  "units": [
+    {
+      "name": "Eternal Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Glade Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Nomad Prince",
+      "size": "32 mm"
+    },
+    {
+      "name": "Sisters of the Thorn",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Sisters of the Watch",
+      "size": "25 mm"
+    },
+    {
+      "name": "Spellweaver",
+      "size": "25 mm"
+    },
+    {
+      "name": "Wayfinder",
+      "size": "25 mm"
+    },
+    {
+      "name": "Waystrider",
+      "size": "25 mm"
+    },
+    {
+      "name": "Waywatcher",
+      "size": "25 mm"
+    },
+    {
+      "name": "Wild Riders",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Wildwood Rangers",
+      "size": "25 mm"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "army": "firebellies",
+  "units": [
+    {
+      "name": "Firebelly",
+      "size": "50 mm"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "army": "",
+  "units": [
+    {
+      "name": "Assassin",
+      "size": "25 mm"
+    },
+    {
+      "name": "Dark Riders",
+      "size": "60 x 35 mm"
+    }
+  ]
+}

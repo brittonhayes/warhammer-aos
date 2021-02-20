@@ -1,0 +1,21 @@
+{
+  "army": "daemons of chaos",
+  "units": [
+    {
+      "name": "Be’lakor Chaos Daemon Prince",
+      "size": "60mm"
+    },
+    {
+      "name": "Daemon Prince",
+      "size": "60mm"
+    },
+    {
+      "name": "Furies",
+      "size": "25mm"
+    },
+    {
+      "name": "Soul Grinder",
+      "size": "160mm"
+    }
+  ]
+}

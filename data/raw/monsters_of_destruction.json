@@ -1,0 +1,29 @@
+{
+  "army": "Monsters of Destruction",
+  "units": [
+    {
+      "name": "Basilisk",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Dread Maw",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Incarnate Elemental of Beasts",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Incarnate Elemental of Fire",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Magma Dragon",
+      "size": "160 mm"
+    },
+    {
+      "name": "Myrwyrm",
+      "size": "120 x 92 mm"
+    }
+  ]
+}

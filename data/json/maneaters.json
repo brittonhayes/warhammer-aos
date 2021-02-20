@@ -1,0 +1,9 @@
+{
+  "army": "maneaters",
+  "units": [
+    {
+      "name": "Maneaters",
+      "size": "50 mm"
+    }
+  ]
+}

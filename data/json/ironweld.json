@@ -1,0 +1,57 @@
+{
+  "army": "ironweld",
+  "units": [
+    {
+      "name": "Cannon",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Cannon Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Cogsmith",
+      "size": "25 mm"
+    },
+    {
+      "name": "Gunmaster",
+      "size": "25 mm"
+    },
+    {
+      "name": "Gyrobombers",
+      "size": "50 mm"
+    },
+    {
+      "name": "Gyrocopters",
+      "size": "50 mm"
+    },
+    {
+      "name": "Helblaster Volley Gun",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Helblaster Volley Gun Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Helstorm Rocket Battery",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Helstorm Rocket Battery Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Organ Gun",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Organ Gun Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Steam Tank",
+      "size": "120 x 92 mm"
+    }
+  ]
+}

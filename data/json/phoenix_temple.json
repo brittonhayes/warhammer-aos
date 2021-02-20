@@ -1,0 +1,21 @@
+{
+  "army": "",
+  "units": [
+    {
+      "name": "Anointed",
+      "size": "25 mm"
+    },
+    {
+      "name": "Flamespyre Phoenix",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Frostheart Phoenix",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Phoenix Guard",
+      "size": "25 mm"
+    }
+  ]
+}
