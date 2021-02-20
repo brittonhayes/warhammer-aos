@@ -1,33 +1,27 @@
-package main
+package warhammer_aos
 
 import (
 	"embed"
 	"encoding/json"
-	"os"
-	"text/template"
 )
 
 //go:embed data/json/*.json
 var f embed.FS
 
 //go:embed templates/json.tmpl
-var jsonTemplate string
+var JsonTemplate string
 
 type Section struct {
-	Faction string
-	Items   []Mini
+	Army  string `json:"Army"`
+	Units []Unit `json:"Units"`
 }
 
-type Mini struct {
-	Name string
-	Size string
+type Unit struct {
+	Name string `json:"Name"`
+	Size string `json:"Size"`
 }
 
-func main() {
-	genJSON()
-}
-
-func genJSON() {
+func GenJSON() []Section {
 	folder, err := f.ReadDir("data/json")
 	if err != nil {
 		panic(err)
@@ -45,10 +39,9 @@ func genJSON() {
 		if err != nil {
 			panic(err)
 		}
+
+		sections = append(sections, s)
 	}
 
-	tpl, _ := template.New("json").Parse(jsonTemplate)
-	if err := tpl.Execute(os.Stdout, sections); err != nil {
-		panic(err)
-	}
+	return sections
 }

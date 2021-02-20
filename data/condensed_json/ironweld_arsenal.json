@@ -1,5 +1,5 @@
 {
-  "faction": "ironweld_arsenal",
+  "army": "ironweld_arsenal",
   "units": [
     {
       "name": "Cannon",
