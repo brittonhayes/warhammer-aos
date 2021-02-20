@@ -1,0 +1,93 @@
+{
+  "army": "Ogor Mawtribes",
+  "units": [
+    {
+      "name": "Frost Sabres",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Frostlord on Stonehorn",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Frostlord on Thundertusk",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Huskard on Stonehorn",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Huskard on Thundertusk",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Icebrow Hunter",
+      "size": "50 mm"
+    },
+    {
+      "name": "Icefall Yhetees",
+      "size": "50 mm"
+    },
+    {
+      "name": "Mournfang Pack",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Stonehorn Beastriders",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Thundertusk Beastriders",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Firebelly",
+      "size": "50 mm"
+    },
+    {
+      "name": "Butcher",
+      "size": "40 mm"
+    },
+    {
+      "name": "Butcher with Cauldron",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Gorgers",
+      "size": "50 mm"
+    },
+    {
+      "name": "Grot Scraplauncher",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Grots",
+      "size": "25 mm"
+    },
+    {
+      "name": "Ironblaster",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Ironguts",
+      "size": "40 mm"
+    },
+    {
+      "name": "Leadbelchers",
+      "size": "40 mm"
+    },
+    {
+      "name": "Ogors",
+      "size": "40 mm"
+    },
+    {
+      "name": "Tyrant",
+      "size": "50 mm"
+    },
+    {
+      "name": "Maneaters",
+      "size": "50 mm"
+    }
+  ]
+}

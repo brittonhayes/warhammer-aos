@@ -1,5 +1,5 @@
 {
-  "faction": "",
+  "army": "Slaves to Darkness",
   "units": [
     {
       "name": "Chaos Chariots",
@@ -96,6 +96,18 @@
     {
       "name": "Theddra Skull-Scryer",
       "size": "32 mm"
+    },
+    {
+      "name": "Archaon",
+      "size": "160 mm"
+    },
+    {
+      "name": "Gaunt Summoner of Tzeentch",
+      "size": "40 mm"
+    },
+    {
+      "name": "Varanguard",
+      "size": "75 x 42 mm"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "factions": "monsters_of_order",
+  "army": "Monsters of Order",
   "units": [
     {
       "name": "Carmine Dragon",
