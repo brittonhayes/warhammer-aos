@@ -1,0 +1,145 @@
+{
+  "army": "Legions of Nagash",
+  "units": [
+    {
+      "name": "Arkhan the Black Mortarch of Sacrament",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Bat Swarms",
+      "size": "50 mm"
+    },
+    {
+      "name": "Black Coach",
+      "size": "170 x 105 mm"
+    },
+    {
+      "name": "Black Knights",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Blood Knights",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Bloodseeker Palanquin",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Cairn Wraith",
+      "size": "25 mm"
+    },
+    {
+      "name": "Corpse Cart with Balefire Brazier",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Corpse Cart with Unholy Lodestone",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Coven Throne",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Dire Wolves",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Fell Bats",
+      "size": "40 mm"
+    },
+    {
+      "name": "Grave Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Hexwraiths",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Mannfred Mortarch of Night",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Morghast Archai",
+      "size": "60 mm"
+    },
+    {
+      "name": "Morghast Harbingers",
+      "size": "60 mm"
+    },
+    {
+      "name": "Mortis Engine",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Nagash Supreme Lord of the Undead",
+      "size": "130 mm"
+    },
+    {
+      "name": "Necromancer",
+      "size": "32 mm"
+    },
+    {
+      "name": "Neferata Mortarch of Blood",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Prince Vhordrai",
+      "size": "130 mm"
+    },
+    {
+      "name": "Skeleton Warriors",
+      "size": "25 mm"
+    },
+    {
+      "name": "Spirit Hosts",
+      "size": "50 mm"
+    },
+    {
+      "name": "Terrorgheist",
+      "size": "130 mm"
+    },
+    {
+      "name": "The Sepulchral Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Tomb Banshee",
+      "size": "25 mm"
+    },
+    {
+      "name": "Vampire Lord",
+      "size": "32 mm"
+    },
+    {
+      "name": "Vampire Lord on Nightmare Steed",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Vampire Lord on Zombie Dragon",
+      "size": "130 mm"
+    },
+    {
+      "name": "Vargheists",
+      "size": "50 mm"
+    },
+    {
+      "name": "Wight King with Baleful Tomb Blade",
+      "size": "32 mm"
+    },
+    {
+      "name": "Wight King with Black Axe",
+      "size": "32 mm"
+    },
+    {
+      "name": "Zombie Dragon",
+      "size": "130 mm"
+    },
+    {
+      "name": "Zombies",
+      "size": "25 mm"
+    }
+  ]
+}

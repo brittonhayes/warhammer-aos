@@ -1,0 +1,393 @@
+{
+  "army": "Cities of Sigmar",
+  "units": [
+    {
+      "name": "Mistweaver Saih",
+      "size": "32 mm"
+    },
+    {
+      "name": "Tenebrael Shard",
+      "size": "32 mm"
+    },
+    {
+      "name": "Black Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Bleakswords",
+      "size": "25 mm"
+    },
+    {
+      "name": "Darkshards",
+      "size": "25 mm"
+    },
+    {
+      "name": "Dreadspears",
+      "size": "25 mm"
+    },
+    {
+      "name": "Executioners",
+      "size": "25 mm"
+    },
+    {
+      "name": "Sorceress",
+      "size": "25 mm"
+    },
+    {
+      "name": "Sorceress on Black Dragon",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Excelsior Warpriest",
+      "size": "32 mm"
+    },
+    {
+      "name": "Excelsior Warpriests Gryph-hound",
+      "size": "25 mm"
+    },
+    {
+      "name": "Flagellants",
+      "size": "25 mm"
+    },
+    {
+      "name": "War Altar of Sigmar",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Warrior Priest",
+      "size": "25 mm"
+    },
+    {
+      "name": "Witch Hunter",
+      "size": "25 mm"
+    },
+    {
+      "name": "Battlemage",
+      "size": "25 mm"
+    },
+    {
+      "name": "Battlemage on Griffon",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Celestial Hurricanum",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Luminark of Hysh",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Dispossessed Warriors",
+      "size": "25 mm"
+    },
+    {
+      "name": "Hammerers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Ironbreakers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Irondrakes",
+      "size": "25 mm"
+    },
+    {
+      "name": "Longbeards",
+      "size": "25 mm"
+    },
+    {
+      "name": "Quarrellers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Runelord",
+      "size": "25 mm"
+    },
+    {
+      "name": "Thunderers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Unforged",
+      "size": "25 mm"
+    },
+    {
+      "name": "Warden King",
+      "size": "25 mm"
+    },
+    {
+      "name": "Archmage",
+      "size": "25 mm"
+    },
+    {
+      "name": "Archmage on Dragon",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Archmage on Steed",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Drakeseer",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Loremaster",
+      "size": "25 mm"
+    },
+    {
+      "name": "Swordmasters",
+      "size": "25 mm"
+    },
+    {
+      "name": "Demigryph Knights",
+      "size": "75 x 42 mm"
+    },
+    {
+      "name": "Freeguild Archers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild Crossbowmen",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild General",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild General on Griffon",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Freeguild General on Warhorse",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Freeguild Greatswords",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild Handgunners",
+      "size": "25 mm"
+    },
+    {
+      "name": "Freeguild Outriders",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Freeguild Pistoliers",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Chariots",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "High Warden",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Reavers",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Shadow Warriors",
+      "size": "25 mm"
+    },
+    {
+      "name": "Skycutters",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Skywarden",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Spireguard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Eternal Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Glade Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Nomad Prince",
+      "size": "32 mm"
+    },
+    {
+      "name": "Sisters of the Thorn",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Sisters of the Watch",
+      "size": "25 mm"
+    },
+    {
+      "name": "Spellweaver",
+      "size": "25 mm"
+    },
+    {
+      "name": "Wayfinder",
+      "size": "25 mm"
+    },
+    {
+      "name": "Waystrider",
+      "size": "25 mm"
+    },
+    {
+      "name": "Waywatcher",
+      "size": "25 mm"
+    },
+    {
+      "name": "Wild Riders",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Wildwood Rangers",
+      "size": "25 mm"
+    },
+    {
+      "name": "Assassin",
+      "size": "25 mm"
+    },
+    {
+      "name": "Dark Riders",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Black Ark Corsairs",
+      "size": "25 mm"
+    },
+    {
+      "name": "Black Ark Fleetmaster",
+      "size": "25 mm"
+    },
+    {
+      "name": "Kharibdyss",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Scourgerunner Chariots",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Anointed",
+      "size": "25 mm"
+    },
+    {
+      "name": "Flamespyre Phoenix",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Frostheart Phoenix",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Phoenix Guard",
+      "size": "25 mm"
+    },
+    {
+      "name": "Cannon",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Cannon Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Cogsmith",
+      "size": "25 mm"
+    },
+    {
+      "name": "Gunmaster",
+      "size": "25 mm"
+    },
+    {
+      "name": "Gyrobombers",
+      "size": "50 mm"
+    },
+    {
+      "name": "Gyrocopters",
+      "size": "50 mm"
+    },
+    {
+      "name": "Helblaster Volley Gun",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Helblaster Volley Gun Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Helstorm Rocket Battery",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Helstorm Rocket Battery Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Organ Gun",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Organ Gun Crew",
+      "size": "25 mm"
+    },
+    {
+      "name": "Steam Tank",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "White Lion Chariots",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "White Lions",
+      "size": "25 mm"
+    },
+    {
+      "name": "Dragon Blades",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Dragon Noble",
+      "size": "25 mm"
+    },
+    {
+      "name": "Dragon Noble on Steed",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Dragonlord",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Drakespawn Chariots",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Drakespawn Knights",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Dreadlord on Black Dragon",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "War Hydra",
+      "size": "120 x 92 mm"
+    }
+  ]
+}

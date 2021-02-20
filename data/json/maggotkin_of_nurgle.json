@@ -1,0 +1,129 @@
+{
+  "army": "Maggotkin of Nurgle",
+  "units": [
+    {
+      "name": "Beasts of Nurgle",
+      "size": "60mm"
+    },
+    {
+      "name": "Bloab Rotspawned",
+      "size": "100mm"
+    },
+    {
+      "name": "Epidemius Tallyman of Nurgle",
+      "size": "60mm"
+    },
+    {
+      "name": "Exalted Greater Daemon of Nurgle",
+      "size": "130mm"
+    },
+    {
+      "name": "Festus the Leechlord",
+      "size": "40mm"
+    },
+    {
+      "name": "Great Unclean One",
+      "size": "130mm"
+    },
+    {
+      "name": "Gutrot Spume",
+      "size": "40mm"
+    },
+    {
+      "name": "Harbinger of Decay",
+      "size": "75 x 42mm"
+    },
+    {
+      "name": "Horticulous Slimux",
+      "size": "105 x 70mm"
+    },
+    {
+      "name": "Lord of Afflictions",
+      "size": "60mm"
+    },
+    {
+      "name": "Lord of Blights",
+      "size": "40mm"
+    },
+    {
+      "name": "Lord of Plagues",
+      "size": "40mm"
+    },
+    {
+      "name": "Morbidex Twiceborn",
+      "size": "100mm"
+    },
+    {
+      "name": "Nurglings",
+      "size": "40mm"
+    },
+    {
+      "name": "Orghotts Daemonspew",
+      "size": "100mm"
+    },
+    {
+      "name": "Plague Drones",
+      "size": "60mm"
+    },
+    {
+      "name": "Plaguebearers",
+      "size": "32mm"
+    },
+    {
+      "name": "Poxbringer Herald of Nurgle",
+      "size": "32mm"
+    },
+    {
+      "name": "Pusgoyle Blightlords",
+      "size": "60mm"
+    },
+    {
+      "name": "Putrid Blightkings",
+      "size": "40mm"
+    },
+    {
+      "name": "Rotigus",
+      "size": "130mm"
+    },
+    {
+      "name": "Sloppity Bilepiper Herald of Nurgle",
+      "size": "32mm"
+    },
+    {
+      "name": "Sorcerer",
+      "size": "32mm"
+    },
+    {
+      "name": "Spoilpox Scrivener Herald of Nurgle",
+      "size": "40mm"
+    },
+    {
+      "name": "The Glottkin",
+      "size": "130mm"
+    },
+    {
+      "name": "Bile Troggoths",
+      "size": "60 mm"
+    },
+    {
+      "name": "Daemon Plague Toads of Nurgle",
+      "size": "60 mm"
+    },
+    {
+      "name": "Daemon Pox Riders of Nurgle",
+      "size": "60 mm"
+    },
+    {
+      "name": "Kazyk the Befouled",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Plague Ogors",
+      "size": "60 mm"
+    },
+    {
+      "name": "Tamurkhan the Maggot Lord",
+      "size": "280x210 mm"
+    }
+  ]
+}

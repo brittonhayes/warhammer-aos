@@ -1,0 +1,65 @@
+{
+  "army": "Legion of Azgorh",
+  "units": [
+    {
+      "name": "Bull Centaur Renders",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Bull Centaur Taurruk",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Daemonsmith",
+      "size": "25 mm"
+    },
+    {
+      "name": "Deathshrieker Rocket Launcher",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Drazhoath the Ashen",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Dreadquake Mortar",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Infernal Guard Battle Standard Bearer",
+      "size": "25 mm"
+    },
+    {
+      "name": "Infernal Guard Castellan",
+      "size": "25 mm"
+    },
+    {
+      "name": "Infernal Guard Fireglaives",
+      "size": "25 mm"
+    },
+    {
+      "name": "Infernal Guard Ironsworn",
+      "size": "25 mm"
+    },
+    {
+      "name": "Iron Daemon War Engine",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "KDaai Fireborn",
+      "size": "50 mm"
+    },
+    {
+      "name": "Magma Cannon",
+      "size": "120 x 92 mm"
+    },
+    {
+      "name": "Shartor the Executioner",
+      "size": "105 x 70 mm"
+    },
+    {
+      "name": "Skullcracker War Engine",
+      "size": "120 x 92 mm"
+    }
+  ]
+}
