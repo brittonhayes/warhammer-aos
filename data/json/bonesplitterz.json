@@ -1,0 +1,45 @@
+{
+  "army": "bonesplitterz",
+  "units": [
+    {
+      "name": "Maniak Weirdnob",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Savage Big Boss",
+      "size": "32 mm"
+    },
+    {
+      "name": "Savage Big Stabbas",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Savage Boarboy Maniaks",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Savage Boarboys",
+      "size": "60 x 35 mm"
+    },
+    {
+      "name": "Savage Orruk Arrowboys",
+      "size": "32 mm"
+    },
+    {
+      "name": "Savage Orruk Morboys",
+      "size": "32 mm"
+    },
+    {
+      "name": "Savage Orruks",
+      "size": "32 mm"
+    },
+    {
+      "name": "Wardokk",
+      "size": "32 mm"
+    },
+    {
+      "name": "Wurrgog Prophet",
+      "size": "32 mm"
+    }
+  ]
+}

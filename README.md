@@ -15,6 +15,8 @@ A REST API for public Warhammer Age of Sigmar data. Built with Go + Lambda.
 Looking for API documentation? We've got 'em! Our docs cover everything you can request from our API, how to do it, and
 how it works on the backend for anyone curious. Check em out!
 
+To get an example of a JSON response, check out the [data/json](data/json) directory.
+
 <!-- This is a placeholder domain name -->
 
 ### 🌐 [sigmar-api.dev/docs](https://github.com/brittonhayes/warhammer-aos)
