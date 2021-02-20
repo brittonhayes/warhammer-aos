@@ -1,9 +1,9 @@
 [
 {{range . }}
     {
-    "faction": "{{.Faction}}",
+    "army": "{{.Army}}",
     "units": [
-    {{range .Items}}
+    {{range .Units}}
         {"name":"{{.Name}}","size":"{{.Size}}"},
     {{end -}}
     ],

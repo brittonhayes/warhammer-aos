@@ -1,5 +1,5 @@
 {
-  "faction": "monsters_of_chaos",
+  "army": "monsters_of_chaos",
   "units": [
     {
       "name": "Chaos Siege Gargant",

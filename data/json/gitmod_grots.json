@@ -1,5 +1,5 @@
 {
-  "faction": "gitmod_grots",
+  "army": "gitmod_grots",
   "units": [
     {
       "name": "Doom Diver",
