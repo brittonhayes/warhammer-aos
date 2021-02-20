@@ -1,5 +1,5 @@
 {
-  "faction": "",
+  "army": "Maggotkin of Nurgle",
   "units": [
     {
       "name": "Beasts of Nurgle",
@@ -100,6 +100,30 @@
     {
       "name": "The Glottkin",
       "size": "130mm"
+    },
+    {
+      "name": "Bile Troggoths",
+      "size": "60 mm"
+    },
+    {
+      "name": "Daemon Plague Toads of Nurgle",
+      "size": "60 mm"
+    },
+    {
+      "name": "Daemon Pox Riders of Nurgle",
+      "size": "60 mm"
+    },
+    {
+      "name": "Kazyk the Befouled",
+      "size": "90 x 52 mm"
+    },
+    {
+      "name": "Plague Ogors",
+      "size": "60 mm"
+    },
+    {
+      "name": "Tamurkhan the Maggot Lord",
+      "size": "280x210 mm"
     }
   ]
 }
