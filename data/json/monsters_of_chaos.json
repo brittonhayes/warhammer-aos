@@ -1,9 +1,9 @@
 {
-  "army": "Sylvanth",
+  "army": "Monsters of Chaos",
   "units": [
     {
-      "name": "Alarielle the Everqueen",
-      "size": "160 mm",
+      "name": "Chaos Siege Gargant",
+      "size": "120 x 92 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "name": "Branchwraith",
-      "size": "32 mm",
+      "name": "Chaos War Mammoth",
+      "size": "280 x 210 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -88,8 +88,8 @@
       ]
     },
     {
-      "name": "Branchwych",
-      "size": "32 mm",
+      "name": "Cursd Ettin",
+      "size": "120 x 92 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -131,8 +131,8 @@
       ]
     },
     {
-      "name": "Drycha Hamadreth",
-      "size": "105 x 70 mm",
+      "name": "Gigantic Chaos Spawn",
+      "size": "100 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -174,8 +174,8 @@
       ]
     },
     {
-      "name": "Kurnoth Hunters",
-      "size": "50 mm",
+      "name": "Mutalith Vortex Beast",
+      "size": "120 x 92 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -217,8 +217,8 @@
       ]
     },
     {
-      "name": "Spirit of Durthu",
-      "size": "105 x 70 mm",
+      "name": "Skin Wolves",
+      "size": "60 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -260,223 +260,8 @@
       ]
     },
     {
-      "name": "Spite-Revenants",
-      "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Sylvaneth Dryads",
-      "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Sylvaneth Wyldwood",
-      "size": "Use model mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Tree-Revenants",
-      "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Treelord",
-      "size": "105 x 70 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Treelord Ancient",
-      "size": "105 x 70 mm",
+      "name": "Warpfire Dragon",
+      "size": "120 x 92 mm",
       "move": "",
       "save": "",
       "bravery": "",
