@@ -16,7 +16,8 @@ var fiberLambda *fiberadapter.FiberLambda
 func init() {
 	logrus.Info("Fiber cold start")
 	r := fiber.New()
-	r.Get("/", func(ctx *fiber.Ctx) error {
+	r.Get("*", func(ctx *fiber.Ctx) error {
+		logrus.Info("path=", ctx.Path())
 		return ctx.JSON(handlers.Armies())
 	})
 
@@ -24,7 +25,6 @@ func init() {
 }
 
 func ArmiesHandler(ctx context.Context, req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
-	// If no name is provided in the HTTP request body, throw an error
 	return fiberLambda.ProxyWithContext(ctx, req)
 }
 
