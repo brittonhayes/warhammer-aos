@@ -3,183 +3,1938 @@
   "units": [
     {
       "name": "Aleguzzler Gargant",
-      "size": "90 x 52 mm"
+      "size": "90 x 52 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Arachnarok Spider with Flinger",
-      "size": "160 mm"
+      "size": "160 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Arachnarok Spider with Spiderfang Warparty",
-      "size": "160 mm"
+      "size": "160 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Boggleye",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Boingrot Bounderz",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Bonegrinder Gargant",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Brewgit",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Colossal Squig",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Dankhold Troggboss",
-      "size": "60 mm"
+      "size": "60 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Dankhold Troggoths",
-      "size": "60 mm"
+      "size": "60 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Fellwater Troggoths",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Fungoid Cave-Shaman",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Loonboss",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Loonboss on Giant Cave Squig",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Loonboss on Mangler Squigs",
-      "size": "80 mm"
+      "size": "80 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Loonboss with Giant Cave Squig",
-      "size": "60 mm"
+      "size": "60 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Loonsmasha Fanatics",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Madcap Shaman",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Malevolent Moon",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Mangler Squigs",
-      "size": "80 mm"
+      "size": "80 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Mollog",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Mollogs Minions",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Morks Mighty Mushroom",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Rockgut Troggoths",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Scaremonger",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Scrapskuttles Arachnacauldron",
-      "size": "60 mm"
+      "size": "60 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Scuttleboss on Gigantic?Spider",
-      "size": "60 mm"
+      "size": "60 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Scuttletide",
-      "size": "Use model mm"
+      "size": "Use model mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Shootas",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Shroomancer",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Skitterstrand Arachnarok",
-      "size": "160 mm"
+      "size": "160 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Skragrott the Loonking",
-      "size": "60 x 35 mm"
+      "size": "60 x 35 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Sneaky Snufflers",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Spider Riders",
-      "size": "60 x 35 mm"
+      "size": "60 x 35 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Spiker",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Sporesplatta Fanatics",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Squig Gobba",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Squig Herd",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Squig Hoppers",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Stabbas",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Troggoth Hag",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Webspinner Shaman",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Webspinner Shaman on Arachnarok Spider",
-      "size": "160 mm"
+      "size": "160 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Zarbag",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Zarbags Gitz",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     }
   ]
 }

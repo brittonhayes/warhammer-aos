@@ -3,103 +3,1078 @@
   "units": [
     {
       "name": "Black Coach",
-      "size": "170 x 105 mm"
+      "size": "170 x 105 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Bladegheist Revenants",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Cairn Wraith",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Chainghasts",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Chainrasp Horde",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Dreadblade Harrow",
-      "size": "60 x 35 mm"
+      "size": "60 x 35 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Dreadscythe Harridans",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Glaivewraith Stalkers",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Grimghast Reapers",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Guardian of Souls with Nightmare Lantern",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Hexwraiths",
-      "size": "60 x 35 mm"
+      "size": "60 x 35 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Knight of Shrouds",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Knight of Shrouds on Ethereal Steed",
-      "size": "75 x 42 mm"
+      "size": "75 x 42 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Kurdoss Valentian the Craven King",
-      "size": "60 mm"
+      "size": "60 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Lady Olynder Mortarch of Grief",
-      "size": "60 mm"
+      "size": "60 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Lord Executioner",
-      "size": "40 mm"
+      "size": "40 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Mortalis Terminexus",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Mourngul",
-      "size": "60 mm"
+      "size": "60 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Myrmourn Banshees",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Reikenor the Grimhailer",
-      "size": "75 x 42 mm"
+      "size": "75 x 42 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Shyish Reaper",
-      "size": "105 x 70 mm"
+      "size": "105 x 70 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Spirit Hosts",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Spirit Torment",
-      "size": "40 mm"
+      "size": "40 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Tomb Banshee",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Vault of Souls",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     }
   ]
 }

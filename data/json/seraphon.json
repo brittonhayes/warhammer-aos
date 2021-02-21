@@ -3,115 +3,1207 @@
   "units": [
     {
       "name": "Bastiladon",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Chameleon Skinks",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Dread Saurian",
-      "size": "280 x 210 mm"
+      "size": "280 x 210 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Engine of the Gods",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Kroxigor",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Lord Kroak",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Razordons",
-      "size": "60 x 35 mm"
+      "size": "60 x 35 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Ripperdactyl Riders",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Salamanders",
-      "size": "60 x 35 mm"
+      "size": "60 x 35 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Astrolith Bearer",
-      "size": "40 mm"
+      "size": "40 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Eternity Warden",
-      "size": "40 mm"
+      "size": "40 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Guard",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Knights",
-      "size": "60 x 35 mm"
+      "size": "60 x 35 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Oldblood",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Oldblood on Carnosaur",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Scar-Veteran on Carnosaur",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Scar-Veteran on Cold One",
-      "size": "60 x 35 mm"
+      "size": "60 x 35 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Sunblood",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Saurus Warriors",
-      "size": "32 mm"
+      "size": "32 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Skink Handlers",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Skink Priest",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Skink Starpriest",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Skink Starseer",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Skinks",
-      "size": "25 mm"
+      "size": "25 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Slann Starmaster",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Stegadon",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Terradon Riders",
-      "size": "50 mm"
+      "size": "50 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     },
     {
       "name": "Troglodon",
-      "size": "120 x 92 mm"
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
     }
   ]
 }
