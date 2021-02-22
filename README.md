@@ -2,6 +2,8 @@
 
 A REST API for public Warhammer Age of Sigmar data. Built with Go + Lambda.
 
+![Logo](./images/logo.png)
+
 [![Go Reference](https://pkg.go.dev/badge/github.com/brittonhayes/warhammer-aos.svg)](https://pkg.go.dev/github.com/brittonhayes/warhammer-aos)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/brittonhayes/warhammer-aos)](https://goreportcard.com/report/github.com/brittonhayes/warhammer-aos)
@@ -10,11 +12,9 @@ A REST API for public Warhammer Age of Sigmar data. Built with Go + Lambda.
 
 ## Usage ⚡
 
-> The API is free and public. Try it out!
+The API is free and public. Try it out!
 
-<!-- This is a placeholder domain name -->
-
-### 🌐 [sigmar-api.dev/armies](https://github.com/brittonhayes/warhammer-aos)
+### 🌐 [aos-api.com/armies](https://aos-api.com/armies)
 
 [comment]: <> (## Docs 📝)
 
@@ -24,7 +24,7 @@ A REST API for public Warhammer Age of Sigmar data. Built with Go + Lambda.
 
 [comment]: <> (To get an example of a JSON response, check out the [data/json]&#40;data/json&#41; directory.)
 
-[comment]: <> (### 🌐 [sigmar-api.dev/docs]&#40;https://github.com/brittonhayes/warhammer-aos&#41;)
+[comment]: <> (### 🌐 [aos-api.com/docs]&#40;https://github.com/brittonhayes/warhammer-aos&#41;)
 
 ---
 
@@ -40,7 +40,7 @@ A REST API for public Warhammer Age of Sigmar data. Built with Go + Lambda.
 
 ### Commands
 
-```sh
+```shell
 # Build the lambda handlers
 task build
 

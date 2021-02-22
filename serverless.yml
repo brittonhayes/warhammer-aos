@@ -21,17 +21,19 @@ package:
 
 custom:
   customDomain:
-    domainName: "aos-api.com"
+    domainName: aos-api.com
+    certificateName: aos-api.com
     stage: ${self:provider.stage}
-    createRoute53Record: true
+    createRoute53Record: false
+    enabled: true
+    endpointType: 'edge'
+    securityPolicy: tls_1_2
 
 functions:
   armies:
     handler: ./bin/armies
     events:
       - http:
-          path: armies/{name}
+          path: armies
           method: GET
-          request:
-            parameters:
 
