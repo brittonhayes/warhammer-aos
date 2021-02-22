@@ -2,6 +2,12 @@
 
 A REST API for public Warhammer Age of Sigmar data. Built with Go + Lambda.
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/brittonhayes/warhammer-aos.svg)](https://pkg.go.dev/github.com/brittonhayes/warhammer-aos)
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/brittonhayes/warhammer-aos)](https://goreportcard.com/report/github.com/brittonhayes/warhammer-aos)
+
+[![JSON Schema](https://github.com/brittonhayes/warhammer-aos/actions/workflows/validate.yml/badge.svg)](https://github.com/brittonhayes/warhammer-aos/actions/workflows/validate.yml)
+
 ## Usage ⚡
 
 > The API is free and public. Try it out!
@@ -10,25 +16,15 @@ A REST API for public Warhammer Age of Sigmar data. Built with Go + Lambda.
 
 ### 🌐 [sigmar-api.dev/armies](https://github.com/brittonhayes/warhammer-aos)
 
-## Docs 📝
+[comment]: <> (## Docs 📝)
 
-Looking for API documentation? We've got 'em! Our docs cover everything you can request from our API, how to do it, and
-how it works on the backend for anyone curious. Check em out!
+[comment]: <> (Looking for API documentation? We've got 'em! Our docs cover everything you can request from our API, how to do it, and)
 
-To get an example of a JSON response, check out the [data/json](data/json) directory.
+[comment]: <> (how it works on the backend for anyone curious. Check em out!)
 
-<!-- This is a placeholder domain name -->
+[comment]: <> (To get an example of a JSON response, check out the [data/json]&#40;data/json&#41; directory.)
 
-### 🌐 [sigmar-api.dev/docs](https://github.com/brittonhayes/warhammer-aos)
-
-## Contributing
-
-> Wanna contribute _your_  Warhammer mini data to the API?
->
-> We'd love your contributions!
-> We've tried to make it as easy as possible for people to add their info without needing to understand the code.
->
-> Check out our [contributing page](https://github.com/brittonhayes/warhammer-aos) to get started!
+[comment]: <> (### 🌐 [sigmar-api.dev/docs]&#40;https://github.com/brittonhayes/warhammer-aos&#41;)
 
 ---
 
@@ -54,6 +50,15 @@ task invoke
 # Run the tests
 task test
 ```
+
+## Contributing
+
+> Wanna contribute _your_  Warhammer mini data to the API?
+>
+> We'd love your contributions!
+> We've tried to make it as easy as possible for people to add their info without needing to understand the code.
+>
+> Check out our [contributing page](https://github.com/brittonhayes/warhammer-aos) to get started!
 
 ## Show your support
 
