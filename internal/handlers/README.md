@@ -3,7 +3,7 @@
 # handlers
 
 ```go
-import "warhammer-aos/internal/handlers"
+import "github.com/brittonhayes/warhammer-aos/internal/handlers"
 ```
 
 package handlers contains all http request handlers for the API
@@ -36,7 +36,7 @@ Create a new handler and add a function to the route
 package main
 
 import (
-	"warhammer-aos/internal/handlers"
+	"github.com/brittonhayes/warhammer-aos/internal/handlers"
 )
 
 func main() {
@@ -119,16 +119,8 @@ Unit is an individual unit in Warhammer
 
 ```go
 type Unit struct {
-    Name          string          `json:"name"`
-    Size          string          `json:"size"`
-    Move          interface{}     `json:"move"`
-    Save          string          `json:"save"`
-    Bravery       string          `json:"bravery"`
-    Wounds        string          `json:"wounds"`
-    MissileWeapon []MissileWeapon `json:"missile_weapon,omitempty"`
-    MeleeWeapon   []MissileWeapon `json:"melee_weapon,omitempty"`
-    Abilities     []Ability       `json:"abilities"`
-    Keywords      []string        `json:"keywords"`
+    Name string `json:"name"`
+    Size string `json:"size"`
 }
 ```
 

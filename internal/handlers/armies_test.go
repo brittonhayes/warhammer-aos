@@ -1,7 +1,7 @@
 package handlers_test
 
 import (
-	"warhammer-aos/internal/handlers"
+	"github.com/brittonhayes/warhammer-aos/internal/handlers"
 )
 
 // Create a new handler

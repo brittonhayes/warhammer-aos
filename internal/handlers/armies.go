@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"log"
 
+	warhammer "github.com/brittonhayes/warhammer-aos"
 	"github.com/gofiber/fiber/v2"
 	"github.com/pkg/errors"
-	warhammer "warhammer-aos"
 )
 
 // Army is the parent structure that all nested

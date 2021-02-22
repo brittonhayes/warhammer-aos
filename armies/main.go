@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 	fiberadapter "github.com/awslabs/aws-lambda-go-api-proxy/fiber"
-	"warhammer-aos/internal/handlers"
+	"github.com/brittonhayes/warhammer-aos/internal/handlers"
 )
 
 var fiberLambda *fiberadapter.FiberLambda
