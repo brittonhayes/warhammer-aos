@@ -10,16 +10,28 @@ provider:
   apiGateway:
     shouldStartNameWithService: true
 
+plugins:
+  - serverless-domain-manager
+
 package:
   exclude:
     - ./**
   include:
     - ./bin/**
 
+custom:
+  customDomain:
+    domainName: "aos-api.com"
+    stage: ${self:provider.stage}
+    createRoute53Record: true
+
 functions:
   armies:
     handler: ./bin/armies
     events:
       - http:
-          path: armies
+          path: armies/{name}
           method: GET
+          request:
+            parameters:
+

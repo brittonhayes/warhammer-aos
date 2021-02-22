@@ -68,3 +68,5 @@ $RECYCLE.BIN/
 
 # Serverless directories
 .serverless
+
+node_modules

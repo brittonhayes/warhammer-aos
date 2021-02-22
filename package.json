@@ -1,0 +1,23 @@
+{
+  "name": "warhammer-aos",
+  "version": "1.0.0",
+  "description": "A REST API for public Warhammer Age of Sigmar data. Built with Go + Lambda.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittonhayes/warhammer-aos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brittonhayes/warhammer-aos/issues"
+  },
+  "homepage": "https://github.com/brittonhayes/warhammer-aos#readme",
+  "dependencies": {
+    "serverless-domain-manager": "^5.1.0"
+  }
+}
