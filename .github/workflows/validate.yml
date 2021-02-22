@@ -18,7 +18,6 @@ jobs:
         run: |
           npm install -g ajv-cli
       - name: "Validate JSON"
-        continue-on-error: true
         run: |
-          ajv validate -s schema.json -d "./data/json/*.json" --strict=false
+          ajv test -s schema.json -d "./data/json/*.json" --strict=false --valid
 

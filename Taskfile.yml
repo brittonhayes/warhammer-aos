@@ -13,7 +13,7 @@ tasks:
       This ensures that we've got consistency between data sources across
       the repository.
     cmds:
-      - ajv validate -s schema.json -d "./data/json/*.json" --strict=false
+      - ajv test -s schema.json -d "./data/json/*.json" --strict=false --valid | grep '$!"passed test"'
 
   build:
     desc: Build Go binary for multiple distributions
@@ -41,11 +41,10 @@ tasks:
     cmds:
       - sls deploy
 
-  gomodgen:
-    desc: Generate go.mod
+  docs:
+    desc: Generate markdown documenation
     cmds:
-      - chmod u+x ./scripts/gomod.sh
-      - ./scripts/gomod.sh
+      - gomarkdoc ./internal/handlers
 
   invoke:
     desc: Invoke lambda function locally
