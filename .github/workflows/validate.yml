@@ -19,4 +19,5 @@ jobs:
           npm install -g ajv-cli
       - name: "Validate JSON"
         run: |
-          - ajv test -s schema.json -d "./data/json/*.json" --strict=false --valid | grep '$!"passed test"'
+          ajv test -s schema.json -d "./data/json/*.json" --strict=false --valid | grep '$!"passed test"'
+
