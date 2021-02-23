@@ -79,7 +79,7 @@ type Ability struct {
 	Desc string `json:"desc"`
 }
 
-func readJSON() []Army {
+func readJSON() Armies {
 	folder, err := warhammer.Files.ReadDir("data/json")
 	if err != nil {
 		log.Fatal(errors.Wrap(err, "failed to read json directory"))
@@ -123,11 +123,7 @@ func (a *Armies) Reply() *handlers.Response {
 // armies as a JSON
 func Handler() func(ctx *fiber.Ctx) error {
 	armies := readJSON()
-	response := &handlers.Response{
-		Count: len(armies),
-		Data:  armies,
-	}
-
+	response := armies.Reply()
 	return func(ctx *fiber.Ctx) error {
 		return ctx.JSON(response)
 	}
