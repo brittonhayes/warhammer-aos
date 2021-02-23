@@ -4,7 +4,6 @@ includes:
   win: ./Taskfile_windows.yml
 
 tasks:
-
   validate:
     desc: Validate JSON files against schema
     summary: |
@@ -18,8 +17,7 @@ tasks:
   build:
     desc: Build Go binary for multiple distributions
     cmds:
-      - export GO111MODULE=on
-      - env GOOS=linux go build -ldflags="-s -w" -o bin/armies armies/main.go
+      - go build -o bin/armies lambda/armies/main.go
 
   lint:
     desc: Lint code for quality controls
@@ -49,4 +47,4 @@ tasks:
   invoke:
     desc: Invoke lambda function locally
     cmds:
-      - serverless invoke local --function armies -d '{"hello":"there"}'
+      - serverless invoke local --function armies -d '{}'
