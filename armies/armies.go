@@ -1,3 +1,4 @@
+// package armies contains the types, methods, and interfaces for interacting with Warhammer Age of Sigmar Armies
 package armies
 
 import (
@@ -15,7 +16,8 @@ var (
 	_ Service = &Armies{}
 )
 
-// Service
+// Service covers all available methods
+// of the Armies package
 type Service interface {
 	Reply() *handlers.Response
 }

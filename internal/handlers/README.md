@@ -10,66 +10,9 @@ package handlers contains all http request handlers for the API
 
 ## Index
 
-- [func Armies() func(ctx *fiber.Ctx) error](<#func-armies>)
-- [type Ability](<#type-ability>)
-- [type Army](<#type-army>)
 - [type Handler](<#type-handler>)
-- [type MeleeWeapon](<#type-meleeweapon>)
-- [type MissileWeapon](<#type-missileweapon>)
-- [type Unit](<#type-unit>)
+- [type Response](<#type-response>)
 
-
-## func Armies
-
-```go
-func Armies() func(ctx *fiber.Ctx) error
-```
-
-Armies returns an http response all of the armies as a JSON
-
-<details><summary>Example</summary>
-<p>
-
-Create a new handler and add a function to the route
-
-```go
-package main
-
-import (
-	"github.com/brittonhayes/warhammer-aos/internal/handlers"
-)
-
-func main() {
-	_ = handlers.New().
-		AddRoute("*", handlers.Armies()).
-		Build()
-}
-```
-
-</p>
-</details>
-
-## type Ability
-
-Ability is a skill possessed by the parent unit
-
-```go
-type Ability struct {
-    Name string `json:"name"`
-    Desc string `json:"desc"`
-}
-```
-
-## type Army
-
-Army is the parent structure that all nested units belong to
-
-```go
-type Army struct {
-    Army  string `json:"army"`
-    Units []Unit `json:"units"`
-}
-```
 
 ## type Handler
 
@@ -81,46 +24,14 @@ type Handler interface {
 }
 ```
 
-## type MeleeWeapon
+## type Response
 
-MeleeWeapon is a weapon that is used for close quarters combat
-
-```go
-type MeleeWeapon struct {
-    Name    string `json:"name"`
-    Range   string `json:"range"`
-    Attacks string `json:"attacks"`
-    ToHit   string `json:"to_hit"`
-    ToWound string `json:"to_wound"`
-    Rend    string `json:"rend"`
-    Damage  string `json:"damage"`
-}
-```
-
-## type MissileWeapon
-
-MissileWeapon is a weapon that is used for ranged attacks
+Response is the default API response format
 
 ```go
-type MissileWeapon struct {
-    Name    string `json:"name"`
-    Range   string `json:"range"`
-    Attacks string `json:"attacks"`
-    ToHit   string `json:"to_hit"`
-    ToWound string `json:"to_wound"`
-    Rend    string `json:"rend"`
-    Damage  string `json:"damage"`
-}
-```
-
-## type Unit
-
-Unit is an individual unit in Warhammer
-
-```go
-type Unit struct {
-    Name string `json:"name"`
-    Size string `json:"size"`
+type Response struct {
+    Count int         `json:"count"`
+    Data  interface{} `json:"data"`
 }
 ```
 

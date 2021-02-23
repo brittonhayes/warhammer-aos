@@ -42,6 +42,7 @@ tasks:
   docs:
     desc: Generate markdown documenation
     cmds:
+      - gomarkdoc ./armies
       - gomarkdoc ./internal/handlers
 
   invoke:
