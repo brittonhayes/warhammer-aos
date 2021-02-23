@@ -107,6 +107,8 @@ func readJSON() Armies {
 	return armies
 }
 
+// Reply returns an army formatted as an
+// API response
 func (a *Army) Reply() *handlers.Response {
 	return &handlers.Response{
 		Count: 1,
@@ -114,6 +116,8 @@ func (a *Army) Reply() *handlers.Response {
 	}
 }
 
+// Reply returns a list of armies formatted
+// as an API response
 func (a *Armies) Reply() *handlers.Response {
 	return &handlers.Response{
 		Count: len(*a),

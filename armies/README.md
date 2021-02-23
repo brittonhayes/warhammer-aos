@@ -76,6 +76,8 @@ func main() {
 func (a *Armies) Reply() *handlers.Response
 ```
 
+Reply returns a list of armies formatted as an API response
+
 ## type Army
 
 Army is the parent structure that all nested units belong to
@@ -92,6 +94,8 @@ type Army struct {
 ```go
 func (a *Army) Reply() *handlers.Response
 ```
+
+Reply returns an army formatted as an API response
 
 ## type MeleeWeapon
 
