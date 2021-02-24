@@ -22,7 +22,10 @@ var (
 	_ Service = &Armies{}
 )
 
-var ErrNotFound = "resource not found"
+var (
+	ErrNotFound    = map[string]string{"message": "Resource could not be found"}
+	// ErrInvalidPath = map[string]string{"type": "error", "message": "invalid path"}
+)
 
 // Service covers all available methods
 // of the Armies package
@@ -187,13 +190,12 @@ func List() func(ctx *fiber.Ctx) error {
 // Find returns an http response all of the
 // armies as a JSON
 func Find() func(ctx *fiber.Ctx) error {
-
 	var a Army
 	return func(ctx *fiber.Ctx) error {
 		name := ctx.Params("name")
 		army, err := a.find(name)
 		if err != nil {
-			return ctx.SendString(ErrNotFound)
+			return ctx.Status(404).JSON(ErrNotFound)
 		}
 
 		return ctx.JSON(army.reply())
