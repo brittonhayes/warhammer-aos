@@ -38,10 +38,8 @@ type Army struct {
 
 // Unit is an individual unit in Warhammer
 type Unit struct {
-	Name string `json:"name"`
-	Size string `json:"size"`
-	// TODO re-implement these fields after json inconsistencies are fixed
-
+	Name          string          `json:"name"`
+	Size          string          `json:"size"`
 	Move          string          `json:"move"`
 	Save          string          `json:"save"`
 	Bravery       string          `json:"bravery"`
