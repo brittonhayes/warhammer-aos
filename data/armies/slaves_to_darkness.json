@@ -4,44 +4,68 @@
     {
       "name": "Chaos Chariots",
       "size": "120 x 92 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
+      "move": "12",
+      "save": "4+",
+      "bravery": "6",
+      "wounds": "7",
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Lashing Whip",
+          "range": "2",
+          "attacks": "2",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Chaos Greatblade",
+          "range": "2",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
+        },
+        {
+          "name": "Chaos War-flail",
+          "range": "2",
+          "attacks": "D6",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Trampling Hooves",
+          "range": "1",
+          "attacks": "4",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Mark of Chaos",
+          "desc": "When you select this unit to be part of your army, you must give it one of the following Mark of Chaos keywords: Khorne, Tzeentch, Nurgle, Slaanesh, Undivided."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Don't Spare the Lash",
+          "desc": "Once per battle, this unit can run and still charge later in the same turn."
+        },
+        {
+          "name": "Swift Death",
+          "desc": "After this unit makes a charge move, you can pick 1 enemy unit within 1\" of this unit and roll a number of diece equal to the charge roll for that charge move. For each 5+, the enemy unit suffers 1 mortal wound."
         }
       ],
       "keywords": [
-        ""
+        "CHAOS",
+        "MORTAL",
+        "SLAVES TO DARKNESS",
+        "MARK OF CHAOS",
+        "CHAOS CHARIOTS"
       ]
     },
     {
