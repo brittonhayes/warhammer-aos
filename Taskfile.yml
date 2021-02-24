@@ -18,6 +18,7 @@ tasks:
     desc: Build Go binary for multiple distributions
     cmds:
       - go build -o bin/armies lambda/armies/main.go
+      - go build -o bin/indexes lambda/indexes/main.go
 
   lint:
     desc: Lint code for quality controls
@@ -42,10 +43,12 @@ tasks:
   docs:
     desc: Generate markdown documenation
     cmds:
-      - gomarkdoc ./armies
+      - gomarkdoc ./pkg/armies
+      - gomarkdoc ./pkg/indexes
       - gomarkdoc ./internal/handlers
 
   invoke:
     desc: Invoke lambda function locally
     cmds:
+      - serverless invoke local --function indexes -d '{}'
       - serverless invoke local --function armies -d '{}'
