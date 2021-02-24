@@ -39,12 +39,12 @@ tasks:
   deploy:
     desc: Deploy serverless functions
     cmds:
-      - sls deploy
-
-  deploy:dev:
-    desc: Deploy development versions of serverless functions
-    cmds:
       - sls deploy -c dev.serverless.yml
+
+  deploy:prod:
+    desc: Deploy production version of serverless functions
+    cmds:
+      - sls deploy
 
   gomodgen:
     desc: Generate go.mod
