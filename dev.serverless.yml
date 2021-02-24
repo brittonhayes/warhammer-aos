@@ -41,5 +41,9 @@ functions:
     handler: ./bin/armies
     events:
       - http:
-          path: armies
+          path: armies/{name}
           method: GET
+          request:
+            parameters:
+              paths:
+                name: true

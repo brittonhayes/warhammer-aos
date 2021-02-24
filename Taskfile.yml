@@ -50,5 +50,5 @@ tasks:
   invoke:
     desc: Invoke lambda function locally
     cmds:
-      - serverless invoke local --function indexes -d '{}'
-      - serverless invoke local --function armies -d '{}'
+      - sls invoke local --function indexes -d "{}"
+      - sls invoke local --function armies -p armies.test.json
