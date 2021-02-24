@@ -271,33 +271,7 @@
     {
       "name": "Arkanaut Frigate",
       "size": "120 x 92 mm",
-      "move": [
-        {
-          "wound_track_position": "1",
-          "move": "12",
-          "min_wounds_suffered": "0"
-        },
-        {
-          "wound_track_position": "2",
-          "move": "10",
-          "min_wounds_suffered": "4"
-        },
-        {
-          "wound_track_position": "3",
-          "move": "8",
-          "min_wounds_suffered": "7"
-        },
-        {
-          "wound_track_position": "4",
-          "move": "6",
-          "min_wounds_suffered": "10"
-        },
-        {
-          "wound_track_position": "5",
-          "move": "4",
-          "min_wounds_suffered": "13"
-        }
-      ],
+      "move": "See Damage Table",
       "save": "4+",
       "bravery": "8",
       "wounds": "14",
@@ -343,33 +317,7 @@
         {
           "name": "Boarding Weapons",
           "range": "1",
-          "attacks": [
-            {
-              "wound_track_position": "1",
-              "attacks": "6",
-              "min_wounds_suffered": "0"
-            },
-            {
-              "wound_track_position": "2",
-              "attacks": "5",
-              "min_wounds_suffered": "4"
-            },
-            {
-              "wound_track_position": "3",
-              "attacks": "4",
-              "min_wounds_suffered": "7"
-            },
-            {
-              "wound_track_position": "4",
-              "attacks": "3",
-              "min_wounds_suffered": "10"
-            },
-            {
-              "wound_track_position": "5",
-              "attacks": "2",
-              "min_wounds_suffered": "13"
-            }
-          ],
+          "attacks": "See Damage Table",
           "to_hit": "4+",
           "to_wound": "4+",
           "rend": "-",
@@ -406,6 +354,43 @@
           "desc": "Before attacking with a Heavy Sky Cannon, choose either the Shrapnel or Shell missile weapon characteristics for that shooting attack."
         }
       ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "boarding_weapon_attacks": "6",
+          "move": "12",
+          "bomb_racks_value": "+1",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "boarding_weapon_attacks": "5",
+          "move": "10",
+          "bomb_racks_value": "0",
+          "min_wounds_suffered": "4"
+        },
+        {
+          "wound_track_position": "3",
+          "boarding_weapon_attacks": "4",
+          "move": "8",
+          "bomb_racks_value": "0",
+          "min_wounds_suffered": "7"
+        },
+        {
+          "wound_track_position": "4",
+          "boarding_weapon_attacks": "3",
+          "move": "6",
+          "bomb_racks_value": "-1",
+          "min_wounds_suffered": "10"
+        },
+        {
+          "wound_track_position": "5",
+          "boarding_weapon_attacks": "2",
+          "move": "4",
+          "bomb_racks_value": "-1",
+          "min_wounds_suffered": "13"
+        }
+      ],
       "keywords": [
         "ORDER",
         "DUARDIN",
@@ -418,33 +403,7 @@
     {
       "name": "Arkanaut Ironclad",
       "size": "170 x 105 mm",
-      "move": [
-        {
-          "wound_track_position": "1",
-          "move": "10",
-          "min_wounds_suffered": "0"
-        },
-        {
-          "wound_track_position": "2",
-          "move": "8",
-          "min_wounds_suffered": "4"
-        },
-        {
-          "wound_track_position": "3",
-          "move": "8",
-          "min_wounds_suffered": "7"
-        },
-        {
-          "wound_track_position": "4",
-          "move": "6",
-          "min_wounds_suffered": "10"
-        },
-        {
-          "wound_track_position": "5",
-          "move": "4",
-          "min_wounds_suffered": "16"
-        }
-      ],
+      "move": "See Damage Table",
       "save": "3+",
       "bravery": "8",
       "wounds": "18",
@@ -508,33 +467,7 @@
         {
           "name": "Boarding Weapons",
           "range": "1",
-          "attacks": [
-            {
-              "wound_track_position": "1",
-              "attacks": "8",
-              "min_wounds_suffered": "0"
-            },
-            {
-              "wound_track_position": "2",
-              "attacks": "7",
-              "min_wounds_suffered": "4"
-            },
-            {
-              "wound_track_position": "3",
-              "attacks": "6",
-              "min_wounds_suffered": "7"
-            },
-            {
-              "wound_track_position": "4",
-              "attacks": "5",
-              "min_wounds_suffered": "10"
-            },
-            {
-              "wound_track_position": "5",
-              "attacks": "4",
-              "min_wounds_suffered": "16"
-            }
-          ],
+          "attacks": "See Damage Table",
           "to_hit": "4+",
           "to_wound": "4+",
           "rend": "-",
@@ -569,6 +502,43 @@
         {
           "name": "Great Sky Cannon",
           "desc": "Before attacking with a Great Sky Cannon, choose either the Shrapnel or Shell missile weapon characteristics for that shooting attack."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "boarding_weapon_attacks": "8",
+          "move": "10",
+          "bomb_racks_value": "+2",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "boarding_weapon_attacks": "7",
+          "move": "8",
+          "bomb_racks_value": "+1",
+          "min_wounds_suffered": "4"
+        },
+        {
+          "wound_track_position": "3",
+          "boarding_weapon_attacks": "6",
+          "move": "6",
+          "bomb_racks_value": "0",
+          "min_wounds_suffered": "7"
+        },
+        {
+          "wound_track_position": "4",
+          "boarding_weapon_attacks": "5",
+          "move": "6",
+          "bomb_racks_value": "0",
+          "min_wounds_suffered": "10"
+        },
+        {
+          "wound_track_position": "5",
+          "boarding_weapon_attacks": "4",
+          "move": "4",
+          "bomb_racks_value": "-1",
+          "min_wounds_suffered": "16"
         }
       ],
       "keywords": [

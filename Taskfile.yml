@@ -4,6 +4,7 @@ includes:
   win: ./Taskfile_windows.yml
 
 tasks:
+
   validate:
     desc: Validate JSON files against schema
     summary: |
@@ -12,13 +13,13 @@ tasks:
       This ensures that we've got consistency between data sources across
       the repository.
     cmds:
-      - ajv test -s schema.json -d "./data/json/*.json" --strict=false --valid | grep '$!"passed test"'
+      - ajv validate -s schema.json -d "./data/armies/*.json" --strict=false
 
   build:
     desc: Build Go binary for multiple distributions
     cmds:
-      - go build -o bin/armies lambda/armies/main.go
-      - go build -o bin/indexes lambda/indexes/main.go
+      - export GO111MODULE=on
+      - env GOOS=linux go build -ldflags="-s -w" -o bin/armies armies/main.go
 
   lint:
     desc: Lint code for quality controls
@@ -40,15 +41,13 @@ tasks:
     cmds:
       - sls deploy
 
-  docs:
-    desc: Generate markdown documenation
+  gomodgen:
+    desc: Generate go.mod
     cmds:
-      - gomarkdoc ./pkg/armies
-      - gomarkdoc ./pkg/indexes
-      - gomarkdoc ./internal/handlers
+      - chmod u+x ./scripts/gomod.sh
+      - ./scripts/gomod.sh
 
   invoke:
     desc: Invoke lambda function locally
     cmds:
-      - serverless invoke local --function indexes -d '{}'
-      - serverless invoke local --function armies -d '{}'
+      - serverless invoke local --function armies -d '{"hello":"there"}'
