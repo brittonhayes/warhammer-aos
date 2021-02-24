@@ -56,4 +56,4 @@ tasks:
     desc: Invoke lambda function locally
     cmds:
       - sls invoke local --function indexes -d "{}"
-      - sls invoke local --function armies -p armies.test.json
+      - sls invoke local --function armies --path ./armies.test.json

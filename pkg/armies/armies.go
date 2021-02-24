@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"regexp"
 	"strings"
 	"sync"
 
@@ -122,8 +123,15 @@ func readJSON() Armies {
 }
 
 func (a Army) find(name string) (*Army, error) {
-	name = strings.ReplaceAll(name, "/", "")
 	name = sanitize.Path(name)
+	name = strings.ReplaceAll(name, "-", "_")
+	ok, err := regexp.MatchString("[a-z-]", name)
+	if !ok {
+		err = errors.Wrapf(err, "failed to match %s", name)
+		return nil, err
+	}
+
+	log.Println("Attempting to find", name)
 	b, err := warhammer.Files.ReadFile(warhammer.DataDir + "/" + name + ".json")
 	if err != nil {
 		err = errors.Wrapf(err, "failed to find %s", name)
@@ -183,7 +191,6 @@ func Find() func(ctx *fiber.Ctx) error {
 	var a Army
 	return func(ctx *fiber.Ctx) error {
 		name := ctx.Params("name")
-		log.Println("Attempting to find ", name)
 		army, err := a.find(name)
 		if err != nil {
 			return ctx.SendString(ErrNotFound)
