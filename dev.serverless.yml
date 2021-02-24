@@ -1,0 +1,45 @@
+app: warhammer-aos
+service: warhammer-aos-service
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: go1.x
+  stage: dev
+  lambdaHashingVersion: 20201221
+  apiGateway:
+    shouldStartNameWithService: true
+
+plugins:
+  - serverless-domain-manager
+
+package:
+  exclude:
+    - ./**
+  include:
+    - ./bin/**
+
+custom:
+  customDomain:
+    domainName: dev.aos-api.com
+    certificateName: dev.aos-api.com
+    stage: ${self:provider.stage}
+    createRoute53Record: false
+    enabled: true
+    endpointType: 'edge'
+    securityPolicy: tls_1_2
+
+functions:
+  indexes:
+    handler: ./bin/indexes
+    events:
+      - http:
+          path: ""
+          method: GET
+  armies:
+    handler: ./bin/armies
+    events:
+      - http:
+          path: armies
+          method: GET

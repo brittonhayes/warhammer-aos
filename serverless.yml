@@ -1,11 +1,12 @@
-service: http-service
 app: warhammer-aos
+service: warhammer-aos-service
 
 frameworkVersion: '2'
 
 provider:
   name: aws
   runtime: go1.x
+  stage: prod
   lambdaHashingVersion: 20201221
   apiGateway:
     shouldStartNameWithService: true
@@ -27,7 +28,6 @@ custom:
     createRoute53Record: false
     enabled: true
     endpointType: 'edge'
-    basePath: api
     securityPolicy: tls_1_2
 
 functions:
@@ -35,7 +35,7 @@ functions:
     handler: ./bin/indexes
     events:
       - http:
-          path: indexes
+          path: ""
           method: GET
   armies:
     handler: ./bin/armies

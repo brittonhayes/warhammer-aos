@@ -84,13 +84,13 @@ type Ability struct {
 }
 
 func readJSON() Armies {
-	folder, err := warhammer.Files.ReadDir("data/json")
+	folder, err := warhammer.Files.ReadDir(warhammer.DataDir)
 	if err != nil {
 		log.Fatal(errors.Wrap(err, "failed to read json directory"))
 	}
 	var armies []Army
 	for _, file := range folder {
-		b, err := warhammer.Files.ReadFile("data/json/" + file.Name())
+		b, err := warhammer.Files.ReadFile(warhammer.DataDir + "/" + file.Name())
 		if err != nil {
 			log.Fatal(errors.Wrap(err, "failed to read file"))
 			return nil
