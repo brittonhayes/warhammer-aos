@@ -11,6 +11,7 @@ import (
 	warhammer "github.com/brittonhayes/warhammer-aos"
 	"github.com/brittonhayes/warhammer-aos/internal/handlers"
 	"github.com/gofiber/fiber/v2"
+	"github.com/kennygrant/sanitize"
 	"github.com/pkg/errors"
 	"github.com/tidwall/gjson"
 )
@@ -121,7 +122,8 @@ func readJSON() Armies {
 }
 
 func (a Army) find(name string) (*Army, error) {
-	name = strings.ReplaceAll(name, "-", "_")
+	name = strings.ReplaceAll(name, "/", "")
+	name = sanitize.Path(name)
 	b, err := warhammer.Files.ReadFile(warhammer.DataDir + "/" + name + ".json")
 	if err != nil {
 		err = errors.Wrapf(err, "failed to find %s", name)
@@ -177,10 +179,11 @@ func List() func(ctx *fiber.Ctx) error {
 // Find returns an http response all of the
 // armies as a JSON
 func Find() func(ctx *fiber.Ctx) error {
-	log.Println("Attempting to find ")
+
 	var a Army
 	return func(ctx *fiber.Ctx) error {
 		name := ctx.Params("name")
+		log.Println("Attempting to find ", name)
 		army, err := a.find(name)
 		if err != nil {
 			return ctx.SendString(ErrNotFound)
