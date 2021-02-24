@@ -27,6 +27,7 @@ custom:
     createRoute53Record: false
     enabled: true
     endpointType: 'edge'
+    basePath: api
     securityPolicy: tls_1_2
 
 functions:
@@ -34,7 +35,7 @@ functions:
     handler: ./bin/indexes
     events:
       - http:
-          path: /
+          path: indexes
           method: GET
   armies:
     handler: ./bin/armies
