@@ -38,18 +38,16 @@ type Army struct {
 
 // Unit is an individual unit in Warhammer
 type Unit struct {
-	Name string `json:"name"`
-	Size string `json:"size"`
-	// TODO re-implement these fields after json inconsistencies are fixed
-
-	// Move          string          `json:"move"`
-	// Save          string          `json:"save"`
-	// Bravery       string          `json:"bravery"`
-	// Wounds        string          `json:"wounds"`
-	// MissileWeapon []MissileWeapon `json:"missile_weapon,omitempty"`
-	// MeleeWeapon   []MissileWeapon `json:"melee_weapon,omitempty"`
-	// Abilities     []Ability       `json:"abilities"`
-	// Keywords      []string        `json:"keywords"`
+	Name          string          `json:"name"`
+	Size          string          `json:"size"`
+	Move          string          `json:"move"`
+	Save          string          `json:"save"`
+	Bravery       string          `json:"bravery"`
+	Wounds        string          `json:"wounds"`
+	MissileWeapon []MissileWeapon `json:"missile_weapon,omitempty"`
+	MeleeWeapon   []MissileWeapon `json:"melee_weapon,omitempty"`
+	Abilities     []Ability       `json:"abilities"`
+	Keywords      []string        `json:"keywords"`
 }
 
 // MissileWeapon is a weapon that is used
@@ -84,13 +82,13 @@ type Ability struct {
 }
 
 func readJSON() Armies {
-	folder, err := warhammer.Files.ReadDir("data/json")
+	folder, err := warhammer.Files.ReadDir(warhammer.DataDir)
 	if err != nil {
 		log.Fatal(errors.Wrap(err, "failed to read json directory"))
 	}
 	var armies []Army
 	for _, file := range folder {
-		b, err := warhammer.Files.ReadFile("data/json/" + file.Name())
+		b, err := warhammer.Files.ReadFile(warhammer.DataDir + "/" + file.Name())
 		if err != nil {
 			log.Fatal(errors.Wrap(err, "failed to read file"))
 			return nil

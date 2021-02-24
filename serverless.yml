@@ -1,11 +1,12 @@
-service: http-service
 app: warhammer-aos
+service: warhammer-aos-service
 
 frameworkVersion: '2'
 
 provider:
   name: aws
   runtime: go1.x
+  stage: prod
   lambdaHashingVersion: 20201221
   apiGateway:
     shouldStartNameWithService: true
@@ -34,7 +35,7 @@ functions:
     handler: ./bin/indexes
     events:
       - http:
-          path: /
+          path: ""
           method: GET
   armies:
     handler: ./bin/armies
