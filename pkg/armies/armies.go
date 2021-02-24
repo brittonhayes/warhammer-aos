@@ -42,14 +42,14 @@ type Unit struct {
 	Size string `json:"size"`
 	// TODO re-implement these fields after json inconsistencies are fixed
 
-	// Move          string          `json:"move"`
-	// Save          string          `json:"save"`
-	// Bravery       string          `json:"bravery"`
-	// Wounds        string          `json:"wounds"`
-	// MissileWeapon []MissileWeapon `json:"missile_weapon,omitempty"`
-	// MeleeWeapon   []MissileWeapon `json:"melee_weapon,omitempty"`
-	// Abilities     []Ability       `json:"abilities"`
-	// Keywords      []string        `json:"keywords"`
+	Move          string          `json:"move"`
+	Save          string          `json:"save"`
+	Bravery       string          `json:"bravery"`
+	Wounds        string          `json:"wounds"`
+	MissileWeapon []MissileWeapon `json:"missile_weapon,omitempty"`
+	MeleeWeapon   []MissileWeapon `json:"melee_weapon,omitempty"`
+	Abilities     []Ability       `json:"abilities"`
+	Keywords      []string        `json:"keywords"`
 }
 
 // MissileWeapon is a weapon that is used
