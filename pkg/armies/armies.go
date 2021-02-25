@@ -3,7 +3,6 @@ package armies
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"regexp"
 	"strings"
@@ -14,7 +13,6 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/kennygrant/sanitize"
 	"github.com/pkg/errors"
-	"github.com/tidwall/gjson"
 )
 
 var (
@@ -23,7 +21,7 @@ var (
 )
 
 var (
-	ErrNotFound    = map[string]string{"message": "Resource could not be found"}
+	ErrNotFound = map[string]string{"message": "Resource could not be found"}
 	// ErrInvalidPath = map[string]string{"type": "error", "message": "invalid path"}
 )
 
@@ -148,15 +146,6 @@ func (a Army) find(name string) (*Army, error) {
 	}
 
 	return &a, nil
-}
-
-func (a *Army) unit(name string) string {
-	b, err := json.Marshal(a)
-	if err != nil {
-		panic(err)
-	}
-
-	return gjson.Get(string(b), fmt.Sprintf(`units.#(name=="%s")#`, name)).String()
 }
 
 // reply returns an army formatted as an

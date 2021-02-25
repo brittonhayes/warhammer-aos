@@ -4,37 +4,65 @@ includes:
   win: ./Taskfile_windows.yml
 
 tasks:
-
-  validate:
-    desc: Validate JSON files against schema
-    summary: |
-      Validate your JSON files against the schema
-
-      This ensures that we've got consistency between data sources across
-      the repository.
+  default:
+    desc: Default tasks
     cmds:
-      - ajv validate -s schema.json -d "./data/armies/*.json" --strict=false
+      - task: setup
+      - task: lint
+      - task: build
 
   build:
+    desc: Build binaries and package up application
+    cmds:
+      - task: build:go
+      - task: build:pkg
+
+  build:go:
     desc: Build Go binary for multiple distributions
     cmds:
       - env GOOS=linux go build -o bin/armies lambda/armies/main.go
       - env GOOS=linux go build -o bin/indexes lambda/indexes/main.go
+      - env GOOS=linux go build -o bin/robots lambda/robots/main.go
+    sources:
+      - ./**/*.go
+    generates:
+      - bin/armies
+      - bin/indexes
 
-  lint:
-    desc: Lint code for quality controls
+  build:pkg:
+    desc: Package up application
+    cmds:
+      - sls package
+
+  test:
+    desc: Run all tests
+    cmds:
+      - task: test:lint
+      - task: test:go
+      - task: test:json
+
+  test:lint:
+    desc: Test code for stylistic errors
     cmds:
       - golangci-lint run ./...
 
-  test:
-    desc: Run the test suite
+  test:go:
+    desc: Test methods with suite
     cmds:
       - go test -v ./...
 
-  clean:
-    desc: Clean up resources
+  test:json:
+    desc: Test JSON files against schema
     cmds:
-      - rm -rf ./bin ./vendor go.sum
+      - ajv validate -s schema.json -d "./data/armies/*.json" --strict=false
+
+  invoke:
+    desc: Invoke lambda function locally
+    cmds:
+      - sls invoke local --function indexes -d "{}"
+      - sls invoke local --function robots -d "{}"
+      - sls invoke local --function armies -d "{}"
+      - sls invoke local --function armies-name --path ./armies.test.json
 
   deploy:
     desc: Deploy serverless functions
@@ -46,15 +74,3 @@ tasks:
     cmds:
       - sls deploy
 
-  gomodgen:
-    desc: Generate go.mod
-    cmds:
-      - chmod u+x ./scripts/gomod.sh
-      - ./scripts/gomod.sh
-
-  invoke:
-    desc: Invoke lambda function locally
-    cmds:
-      - sls invoke local --function indexes -d "{}"
-      - sls invoke local --function armies -d "{}"
-      - sls invoke local --function armies --path ./armies.test.json
