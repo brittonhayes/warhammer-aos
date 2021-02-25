@@ -7,6 +7,7 @@ provider:
   name: aws
   runtime: go1.x
   stage: dev
+  versionFunctions: false
   lambdaHashingVersion: 20201221
   apiGateway:
     shouldStartNameWithService: true
@@ -14,6 +15,7 @@ provider:
 plugins:
   - serverless-domain-manager
   - serverless-api-gateway-throttling
+  - serverless-prune-plugin
 
 package:
   exclude:
@@ -39,6 +41,13 @@ custom:
     maxConcurrentRequests: 500
 
 functions:
+  robots:
+    handler: ./bin/robots
+    events:
+      - http:
+          path: robots.txt
+          method: GET
+
   indexes:
     handler: ./bin/indexes
     events:
