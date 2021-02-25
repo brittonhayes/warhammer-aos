@@ -10,6 +10,7 @@ type Index string
 const (
 	RootIndex   Index = "/api"
 	ArmiesIndex Index = "/api/armies"
+	ArmiesParamIndex Index = "/api/armies/{name}"
 )
 
 // List lists out the the available API routes
@@ -17,6 +18,7 @@ func (i Index) List() []string {
 	return []string{
 		"/api",
 		"/api/armies",
+		"/api/armies/{name}",
 	}
 }
 

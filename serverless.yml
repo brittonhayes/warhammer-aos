@@ -13,6 +13,7 @@ provider:
 
 plugins:
   - serverless-domain-manager
+  - serverless-api-gateway-throttling
 
 package:
   exclude:
@@ -20,7 +21,9 @@ package:
   include:
     - ./bin/**
 
+# Custom plugin configurations
 custom:
+  # Domain name configuration
   customDomain:
     domainName: aos-api.com
     certificateName: aos-api.com
@@ -30,6 +33,11 @@ custom:
     endpointType: 'edge'
     securityPolicy: tls_1_2
 
+  # Throttle api requests
+  apiGatewayThrottling:
+    maxRequestsPerSecond: 1000
+    maxConcurrentRequests: 500
+
 functions:
   indexes:
     handler: ./bin/indexes
@@ -37,9 +45,22 @@ functions:
       - http:
           path: ""
           method: GET
+
   armies:
     handler: ./bin/armies
     events:
       - http:
           path: armies
           method: GET
+
+  armies-name:
+    handler: ./bin/armies
+    events:
+      - http:
+          path: armies/{name}
+          method: GET
+          request:
+            parameters:
+              paths:
+                name: true
+

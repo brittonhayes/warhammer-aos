@@ -5,10 +5,14 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"regexp"
+	"strings"
+	"sync"
 
 	warhammer "github.com/brittonhayes/warhammer-aos"
 	"github.com/brittonhayes/warhammer-aos/internal/handlers"
 	"github.com/gofiber/fiber/v2"
+	"github.com/kennygrant/sanitize"
 	"github.com/pkg/errors"
 	"github.com/tidwall/gjson"
 )
@@ -18,10 +22,15 @@ var (
 	_ Service = &Armies{}
 )
 
+var (
+	ErrNotFound    = map[string]string{"message": "Resource could not be found"}
+	// ErrInvalidPath = map[string]string{"type": "error", "message": "invalid path"}
+)
+
 // Service covers all available methods
 // of the Armies package
 type Service interface {
-	Reply() *handlers.Response
+	reply() *handlers.Response
 }
 
 // Armies is a helper type
@@ -87,27 +96,61 @@ func readJSON() Armies {
 		log.Fatal(errors.Wrap(err, "failed to read json directory"))
 	}
 	var armies []Army
-	for _, file := range folder {
-		b, err := warhammer.Files.ReadFile(warhammer.DataDir + "/" + file.Name())
-		if err != nil {
-			log.Fatal(errors.Wrap(err, "failed to read file"))
-			return nil
-		}
+	var wg sync.WaitGroup
 
-		var a Army
-		err = json.Unmarshal(b, &a)
-		if err != nil {
-			// log.Fatal(errors.Wrap(err, "failed to parse JSON for unit"))
-			// return nil
-			panic(err)
-		}
-		armies = append(armies, a)
+	// Iterate over all files in armies folder
+	// and join them into one slice
+	for _, file := range folder {
+		wg.Add(1)
+		file := file
+
+		// Open a new goroutine for each
+		go func() {
+			b, err := warhammer.Files.ReadFile(warhammer.DataDir + "/" + file.Name())
+			if err != nil {
+				panic(errors.Wrap(err, "failed to read file"))
+			}
+
+			var a Army
+			err = json.Unmarshal(b, &a)
+			if err != nil {
+				panic(errors.Wrap(err, "failed to parse JSON for unit"))
+			}
+			armies = append(armies, a)
+			wg.Done()
+		}()
 	}
 
+	wg.Wait()
 	return armies
 }
 
-func (a *Army) Unit(name string) string {
+func (a Army) find(name string) (*Army, error) {
+	name = sanitize.Path(name)
+	name = strings.ReplaceAll(name, "-", "_")
+	ok, err := regexp.MatchString("[a-z-]", name)
+	if !ok {
+		err = errors.Wrapf(err, "failed to match %s", name)
+		return nil, err
+	}
+
+	log.Println("Attempting to find", name)
+	b, err := warhammer.Files.ReadFile(warhammer.DataDir + "/" + name + ".json")
+	if err != nil {
+		err = errors.Wrapf(err, "failed to find %s", name)
+		return nil, err
+	}
+
+	err = json.Unmarshal(b, &a)
+	if err != nil {
+		err = errors.Wrap(err, "failed to parse JSON for unit")
+		panic(err)
+	}
+
+	return &a, nil
+}
+
+func (a *Army) unit(name string) string {
 	b, err := json.Marshal(a)
 	if err != nil {
 		panic(err)
@@ -116,30 +159,45 @@ func (a *Army) Unit(name string) string {
 	return gjson.Get(string(b), fmt.Sprintf(`units.#(name=="%s")#`, name)).String()
 }
 
-// Reply returns an army formatted as an
+// reply returns an army formatted as an
 // API response
-func (a *Army) Reply() *handlers.Response {
+func (a *Army) reply() *handlers.Response {
 	return &handlers.Response{
 		Count: 1,
-		Data:  a.Units,
+		Data:  a,
 	}
 }
 
 // Reply returns a list of armies formatted
 // as an API response
-func (a *Armies) Reply() *handlers.Response {
+func (a *Armies) reply() *handlers.Response {
 	return &handlers.Response{
 		Count: len(*a),
 		Data:  a,
 	}
 }
 
-// Handler returns an http response all of the
+// List returns an http response all of the
 // armies as a JSON
-func Handler() func(ctx *fiber.Ctx) error {
+func List() func(ctx *fiber.Ctx) error {
 	armies := readJSON()
-	response := armies.Reply()
+	response := armies.reply()
 	return func(ctx *fiber.Ctx) error {
 		return ctx.JSON(response)
+	}
+}
+
+// Find returns an http response all of the
+// armies as a JSON
+func Find() func(ctx *fiber.Ctx) error {
+	var a Army
+	return func(ctx *fiber.Ctx) error {
+		name := ctx.Params("name")
+		army, err := a.find(name)
+		if err != nil {
+			return ctx.Status(404).JSON(ErrNotFound)
+		}
+
+		return ctx.JSON(army.reply())
 	}
 }
