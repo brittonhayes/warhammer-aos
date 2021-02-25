@@ -18,8 +18,8 @@ tasks:
   build:
     desc: Build Go binary for multiple distributions
     cmds:
-      - go build -o bin/armies lambda/armies/main.go
-      - go build -o bin/indexes lambda/indexes/main.go
+      - env GOOS=linux go build -o bin/armies lambda/armies/main.go
+      - env GOOS=linux go build -o bin/indexes lambda/indexes/main.go
 
   lint:
     desc: Lint code for quality controls
