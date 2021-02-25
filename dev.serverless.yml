@@ -20,7 +20,9 @@ package:
   include:
     - ./bin/**
 
+# Custom plugin configurations
 custom:
+  # Domain name configuration
   customDomain:
     domainName: dev.aos-api.com
     certificateName: dev.aos-api.com
@@ -29,6 +31,11 @@ custom:
     enabled: true
     endpointType: 'edge'
     securityPolicy: tls_1_2
+
+  # Throttle api requests
+  apiGatewayThrottling:
+    maxRequestsPerSecond: 1000
+    maxConcurrentRequests: 500
 
 functions:
   indexes:
