@@ -18,8 +18,8 @@ tasks:
   build:
     desc: Build Go binary for multiple distributions
     cmds:
-      - export GO111MODULE=on
-      - env GOOS=linux go build -ldflags="-s -w" -o bin/armies armies/main.go
+      - env GOOS=linux go build -o bin/armies lambda/armies/main.go
+      - env GOOS=linux go build -o bin/indexes lambda/indexes/main.go
 
   lint:
     desc: Lint code for quality controls
@@ -39,6 +39,11 @@ tasks:
   deploy:
     desc: Deploy serverless functions
     cmds:
+      - sls deploy -c dev.serverless.yml
+
+  deploy:prod:
+    desc: Deploy production version of serverless functions
+    cmds:
       - sls deploy
 
   gomodgen:
@@ -50,4 +55,6 @@ tasks:
   invoke:
     desc: Invoke lambda function locally
     cmds:
-      - serverless invoke local --function armies -d '{"hello":"there"}'
+      - sls invoke local --function indexes -d "{}"
+      - sls invoke local --function armies -d "{}"
+      - sls invoke local --function armies --path ./armies.test.json

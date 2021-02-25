@@ -13,7 +13,10 @@ import (
 var fiberLambda *fiberadapter.FiberLambda
 
 func init() {
-	fiberLambda = handlers.New().AddRoute("*", armies.Handler()).Build()
+	fiberLambda = handlers.New().
+		AddRoute("*", armies.List()).
+		AddRoute("*/:name", armies.Find()).
+		Build()
 }
 
 func handler(ctx context.Context, req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {

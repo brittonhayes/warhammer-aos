@@ -19,5 +19,8 @@
   "homepage": "https://github.com/brittonhayes/warhammer-aos#readme",
   "dependencies": {
     "serverless-domain-manager": "^5.1.0"
+  },
+  "devDependencies": {
+    "serverless-api-gateway-throttling": "^1.1.0"
   }
 }
