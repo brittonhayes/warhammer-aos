@@ -4,431 +4,813 @@
     {
       "name": "Auric Hearthguard",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "5+",
+      "bravery": "7",
+      "wounds": "2",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Magmapike",
+          "range": "18",
+          "attacks": "2",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Magmapike",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Molten Rockbolts",
+          "desc": "Add 1 to the Damage characteristic for attacks made by Magmapike missile weapons that target Monsters. In addition, if any wounds are inflicted on a Monster by Magmapike missile weapons, roll a dice. On a 4+, until the end of that unit’s next turn, halve that unit’s Move characteristic and subtract 1 from hit rolls for attacks made by that unit. "
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Sworn Protectors",
+          "desc": "Roll a dice each time you allocate a wound or mortal wound to a friendly Fyreslayers Hero that is not mounted on a Magmadroth and is within 3\" of any friendly units with this ability. On a 4+ that wound or mortal wound is negated, and you must choose a friendly unit with this ability that is within 3\" to suffer 1 mortal wound after all wounds or mortal wounds have been allocated to that friendly Hero."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "AURIC HEARTHGUARD"
       ]
     },
     {
       "name": "Auric Runefather",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "4+",
+      "bravery": "8",
+      "wounds": "6",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Latchkey Grandaxe",
+          "range": "3",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "3"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Stare Down",
+          "desc": "In your hero phase, pick an enemy unit within 3\" of this model. Subtract D3 from that unit’s Bravery characteristic until the start of your next hero phase. "
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Weapon-Breaker",
+          "desc": "At the end of the combat phase pick an enemy Hero within 3\" of this model and roll a dice. On a 6, pick one of the melee weapons that model is armed with. Subtract 1 from hit rolls for attacks made with that weapon for the rest of the battle. You cannot pick the same weapon to be affected by this ability more than once per battle."
+        }
+      ],
+      "command_abilites": [
+        {
+          "name": "Lodge Leader",
+          "desc": "You can use this command ability at the start of the charge phase. If you do so, pick a friendly model with this command ability. Add 1 charge rolls for friendly Fyreslayers units wholly within 12\" of that model until the end of that phase."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "HERO",
+        "AURIC RUNEFATHER"
       ]
     },
     {
       "name": "Auric Runefather on Magmadroth",
       "size": "120 x 92 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "See Damage Table",
+      "save": "4+",
+      "bravery": "8",
+      "wounds": "14",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Roaring Fyrestream",
+          "range": "12",
+          "attacks": "See Roaring Fyrestream Ability",
+          "to_hit": "See Roaring Fyrestream Ability",
+          "to_wound": "See Roaring Fyrestream Ability",
+          "rend": "See Roaring Fyrestream Ability",
+          "damage": "See Roaring Fyrestream Ability"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Claws and Horns",
+          "range": "1",
+          "attacks": "See Damage Table",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
+        },
+        {
+          "name": "Blazing Maw",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "Latchkey Grandaxe",
+          "range": "3",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "3"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Roaring Fyrestream",
+          "desc": "Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the damage table above. If the roll is equal to or less than the number of models in the target unit, that unit suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target unit, and the target unit is within 6\" of this model, the target unit suffers D6 mortal wounds instead."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Lashing Tail",
+          "desc": "At the end of the combat phase, roll a dice for each enemy unit within 3\" of this model. If the roll is less than the number of models in that unit, it suffers D3 mortal wounds. "
+        },
+        {
+          "name": "Volcanic Blood",
+          "desc": "Roll a dice each time a wound is allocated to this model that was inflicted by a melee weapon. On a 4+ the attacking unit suffers 1 mortal wound."
+        },
+        {
+          "name": "Stare Down",
+          "desc": "In your hero phase, pick an enemy unit within 3\" of this model. Subtract D3 from that unit’s Bravery characteristic until the start of your next hero phase. "
+        },
+        {
+          "name": "Weapon-breaker",
+          "desc": "At the end of the combat phase, pick an enemy Hero within 3\" of this model and roll a dice. On a 6, pick one of the melee weapons that model is armed with. Subtract 1 from hit rolls for attacks made with that weapon for the rest of the battle. You cannot pick the same weapon to be affected by this ability more than once per battle."
+        }
+      ],
+      "command_abilites": [
+        {
+          "name": "Steadfast Advance",
+          "desc": "You can use this command ability at the start of your hero phase. If you do so, pick a friendly model with this command ability. Until the start of your next hero phase, do not take battleshock tests for friendly Fyreslayers units while they are wholly within 18\" of that model."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "claws_and_horns": "6",
+          "move": "12",
+          "roaring_fyrestream": "D6",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "claws_and_horns": "5",
+          "move": "10",
+          "roaring_fyrestream": "D6",
+          "min_wounds_suffered": "4"
+        },
+        {
+          "wound_track_position": "3",
+          "claws_and_horns": "4",
+          "move": "8",
+          "roaring_fyrestream": "2D6",
+          "min_wounds_suffered": "7"
+        },
+        {
+          "wound_track_position": "4",
+          "claws_and_horns": "3",
+          "move": "6",
+          "roaring_fyrestream": "2D6",
+          "min_wounds_suffered": "10"
+        },
+        {
+          "wound_track_position": "5",
+          "claws_and_horns": "2",
+          "move": "4",
+          "roaring_fyrestream": "3D6",
+          "min_wounds_suffered": "13"
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "MAGMADROTH",
+        "FYRESLAYERS",
+        "MONSTER",
+        "HERO",
+        "AURIC RUNEFATHER"
       ]
     },
     {
       "name": "Auric Runemaster",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "4+",
+      "bravery": "8",
+      "wounds": "6",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Brazier-staff",
+          "range": "2",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "D3"
+        },
+        {
+          "name": "Runic Iron",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Holy Seeker",
+          "desc": "In your hero phase, you can pick 1 enemy unit within 12\" of this model and roll 2 dice. If you roll at least one 6, for the rest of the battle, you can re-roll hit rolls of 1 for attacks made by friendly Fyreslayers units that target that unit. If you roll two or more 6s, for the rest of the battle, you can re-roll hit and wound rolls of 1 for attacks made by friendly Fyreslayers units that target that unit instead."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Volcano's Call",
+          "desc": "At the start of your hero phase, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a terrain feature within 18\" of this model. Roll a dice for each model within 1\" of that terrain feature. For each roll of a 6, that model’s unit suffers 1 mortal wound. In addition, until your next hero phase, that terrain feature has the ‘Deadly’ scenery rule in addition to any other scenery rules it may have."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "HERO",
+        "PRIEST",
+        "AURIC RUNEMASTER"
       ]
     },
     {
       "name": "Auric Runesmiter",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "5+",
+      "bravery": "7",
+      "wounds": "5",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Latch-axe",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "2"
+        },
+        {
+          "name": "Runic Iron",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Magmic Tunnelling",
+          "desc": "Instead of setting up this model on the battlefield, you can place this model to one side and say that it is set up underground as a reserve unit. If you do so, when you would set up another friendly Fyreslayers unit, instead of setting up that unit on the battlefield, you can say that it is joining this model underground as a reserve unit. 1 unit can join this model in this way. At the end of your movement phase, you can set up this model anywhere on the battlefield, more than 9\" from any enemy units; then set up any unit that joined this model wholly within 12\" of this model and more than 9\" from any enemy units. Any reserve units underground that are not set up on the battlefield before the start of the fourth battle round are destroyed."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Runic Empowerment",
+          "desc": "At the start of your hero phase, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly Fyreslayers unit wholly within 12\" of this model, or wholly within 18\" of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that unit until the start of your next hero phase."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "HERO",
+        "PRIEST",
+        "AURIC RUNESMITER"
       ]
     },
     {
       "name": "Auric Runesmiter on Magmadroth",
       "size": "120 x 92 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "See Damage Table",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "14",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Roaring Fyrestream",
+          "range": "12",
+          "attacks": "See Roaring Fyrestream Ability",
+          "to_hit": "See Roaring Fyrestream Ability",
+          "to_wound": "See Roaring Fyrestream Ability",
+          "rend": "See Roaring Fyrestream Ability",
+          "damage": "See Roaring Fyrestream Ability"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Claws and Horns",
+          "range": "1",
+          "attacks": "See Damage Table",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
+        },
+        {
+          "name": "Blazing Maw",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "Latch-axe",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "2"
+        },
+        {
+          "name": "Runic Iron",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Roaring Fyrestream",
+          "desc": "Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the damage table above. If the roll is equal to or less than the number of models in the target unit, that unit suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target unit, and the target unit is within 6\" of this model, the target unit suffers D6 mortal wounds instead."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Lashing Tail",
+          "desc": "At the end of the combat phase, roll a dice for each enemy unit within 3\" of this model. If the roll is less than the number of models in that unit, it suffers D3 mortal wounds."
+        },
+        {
+          "name": "Volcanic Blood",
+          "desc": "Roll a dice each time a wound is allocated to this model that was inflicted by a melee weapon. On a 4+ the attacking unit suffers 1 mortal wound"
+        },
+        {
+          "name": "Great Ritual of Awakening",
+          "desc": "Once per battle, during your hero phase, you can say this model has consumed a nugget of ur-gold. If you do so, add 1 to save rolls for attacks that target friendly Fyreslayers units wholly within 12\" of this model until the start of your next hero phase."
+        },
+        {
+          "name": "Runic Empowerment",
+          "desc": "At the start of your hero phase, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly Fyreslayers unit wholly within 12\" of this model, or wholly within 18\" of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that unit until the start of your next hero phase."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "claws_and_horns": "6",
+          "move": "12",
+          "roaring_fyrestream": "D6",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "claws_and_horns": "5",
+          "move": "10",
+          "roaring_fyrestream": "D6",
+          "min_wounds_suffered": "4"
+        },
+        {
+          "wound_track_position": "3",
+          "claws_and_horns": "4",
+          "move": "8",
+          "roaring_fyrestream": "2D6",
+          "min_wounds_suffered": "7"
+        },
+        {
+          "wound_track_position": "4",
+          "claws_and_horns": "3",
+          "move": "6",
+          "roaring_fyrestream": "2D6",
+          "min_wounds_suffered": "10"
+        },
+        {
+          "wound_track_position": "5",
+          "claws_and_horns": "2",
+          "move": "4",
+          "roaring_fyrestream": "3D6",
+          "min_wounds_suffered": "13"
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "MAGMADROTH",
+        "FYRESLAYERS",
+        "MONSTER",
+        "HERO",
+        "PRIEST",
+        "AURIC RUNESMITER"
       ]
     },
     {
       "name": "Auric Runeson",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "5",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Wyrmslayer Javelin",
+          "range": "12",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "D3"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Ancestral War-axe",
+          "range": "1",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "D3"
+        },
+        {
+          "name": "Wyrmslayer Javelin",
+          "range": "3",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Vying for glory",
+          "desc": "You can re-roll hit rolls for attacks made by this model if there are any other friendly Auric Runesons within 6\" of this model"
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Wyrmslayer Javelin",
+          "desc": "Add 2 to the Damage characteristic for attacks made with this model’s Wyrmslayer Javelins that target a Monster. "
+        }
+      ],
+      "command_abilites": [
+        {
+          "name": "Dauntless Assault",
+          "desc": "You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Add 1 to wound rolls for attacks made by friendly Fyreslayers units wholly within 12\" of that model until the end of that phase."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "HERO",
+        "AURIC RUNESON"
       ]
     },
     {
       "name": "Auric Runeson on Magmadroth",
       "size": "120 x 92 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "See Damage Table",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "14",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Wyrmslayer Javelin",
+          "range": "12",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "D3"
+        },
+        {
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Roaring Fyrestorm",
+          "range": "12",
+          "attacks": "See Roaring Fyrestorm Ability",
+          "to_hit": "See Roaring Fyrestorm Ability",
+          "to_wound": "See Roaring Fyrestorm Ability",
+          "rend": "See Roaring Fyrestorm Ability",
+          "damage": "See Roaring Fyrestorm Ability"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Claws and Horns",
+          "range": "1",
+          "attacks": "See Damage Table",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
+        },
+        {
+          "name": "Blazing Maw",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "Latch-axe",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "2"
+        },
+        {
+          "name": "Runic Iron",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Roaring Fyrestream",
+          "desc": "Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the damage table above. If the roll is equal to or less than the number of models in the target unit, that unit suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target unit, and the target unit is within 6\" of this model, the target unit suffers D6 mortal wounds instead."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Lashing Tail",
+          "desc": "At the end of the combat phase, roll a dice for each enemy unit within 3\" of this model. If the roll is less than the number of models in that unit, it suffers D3 mortal wounds."
+        },
+        {
+          "name": "Volcanic Blood",
+          "desc": "Roll a dice each time a wound is allocated to this model that was inflicted by a melee weapon. On a 4+ the attacking unit suffers 1 mortal wound"
+        },
+        {
+          "name": "Vying for glory",
+          "desc": "You can re-roll hit rolls for attacks made by this model if there are any other friendly Auric Runesons within 6\" of this model"
+        },
+        {
+          "name": "Wyrmslayer Javelin",
+          "desc": "Add 2 to the Damage characteristic for attacks made with this model’s Wyrmslayer Javelins that target a Monster. "
+        }
+      ],
+      "command_abilites":[
+        {
+          "name": "Molten Battering Ram",
+          "desc": "You can use this command ability at the start of your charge phase. If you do so, pick 1 friendly Magmadroth that is within 12\" of a friendly model with this command ability. After that unit makes a charge move in that charge phase, you can pick 1 enemy unit within 1\" of that model and roll a dice. On a 2+ that enemy unit suffers D6 mortal wounds. The same unit cannot be picked to be affected by this command ability more than once per phase."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "claws_and_horns": "6",
+          "move": "12",
+          "roaring_fyrestream": "D6",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "claws_and_horns": "5",
+          "move": "10",
+          "roaring_fyrestream": "D6",
+          "min_wounds_suffered": "4"
+        },
+        {
+          "wound_track_position": "3",
+          "claws_and_horns": "4",
+          "move": "8",
+          "roaring_fyrestream": "2D6",
+          "min_wounds_suffered": "7"
+        },
+        {
+          "wound_track_position": "4",
+          "claws_and_horns": "3",
+          "move": "6",
+          "roaring_fyrestream": "2D6",
+          "min_wounds_suffered": "10"
+        },
+        {
+          "wound_track_position": "5",
+          "claws_and_horns": "2",
+          "move": "4",
+          "roaring_fyrestream": "3D6",
+          "min_wounds_suffered": "13"
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "MAGMADROTH",
+        "FYRESLAYERS",
+        "MONSTER",
+        "HERO",
+        "AURIC RUNESON"
       ]
     },
     {
       "name": "Battlesmith",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "5",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Ancestral Battle Axe",
+          "range": "1",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Icon of Grimnir",
+          "desc": "In your hero phase, you can say that this model is raising its icon of Grimnir. If it does so, add 1 to save rolls for attacks that target friendly Fyreslayers units wholly within 12\" of this model until the start of your next hero phase. However, if you do so, until the start of your next hero phase, friendly Fyreslayers units wholly within 12\" of this model cannot retreat."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "None Shall Defile the Icon",
+          "desc": "If this model is slain, before it is removed from play, friendly Fyreslayers units wholly within 12\" of this model can swear to protect the fallen icon. If a unit does so, that unit cannot make normal moves and charge moves for the rest of the battle, but you can re-roll hit and wound rolls for attacks made with melee weapons by that unit."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "HERO",
+        "TOTEM",
+        "BATTLESMITH"
       ]
     },
     {
       "name": "Doomseeker",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "4+",
+      "bravery": "8",
+      "wounds": "5",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Runic War-iron",
+          "range": "1",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Doomseeker Axe",
+          "range": "1",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Oathbound",
+          "desc": "At the start of the first battle round, pick 1 enemy unit that this model has sworn to destroy. At the end of the combat phase, if this model is within 3\" of that unit, this model can make a pile-in move and then attack with all the melee weapons it is armed with."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Runic Power",
+          "desc": "Add 1 to the Damage characteristic of this model’s melee weapons if it has 1 wound allocated to it. Add 2 to the Damage characteristic of this model’s melee weapons instead if it has 2 or more wounds allocated to it."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "HERO",
+        "DOOMSEEKER"
       ]
     },
     {
@@ -438,212 +820,261 @@
       "save": "",
       "bravery": "",
       "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Latchkey Grandaxe",
+          "range": "3",
+          "attacks": "3",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "3"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Grimnir's Blessing",
+          "desc": "Roll a dice each time you allocate a wound or mortal wound to Fjul-Grimnir while this model is within 3\" of a friendly Chosen Axes unit. On a 5+ that wound or mortal wound is negated."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Stare Down",
+          "desc": "In your hero phase, pick an enemy unit within 3\" of this model. Subtract D3 from that unit’s Bravery characteristic until the start of your next hero phase."
+        },
+        {
+          "name": "Weapon-breaker",
+          "desc": "At the end of the combat phase, pick an enemy Hero within 3\" of this model and roll a dice. On a 6, pick one of the melee weapons that model is armed with. Subtract 1 from hit rolls for attacks made with that weapon for the rest of the battle. You cannot pick the same weapon to be affected by this ability more than once per battle. "
+        }
+      ],
+      "command_abilites": [
+        {
+          "name": "Honour Our Oaths",
+          "desc": "You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that phase, add 1 to hit rolls for attacks made by friendly Vostarg units while they are wholly within 12\" of that model. The same unit cannot be picked to be affected by this command ability more than once per phase."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "VOSTARG",
+        "HERO",
+        "AURIC RUNEFATHER",
+        "FJUL-GRIMNIR"
       ]
     },
     {
       "name": "Grimwrath Berzerker",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "4+",
+      "bravery": "9",
+      "wounds": "6",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyrestorm Greataxe",
+          "range": "1",
+          "attacks": "4",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "2"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Unstoppable Berzerker",
+          "desc": "Roll a dice each time you allocate a wound or mortal wound to this model. Add 1 to the roll if there are any enemy units within 3\" of this model. On a 6+ that wound or mortal wound is negated."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Battle-fury",
+          "desc": "At the end of the combat phase, if this model is within 3\" of an enemy unit, roll a dice. On a 2+ make a pile in move with this model, and then attack with all the melee weapons this model is armed with."
+        },
+        {
+          "name": "Dead, But Not Defeated",
+          "desc": "If this model is slain, before it is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with"
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "HERO",
+        "HERO",
+        "GRIMWRATH BERZERKER"
       ]
     },
     {
       "name": "Hearthguard Berzerkers",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "5+",
+      "bravery": "8",
+      "wounds": "2",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Berzerker Broadaxe",
+          "range": "2",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
+        },
+        {
+          "name": "Flamestrike Poleaxe",
+          "range": "2",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Duty Unto Death",
+          "desc": "Roll a dice each time you allocate a wound or mortal wound to this unit. Add 2 to the roll if there are any friendly Fyreslayers Heroes within 10\" of this unit. On a 6+ that wound or mortal wound is negated."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Smouldering Braziers",
+          "desc": "If the unmodified hit roll for an attack made with a Flamestrike Poleaxe is 6, that attack inflicts 2 mortal wounds on the target in addition to any normal damage."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "HEARTHGUARD BERZERKERS"
       ]
     },
     {
       "name": "The Chosen Axes",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
+      "move": "4",
+      "save": "5+",
+      "bravery": "7",
+      "wounds": "2",
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Handaxes",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Fyresteel Great Axe",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "2"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Chosen Kin",
+          "desc": "Add 1 to wound rolls for attacks made by this unit while Fjul-Grimnir is within 3\" of this unit. Do not take battleshock tests for this unit while it is within 3\" of Fjul-Grimnir."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Berserk Fury",
+          "desc": "Once per battle, at the start of the combat phase, you can choose to unleash this unit’s berserk fury. If you do so, until the end of that phase, if a model from this unit is slain, before that model is removed from play, that model can make a pile in move and then attack with all of the melee weapons it is armed with."
+        },
+        {
+          "name": "Fyresteel Handaxes",
+          "desc": "You can re-roll hit rolls for attacks made with a pair of Fyresteel Handaxes."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "VOSTARG",
+        "VULKITE BERZERKERS",
+        "CHOSEN AXES"
       ]
     },
     {
       "name": "Vulkite Berzerkers",
       "size": "32 mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
+      "move": "4",
+      "save": "5+",
+      "bravery": "7",
+      "wounds": "2",
       "missile_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Throwing Axe",
+          "range": "8",
+          "attacks": "1",
+          "to_hit": "5+",
+          "to_wound": "5+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
+          "name": "Fyresteel Handaxes",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Fyresteel War-pick",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-1",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "",
-          "desc": ""
+          "name": "Berzerk Fury",
+          "desc": "Once per battle, at the start of the combat phase, you can choose to unleash this unit’s berserk fury. If you do so, until the end of that phase, if a model from this unit is slain, before that model is removed from play, that model can make a pile-in move and then attack with all of the melee weapons it is armed with."
         },
         {
-          "name": "",
-          "desc": ""
+          "name": "Fyresteel Handaxes",
+          "desc": "You can re-roll hit rolls for attacks made with a pair of Fyresteel Handaxes."
+        },
+        {
+          "name": "Bladed Slingshield",
+          "desc": "After a unit armed with Bladed Slingshields makes a charge move, pick 1 enemy unit and roll a dice for each model from the charging unit within 8\" of that enemy unit. For each 6, the enemy unit suffers 1 mortal wound. In addition, add 1 to save rolls for attacks made with melee weapons that target a unit armed with Bladed Slingshields if the target unit did not make a charge move in the same turn."
         }
       ],
       "keywords": [
-        ""
+        "ORDER",
+        "DUARDIN",
+        "FYRESLAYERS",
+        "VULKITE BERZERKERS"
       ]
     }
   ]
