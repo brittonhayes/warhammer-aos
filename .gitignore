@@ -11,6 +11,7 @@
 *.dylib
 .idea
 dist/
+.task
 
 # Test binary, built with `go test -c`
 *.test
