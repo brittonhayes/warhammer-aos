@@ -13,6 +13,7 @@ provider:
 
 plugins:
   - serverless-domain-manager
+  - serverless-api-gateway-throttling
 
 package:
   exclude:
@@ -44,7 +45,15 @@ functions:
       - http:
           path: ""
           method: GET
+
   armies:
+    handler: ./bin/armies
+    events:
+      - http:
+          path: armies
+          method: GET
+
+  armies-name:
     handler: ./bin/armies
     events:
       - http:

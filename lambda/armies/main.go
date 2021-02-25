@@ -14,8 +14,8 @@ var fiberLambda *fiberadapter.FiberLambda
 
 func init() {
 	fiberLambda = handlers.New().
-		AddRoute("*/:name", armies.Find()).
 		AddRoute("*", armies.List()).
+		AddRoute("*/:name", armies.Find()).
 		Build()
 }
 
