@@ -1,10 +1,6 @@
 name: "Validate JSON"
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+on: [ pull_request ]
 
 jobs:
   json-validation:
@@ -20,5 +16,4 @@ jobs:
       - name: "Validate JSON"
         continue-on-error: true
         run: |
-          ajv test -s schema.json -d "./data/json/*.json" --strict=false --valid | grep '$!"passed test"'
-
+          ajv test -s schema.json -d "./data/**/*.json" --strict=false --valid | grep '$!"passed test"'
