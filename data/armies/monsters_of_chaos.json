@@ -301,6 +301,108 @@
       "keywords": [
         ""
       ]
+    },
+    {
+      "name": "Chaos Gargant",
+      "size": "90 x 52 mm",
+      "move": "See Damage Table",
+      "save": "5+",
+      "bravery": "6",
+      "wounds": "12",
+      "melee_weapon": [
+        {
+          "name": "Vicious 'Eadbutt'",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-3",
+          "damage": "See Damage Table"
+        },
+        {
+          "name": "Massive Club",
+          "range": "3",
+          "attacks": "See Damage Table",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Mighty Kick",
+          "range": "2",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "D3"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Drunken Stagger",
+          "desc": "If a charge roll for this model is a double, this model cannot make a charge move that phase. In addition, the players must roll off. The player who wins the roll-off picks a point on the battlefield 3\" from this model. Each unit within 2\" of that point suffers D3 mortal wounds."
+        },
+        {
+          "name": "Stuff'Em In Me Bag",
+          "desc": "After this model piles in, you can pick 1 enemy model within 3\" of this model and roll a dice. If the roll is equal to or greater than double that model’s Wounds characteristic, it is slain."
+        },
+        {
+          "name": "Whipped into a Frenzy",
+          "desc": "At the start of the combat phase, if this model is within 3\" of any friendly Beasts of Chaos Heroes, you can whip it into a frenzy. If you do so, this model suffers 1 mortal wound, but you can add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase."
+        },
+        {
+          "name": "Timber!",
+          "desc": "If this model is slain, before removing the model from the battlefield the players must roll off. The player who wins the roll-off picks a point on the battlefield 3\" from this model. Each unit within 2\" of that point suffers D3 mortal wounds. This model is then removed from the battlefield."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "move": "8",
+          "massive_club": "3D6",
+          "vicious_'eadbutt": "6",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "move": "6",
+          "massive_club": "2D6",
+          "vicious'eadbutt": "D6",
+          "min_wounds_suffered": "3"
+        },
+        {
+          "wound_track_position": "3",
+          "move": "5",
+          "massive_club": "2D6",
+          "vicious'eadbutt": "D3",
+          "min_wounds_suffered": "5"
+        },
+        {
+          "wound_track_position": "4",
+          "move": "4",
+          "massive_club": "D6",
+          "vicious'eadbutt": "D3",
+          "min_wounds_suffered": "8"
+        },
+        {
+          "wound_track_position": "5",
+          "move": "3",
+          "massive_club": "D6",
+          "vicious'eadbutt": "1",
+          "min_wounds_suffered": "10"
+        }
+        
+      ],
+      "keywords": [
+        "CHAOS",
+        "BEASTS OF CHAOS",
+        "MONSTERS OF CHAOS",
+        "GARGANT",
+        "MONSTER",
+        "CHAOS GARGANT"
+      ]
     }
+    
   ]
 }

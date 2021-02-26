@@ -1,282 +1,338 @@
 {
-  "army": "Beasts of Chaos",
+  "army": "Fyreslayers",
   "units": [
     {
-      "name": "Beastlord",
-      "size": "32mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
+      "name": "Vanari Dawnriders",
+      "size": "60 x 35 mm",
+      "move": "14",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "2",
       "melee_weapon": [
         {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Bestigors",
-      "size": "32mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Bullgors",
-      "size": "50mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Centigors",
-      "size": "60 x 35mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Chaos Gargant",
-      "size": "90 x 52 mm",
-      "move": "See Damage Table",
-      "save": "5+",
-      "bravery": "6",
-      "wounds": "12",
-      "melee_weapon": [
-        {
-          "name": "Vicious 'Eadbutt'",
+          "name": "Guardian's Sword",
           "range": "1",
-          "attacks": "1",
-          "to_hit": "4+",
-          "to_wound": "3+",
-          "rend": "-3",
-          "damage": "See Damage Table"
-        },
-        {
-          "name": "Massive Club",
-          "range": "3",
-          "attacks": "See Damage Table",
+          "attacks": "2",
           "to_hit": "3+",
-          "to_wound": "3+",
+          "to_wound": "4+",
           "rend": "-1",
           "damage": "1"
         },
         {
-          "name": "Mighty Kick",
+          "name": "Sunmetal Lance",
           "range": "2",
           "attacks": "1",
           "to_hit": "3+",
-          "to_wound": "3+",
-          "rend": "-2",
-          "damage": "D3"
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Dashing Hooves",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "4+",
+          "to_wound": "4+",
+          "rend": "-",
+          "damage": "1"
         }
       ],
       "abilites": [
         {
-          "name": "Drunken Stagger",
-          "desc": "If a charge roll for this model is a double, this model cannot make a charge move that phase. In addition, the players must roll off. The player who wins the roll-off picks a point on the battlefield 3\" from this model. Each unit within 2\" of that point suffers D3 mortal wounds."
+          "name": "Deathly Furrows",
+          "desc": "At the start of the combat phase, you can say that this unit will use its Deathly Furrows ability. If you do so, in that phase, you can either add 1 to the Attacks characteristic of this unit’s melee weapons, but it can only target units that have a Wounds characteristic of 1 or 2 and do not have a mount, or you can add 2 to the Attacks characteristic of this unit’s melee weapons, but it can only target units that have a Wounds characteristic of 1 and do not have a mount."
         },
         {
-          "name": "Stuff'Em In Me Bag",
-          "desc": "After this model piles in, you can pick 1 enemy model within 3\" of this model and roll a dice. If the roll is equal to or greater than double that model’s Wounds characteristic, it is slain."
+          "name": "Lances of the Dawn",
+          "desc": "If this unit made a charge move in the same turn, add 1 to wound rolls for attacks made with this unit’s Sunmetal Lances and improve the Rend characteristic of that weapon by 1."
         },
         {
-          "name": "Whipped into a Frenzy",
-          "desc": "At the start of the combat phase, if this model is within 3\" of any friendly Beasts of Chaos Heroes, you can whip it into a frenzy. If you do so, this model suffers 1 mortal wound, but you can add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase."
+          "name": "Sunmetal Weapons",
+          "desc": "If the unmodified hit roll for an attack made with a Sunmetal Lance is 6, that attack inflicts 1 mortal wound on the target and the attack sequence ends (do not make a wound or save roll)."
+        }
+      ],
+      "magic": [
+        {
+          "name": "Power of Hysh",
+          "desc": "Power of Hysh has a casting value of 6. If successfully cast, until your next hero phase, the Sunmetal Weapons ability for the caster and/or the unit they are part of causes mortal wounds to be inflicted on an unmodified hit roll of 5+ instead of 6."
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "AELF",
+        "LUMINETH REALM-LORDS",
+        "VANARI",
+        "DAWNRIDERS"
+      ]
+    },
+    {
+      "name": "Avalenor The Stoneheart King",
+      "size": "100 mm",
+      "move": "6",
+      "save": "3+",
+      "bravery": "10",
+      "wounds": "14",
+      "missile_weapon": [
+        {
+          "name": "Geomantic Blast",
+          "range": "See Damage Table",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D6"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Firestealer Hammers",
+          "range": "2",
+          "attacks": "6",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "See Damage Table"
         },
         {
-          "name": "Timber!",
-          "desc": "If this model is slain, before removing the model from the battlefield the players must roll off. The player who wins the roll-off picks a point on the battlefield 3\" from this model. Each unit within 2\" of that point suffers D3 mortal wounds. This model is then removed from the battlefield."
+          "name": "Cloven Hooves",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "All but Immovable",
+          "desc": "If this model does not make a charge move in your charge phase, add 1 to the Attacks characteristic of this model’s melee weapons until your next movement phase. "
+        },
+        {
+          "name": "Firestealer Hammers",
+          "desc": "If the unmodified hit roll for an attack made with the Firestealer Hammers is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage."
+        },
+        {
+          "name": "Elder Wisdom",
+          "desc": "At the end of your hero phase, you can pick 1 friendly Lumineth Realm-lords Aelf Hero within 6\" of this model. If that Lumineth Realm-lords Aelf Hero is within 6\" of this model at the start of your next hero phase, then that Lumineth Realm-lords Aelf Hero can use a command ability in that turn without spending any command points."
+        },
+        {
+          "name": "Guardian of Hysh",
+          "desc": "Subtract 1 from hit rolls for attacks made by enemy models that are within range of this model’s Guardian of Hysh ability. The range of the Guardian of Hysh ability for this model is shown on the damage table."
+        },
+        {
+          "name": "Stonemage Symbiosis",
+          "desc": "When you look up a value on this model’s damage table, if this model is within 12\" of a friendly Stonemage, this model is treated as if it has suffered 0 wounds."
+        }
+      ],
+      "command_abilites": [
+        {
+          "name": "Unshakeable Faith of the Mountains",
+          "desc": "You can use this command ability at the start of the combat phase. If you do so, pick up to D3 friendly Alarith Aelf units wholly within 24\" of a friendly model with this command ability. Add 1 to the Attacks characteristic of those units’ melee weapons in that combat phase. A unit cannot benefit from this command ability more than once per combat phase, and a unit cannot benefit from this ability and the Faith of the Mountains command ability in the same phase."
         }
       ],
       "damage_table": [
         {
           "wound_track_position": "1",
-          "move": "8",
-          "massive_club": "3D6",
-          "vicious_'eadbutt": "6",
+          "geomantic_blast": "30",
+          "guardian_of_hysh": "12",
+          "firestealer_hammers": "5",
           "min_wounds_suffered": "0"
         },
         {
           "wound_track_position": "2",
-          "move": "6",
-          "massive_club": "2D6",
-          "vicious'eadbutt": "D6",
+          "geomantic_blast": "25",
+          "guardian_of_hysh": "6",
+          "firestealer_hammers": "4",
+          "min_wounds_suffered": "4"
+        },
+        {
+          "wound_track_position": "3",
+          "geomantic_blast": "20",
+          "guardian_of_hysh": "3",
+          "firestealer_hammers": "3",
+          "min_wounds_suffered": "7"
+        },
+        {
+          "wound_track_position": "4",
+          "geomantic_blast": "15",
+          "guardian_of_hysh": "2",
+          "firestealer_hammers": "2",
+          "min_wounds_suffered": "10"
+        },
+        {
+          "wound_track_position": "5",
+          "geomantic_blast": "10",
+          "guardian_of_hysh": "1",
+          "firestealer_hammers": "1",
+          "min_wounds_suffered": "13"
+        }
+      ],
+      "keywords": [
+        "ORDER",
+        "LUMINETH REALM-LORDS",
+        "ALARITH",
+        "YMETRICA",
+        "MONSTER",
+        "HERO",
+        "SPIRIT OF THE MOUNTAIN",
+        "AVALENOR"
+      ]
+    },
+    {
+      "name": "Alarith Spirit of the Mountain",
+      "size": "100 mm",
+      "move": "6",
+      "save": "3+",
+      "bravery": "10",
+      "wounds": "12",
+      "missile_weapon": [
+        {
+          "name": "Geomantic Blast",
+          "range": "See Damage Table",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "D6"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Stoneheart Worldhammer",
+          "range": "3",
+          "attacks": "4",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-2",
+          "damage": "See Damage Table"
+        },
+        {
+          "name": "Cloven Hooves",
+          "range": "1",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "2"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "All but Immovable",
+          "desc": "If this model does not make a charge move in your charge phase, add 1 to the Attacks characteristic of this model’s melee weapons until your next movement phase. "
+        },
+        {
+          "name": "Ponderous Advice",
+          "desc": "At the end of your hero phase, you can pick 1 friendly Lumineth Realm-lords Aelf Hero within 3\" of this model. If that Lumineth Realm-lords Aelf Hero is within 3\" of this model at the start of your next hero phase, then that Lumineth Realm-lords Aelf Hero can use a command ability in that turn without spending any command points."
+        },
+        {
+          "name": "Stoneheart Shockwave",
+          "desc": "At the start of the enemy shooting phase and at the start of any combat phase, you can pick 1 enemy unit within range of this model’s Stoneheart Shockwave ability that is visible to this model. The range of the Stoneheart Shockwave ability for this model is shown on the damage table. If you do so, subtract 1 from hit rolls for that unit until the end of that phase. A unit cannot be affected by this ability more than once per phase."
+        },
+        {
+          "name": "Stonemage Symbiosis",
+          "desc": "When you look up a value on this model’s damage table, if this model is within 12\" of a friendly Stonemage, this model is treated as if it has suffered 0 wounds."
+        }
+      ],
+      "command_abilites": [
+        {
+          "name": "Faith of the Mountains",
+          "desc": "You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly Alarith Aelf unit wholly within 18\" of a friendly model with this command ability. Add 1 to the Attacks characteristic of that unit’s melee weapons in that combat phase. A unit cannot benefit from this command ability more than once per combat phase, and a unit cannot benefit from this ability and the Unshakeable Faith of the Mountains command ability in the same phase."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "geomantic_blast": "30",
+          "stoneheart_shockwave": "12",
+          "stoneheart_worldhammer": "5",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "geomantic_blast": "25",
+          "stoneheart_shockwave": "10",
+          "stoneheart_worldhammer": "4",
           "min_wounds_suffered": "3"
         },
         {
           "wound_track_position": "3",
-          "move": "5",
-          "massive_club": "2D6",
-          "vicious'eadbutt": "D3",
-          "min_wounds_suffered": "5"
+          "geomantic_blast": "20",
+          "stoneheart_shockwave": "8",
+          "stoneheart_worldhammer": "3",
+          "min_wounds_suffered": "6"
         },
         {
           "wound_track_position": "4",
-          "move": "4",
-          "massive_club": "D6",
-          "vicious'eadbutt": "D3",
+          "geomantic_blast": "15",
+          "stoneheart_shockwave": "6",
+          "stoneheart_worldhammer": "2",
           "min_wounds_suffered": "8"
         },
         {
           "wound_track_position": "5",
-          "move": "3",
-          "massive_club": "D6",
-          "vicious'eadbutt": "1",
-          "min_wounds_suffered": "10"
+          "geomantic_blast": "10",
+          "stoneheart_shockwave": "4",
+          "stoneheart_worldhammer": "1",
+          "min_wounds_suffered": "11"
         }
-        
       ],
       "keywords": [
-        "CHAOS",
-        "BEASTS OF CHAOS",
-        "MONSTERS OF CHAOS",
-        "GARGANT",
+        "ORDER",
+        "LUMINETH REALM-LORDS",
+        "ALARITH",
         "MONSTER",
-        "CHAOS GARGANT"
+        "SPIRIT OF THE MOUNTAIN"
       ]
     },
     {
-      "name": "Chaos Warhounds",
-      "size": "60 x 35mm",
+      "name": "",
+      "size": "120 x 92 mm",
+      "move": "",
+      "save": "",
+      "bravery": "",
+      "wounds": "",
+      "missile_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "",
+          "range": "",
+          "attacks": "",
+          "to_hit": "",
+          "to_wound": "",
+          "rend": "",
+          "damage": ""
+        }
+      ],
+      
+      "abilites": [
+        {
+          "name": "",
+          "desc": ""
+        },
+        {
+          "name": "",
+          "desc": ""
+        }
+      ],
+      "keywords": [
+        ""
+      ]
+    },   
+    {
+      "name": "Auric Runemaster",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -318,8 +374,8 @@
       ]
     },
     {
-      "name": "Chimera",
-      "size": "120 x 92mm",
+      "name": "Auric Runesmiter",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -361,8 +417,8 @@
       ]
     },
     {
-      "name": "Cockatrice",
-      "size": "60mm",
+      "name": "Auric Runesmiter on Magmadroth",
+      "size": "120 x 92 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -404,8 +460,8 @@
       ]
     },
     {
-      "name": "Cygor",
-      "size": "120 x 92mm",
+      "name": "Auric Runeson",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -447,8 +503,8 @@
       ]
     },
     {
-      "name": "Doomblast Dirgehorn",
-      "size": "40mm",
+      "name": "Auric Runeson on Magmadroth",
+      "size": "120 x 92 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -490,8 +546,8 @@
       ]
     },
     {
-      "name": "Doombull",
-      "size": "50mm",
+      "name": "Battlesmith",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -533,8 +589,8 @@
       ]
     },
     {
-      "name": "Dragon Ogor Shaggoth",
-      "size": "90 x 52mm",
+      "name": "Doomseeker",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -576,8 +632,8 @@
       ]
     },
     {
-      "name": "Dragon Ogors",
-      "size": "90 x 52mm",
+      "name": "Fjul-Grimnir",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -619,8 +675,8 @@
       ]
     },
     {
-      "name": "Ghorgon",
-      "size": "120 x 92mm",
+      "name": "Grimwrath Berzerker",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -662,8 +718,8 @@
       ]
     },
     {
-      "name": "Gors",
-      "size": "32mm",
+      "name": "Hearthguard Berzerkers",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -705,8 +761,8 @@
       ]
     },
     {
-      "name": "Great Bray-Shaman",
-      "size": "32mm",
+      "name": "The Chosen Axes",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",
@@ -748,266 +804,8 @@
       ]
     },
     {
-      "name": "Jabberslythe",
-      "size": "120 x 92mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Ravening Direflock",
-      "size": "40mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Razorgors",
-      "size": "75 x 42mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Tuskgor Chariots",
-      "size": "105 x 70mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Ungor Raiders",
-      "size": "25mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Ungors",
-      "size": "25mm",
-      "move": "",
-      "save": "",
-      "bravery": "",
-      "wounds": "",
-      "missile_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "melee_weapon": [
-        {
-          "name": "",
-          "range": "",
-          "attacks": "",
-          "to_hit": "",
-          "to_wound": "",
-          "rend": "",
-          "damage": ""
-        }
-      ],
-      "abilites": [
-        {
-          "name": "",
-          "desc": ""
-        },
-        {
-          "name": "",
-          "desc": ""
-        }
-      ],
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Wildfire Taurus",
-      "size": "105 x 70mm",
+      "name": "Vulkite Berzerkers",
+      "size": "32 mm",
       "move": "",
       "save": "",
       "bravery": "",

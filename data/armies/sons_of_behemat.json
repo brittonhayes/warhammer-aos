@@ -1,0 +1,612 @@
+{
+  "army": "Fyreslayers",
+  "units": [
+    {
+      "name": "Kraken-eater Mega-Gargant",
+      "size": "130 mm",
+      "move": "See Damage Table",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "35",
+      "missile_weapon": [
+        {
+          "name": "Hurled Debris",
+          "range": "See Damage Table",
+          "attacks": "3",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "D3"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Almighty Stomp",
+          "range": "2",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "Death Grip",
+          "range": "3",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-3",
+          "damage": "D6"
+        },
+        {
+          "name": "Shipwrecka Warclub",
+          "range": "3",
+          "attacks": "See Damage Table",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "2"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Almighty Stomp",
+          "desc": "You can re-roll hit rolls of 1 for Almighty Stomp attacks unless the target is a Monster."
+        },
+        {
+          "name": "Chrushing Charge",
+          "desc": "After this model makes a charge move, roll a dice for each enemy unit within 1\" of this model. On a 2+, that unit suffers D3 mortal wounds if it is a Monster, or D6 mortal wounds if it is not a Monster."
+        },
+        {
+          "name": "Death Grip",
+          "desc": "You can re-roll hit rolls of 1 for Death Grip attacks that target a Monster."
+        },
+        {
+          "name": "Get Orf Me Land!",
+          "desc": "In your hero phase, if you have any models with this ability within 1\" of an objective that you control, you can pick one of those models and say that it will kick the objective away. If you do so, you can move that objective up to 2D6\" to a new position on the battlefield, more than 1\" away from any models, terrain features or other objectives. An objective cannot be kicked away more than once in the same phase."
+        },
+        {
+          "name": "Longshanks",
+          "desc": "When this model makes a normal move, it can ignore models that have a Wounds characteristic of 10 or less and terrain features that are less than 4\" tall at their highest point. It cannot finish the move on top of another model or within 3\" of an enemy model."
+        },
+        {
+          "name": "Son of Behemat",
+          "desc": "If a spell or ability would slay this model without any wounds or mortal wounds being inflicted by the spell or ability, this model suffers D6 mortal wounds instead."
+        },
+        {
+          "name": "Stuff'Em In Me Net",
+          "desc": "After this model piles in, you can pick up to D3 enemy models within 3\" of this model and roll a dice for each of them. If the roll is at least double that model’s Wounds characteristic, it is slain"
+        },
+        {
+          "name": "Terror",
+          "desc": "Subtract 1 from the Bravery characteristic of enemy units if they are within 3\" of any friendly units with this ability."
+        },
+        {
+          "name": "Timberrrrr!",
+          "desc": "If this model is slain, before removing the model from the battlefield, the players must roll off. The winner must pick a point on the battlefield 5\" from this model. Each unit within 3\" of that point suffers D3 mortal wounds unless it is a Mega-Gargant. This model is then removed from the battlefield."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "move": "11",
+          "shipwrecka_warclub": "8",
+          "hurled_debris": "24",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "move": "10",
+          "shipwrecka_warclub": "7",
+          "hurled_debris": "21",
+          "min_wounds_suffered": "13"
+        },
+        {
+          "wound_track_position": "3",
+          "move": "9",
+          "shipwrecka_warclub": "7",
+          "hurled_debris": "18",
+          "min_wounds_suffered": "19"
+        },
+        {
+          "wound_track_position": "4",
+          "move": "8",
+          "shipwrecka_warclub": "6",
+          "hurled_debris": "15",
+          "min_wounds_suffered": "25"
+        },
+        {
+          "wound_track_position": "5",
+          "move": "7",
+          "shipwrecka_warclub": "5",
+          "hurled_debris": "12",
+          "min_wounds_suffered": "31"
+        }
+        
+      ],
+      "keywords": [
+        "DESTRUCTION",
+        "SONS OF BEHEMAT",
+        "GARGANT",
+        "MEGA-GARGANT",
+        "MONSTER",
+        "HERO",
+        "KRAKEN-EATER"
+
+      ]
+    },
+    {
+      "name": "Warstomper Mega-Gargant",
+      "size": "130 mm",
+      "move": "See Damage Table",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "35",
+      "melee_weapon": [
+        {
+          "name": "Death Grip",
+          "range": "3",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-3",
+          "damage": "D6"
+        },
+        {
+          "name": "Jump Up and Down",
+          "range": "3",
+          "attacks": "4",
+          "to_hit": "3+",
+          "to_wound": "4+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "Titanic Boulderclub",
+          "range": "3",
+          "attacks": "See Damage Table",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "2"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Almighty Jump",
+          "desc": "You can re-roll hit rolls of 1 for Almighty Stomp attacks unless the target is a Monster."
+        },
+        {
+          "name": "Chrushing Charge",
+          "desc": "After this model makes a charge move, roll a dice for each enemy unit within 1\" of this model. On a 2+, that unit suffers D3 mortal wounds if it is a Monster, or D6 mortal wounds if it is not a Monster."
+        },
+        {
+          "name": "Death Grip",
+          "desc": "You can re-roll hit rolls of 1 for Death Grip attacks that target a Monster."
+        },
+        {
+          "name": "Hurled Body",
+          "desc": "Once per combat phase, you can pick 1 enemy model within 3\" of this model and roll a dice. Add the Hurled Body modifier shown on this model’s damage table to the roll. If the roll is at least double that enemy model’s Wounds characteristic, it is slain and you can roll another dice. On a 4+, you can pick an enemy unit within 12\" of this model and visible to it. That unit suffers a number of mortal wounds equal to the Wounds characteristic of the slain model."
+        },
+        {
+          "name": "Longshanks",
+          "desc": "When this model makes a normal move, it can ignore models that have a Wounds characteristic of 10 or less and terrain features that are less than 4\" tall at their highest point. It cannot finish the move on top of another model or within 3\" of an enemy model."
+        },
+        {
+          "name": "Son of Behemat",
+          "desc": "If a spell or ability would slay this model without any wounds or mortal wounds being inflicted by the spell or ability, this model suffers D6 mortal wounds instead."
+        },
+        {
+          "name": "Titanic Boulderclub",
+          "desc": "The Attacks characteristic of a Titanic Boulderclub is equal to the number of enemy models within 3\" of the attacking model. Add the Titanic Boulderclub value on the attacking model’s damage table to the total, and add 4 to the total for each enemy Monster within 3\" of the attacking model. If the modified Attacks characteristic of the Titanic Boulderclub is less than 1, count it as being 1, and if the modified Attacks characteristic of the Titanic Boulderclub is more than 10, count it as being 10."
+        },
+        {
+          "name": "Terror",
+          "desc": "Subtract 1 from the Bravery characteristic of enemy units if they are within 3\" of any friendly units with this ability."
+        },
+        {
+          "name": "Timberrrrr!",
+          "desc": "If this model is slain, before removing the model from the battlefield, the players must roll off. The winner must pick a point on the battlefield 5\" from this model. Each unit within 3\" of that point suffers D3 mortal wounds unless it is a Mega-Gargant. This model is then removed from the battlefield."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "move": "10",
+          "titanic_boulderclub": "+4",
+          "hurled_body": "+2",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "move": "9",
+          "titanic_boulderclub": "+3",
+          "hurled_body": "+1",
+          "min_wounds_suffered": "13"
+        },
+        {
+          "wound_track_position": "3",
+          "move": "8",
+          "titanic_boulderclub": "+2",
+          "hurled_body": "0",
+          "min_wounds_suffered": "19"
+        },
+        {
+          "wound_track_position": "4",
+          "move": "7",
+          "titanic_boulderclub": "+1",
+          "hurled_body": "-1",
+          "min_wounds_suffered": "25"
+        },
+        {
+          "wound_track_position": "5",
+          "move": "6",
+          "titanic_boulderclub": "0",
+          "hurled_body": "-2",
+          "min_wounds_suffered": "31"
+        }
+        
+      ],
+      "keywords": [
+        "DESTRUCTION",
+        "SONS OF BEHEMAT",
+        "GARGANT",
+        "MEGA-GARGANT",
+        "MONSTER",
+        "HERO",
+        "WARSTOMPER"
+
+      ]
+    },
+    {
+      "name": "Gatebreaker Mega-Gargant",
+      "size": "130 mm",
+      "move": "See Damage Table",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "35",
+      "missile_weapon": [
+        {
+          "name": "Hurled Boulder",
+          "range": "See Damage Table",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-3",
+          "damage": "4"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Almighty Stomp",
+          "range": "2",
+          "attacks": "2",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "D3"
+        },
+        {
+          "name": "Death Grip",
+          "range": "3",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-3",
+          "damage": "D6"
+        },
+        {
+          "name": "Fortcrusha Flail",
+          "range": "3",
+          "attacks": "See Damage Table",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-3",
+          "damage": "3"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Almighty Stomp",
+          "desc": "You can re-roll hit rolls of 1 for Almighty Stomp attacks unless the target is a Monster."
+        },
+        {
+          "name": "Chrushing Charge",
+          "desc": "After this model makes a charge move, roll a dice for each enemy unit within 1\" of this model. On a 2+, that unit suffers D3 mortal wounds if it is a Monster, or D6 mortal wounds if it is not a Monster."
+        },
+        {
+          "name": "Death Grip",
+          "desc": "You can re-roll hit rolls of 1 for Death Grip attacks that target a Monster."
+        },
+        {
+          "name": "Smash Down",
+          "desc": "Add 1 to the damage inflicted by each successful attack made by this model that targets a unit that is part of a garrison or is wholly on or within a terrain feature. In addition, at the end of the combat phase, you can pick 1 terrain feature within 3\" of this model and roll a dice. If the roll is equal to or greater than the Smash Down value on this model’s damage table, that terrain feature is reduced to rubble: all of its scenery rules are replaced with the Deadly scenery rule, and its keywords are changed to Scenery, Rubble."
+        },
+        {
+          "name": "Longshanks",
+          "desc": "When this model makes a normal move, it can ignore models that have a Wounds characteristic of 10 or less and terrain features that are less than 4\" tall at their highest point. It cannot finish the move on top of another model or within 3\" of an enemy model."
+        },
+        {
+          "name": "Son of Behemat",
+          "desc": "If a spell or ability would slay this model without any wounds or mortal wounds being inflicted by the spell or ability, this model suffers D6 mortal wounds instead."
+        },
+        {
+          "name": "Terror",
+          "desc": "Subtract 1 from the Bravery characteristic of enemy units if they are within 3\" of any friendly units with this ability."
+        },
+        {
+          "name": "Timberrrrr!",
+          "desc": "If this model is slain, before removing the model from the battlefield, the players must roll off. The winner must pick a point on the battlefield 5\" from this model. Each unit within 3\" of that point suffers D3 mortal wounds unless it is a Mega-Gargant. This model is then removed from the battlefield."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "move": "12",
+          "fortchrusha_flail": "10",
+          "hurled_boulder": "18",
+          "smash_down": "2+",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "move": "11",
+          "fortchrusha_flail": "9",
+          "hurled_boulder": "15",
+          "smash_down": "3+",
+          "min_wounds_suffered": "13"
+        },
+        {
+          "wound_track_position": "3",
+          "move": "10",
+          "fortchrusha_flail": "7",
+          "hurled_boulder": "12",
+          "smash_down": "4+",
+          "min_wounds_suffered": "19"
+        },
+        {
+          "wound_track_position": "4",
+          "move": "9",
+          "fortchrusha_flail": "6",
+          "hurled_boulder": "9",
+          "smash_down": "5+",
+          "min_wounds_suffered": "25"
+        },
+        {
+          "wound_track_position": "5",
+          "move": "8",
+          "fortchrusha_flail": "5",
+          "hurled_boulder": "6",
+          "smash_down": "6+",
+          "min_wounds_suffered": "31"
+        }
+        
+      ],
+      "keywords": [
+        "DESTRUCTION",
+        "SONS OF BEHEMAT",
+        "GARGANT",
+        "MEGA-GARGANT",
+        "MONSTER",
+        "HERO",
+        "GATEBREAKER"
+
+      ]
+    },
+    {
+      "name": "Bonegrinder Mega-Gargant",
+      "size": "130 mm",
+      "move": "See Damage Table",
+      "save": "4+",
+      "bravery": "7",
+      "wounds": "35",
+      "missile_weapon": [
+        {
+          "name": "Hurled Boulder",
+          "range": "See Damage Table",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "2+",
+          "rend": "-3",
+          "damage": "4"
+        }
+      ],
+      "melee_weapon": [
+        {
+          "name": "Gargantuan Club",
+          "range": "3",
+          "attacks": "See Damage Table",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "3"
+        },
+        {
+          "name": "Thunderous Stomp",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "D6"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Thunderous Stomp",
+          "desc": "You can re-roll hit rolls of 1 for Thunderous Stomp attacks unless the target is a Monster."
+        },
+        {
+          "name": "I’ll Bite Your Head Off!",
+          "desc": "After this model piles in, you can pick 1 enemy model that is within 3\" of this model, and roll a dice. If the roll is greater than that enemy model’s Wounds characteristic, that enemy model is slain."
+        },
+        {
+          "name": "Longshanks",
+          "desc": "When this model makes a normal move, it can ignore models that have a Wounds characteristic of 10 or less and terrain features that are less than 4\" tall at their highest point. It cannot finish the move on top of another model or within 3\" of an enemy model."
+        },
+        {
+          "name": "Son of Behemat",
+          "desc": "If a spell or ability would slay this model without any wounds or mortal wounds being inflicted by the spell or ability, this model suffers D6 mortal wounds instead."
+        },
+        {
+          "name": "Terror",
+          "desc": "Subtract 1 from the Bravery characteristic of enemy units if they are within 3\" of any friendly units with this ability."
+        },
+        {
+          "name": "Timberrr!",
+          "desc": "If this model is slain, before removing the model from the battlefield, the players must roll off. The winner must pick a point on the battlefield 5\" from this model. Each unit within 3\" of that point suffers D3 mortal wounds unless it is a Mega-Gargant. This model is then removed from the battlefield."
+        },
+        {
+          "name": "Mega-Club of Gork",
+          "desc": "Add 1 to the Bravery characteristic of friendly Orruk units while they are wholly within 12\" of this model."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "move": "11",
+          "hurled_boulder": "18",
+          "gargantuan_club": "7",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "move": "10",
+          "hurled_boulder": "15",
+          "gargantuan_club": "5",
+          "min_wounds_suffered": "13"
+        },
+        {
+          "wound_track_position": "3",
+          "move": "9",
+          "hurled_boulder": "12",
+          "gargantuan_club": "4",
+          "min_wounds_suffered": "19"
+        },
+        {
+          "wound_track_position": "4",
+          "move": "8",
+          "hurled_boulder": "9",
+          "gargantuan_club": "3",
+          "min_wounds_suffered": "25"
+        },
+        {
+          "wound_track_position": "5",
+          "move": "7",
+          "hurled_boulder": "6",
+          "gargantuan_club": "2",
+          "min_wounds_suffered": "31"
+        }
+        
+      ],
+      "keywords": [
+        "DESTRUCTION",
+        "SONS OF BEHEMAT",
+        "GARGANT",
+        "MEGA-GARGANT",
+        "MONSTER",
+        "BONEGRINDER"
+      ]
+    },
+    {
+      "name": "Mancrusher Gargant",
+      "size": "90 x 52 mm",
+      "move": "8",
+      "save": "5+",
+      "bravery": "7",
+      "wounds": "12",
+      "melee_weapon": [
+        {
+          "name": "'Eadbutt'",
+          "range": "1",
+          "attacks": "1",
+          "to_hit": "4+",
+          "to_wound": "3+",
+          "rend": "-3",
+          "damage": "See Damage Table"
+        },
+        {
+          "name": "Massive Club",
+          "range": "3",
+          "attacks": "See Damage Table",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-1",
+          "damage": "1"
+        },
+        {
+          "name": "Mighty Kick",
+          "range": "2",
+          "attacks": "1",
+          "to_hit": "3+",
+          "to_wound": "3+",
+          "rend": "-2",
+          "damage": "D3"
+        }
+      ],
+      "abilites": [
+        {
+          "name": "Keep Up!",
+          "desc": "If this unit is within 12\" of a friendly Mega-Gargant at the start of the charge phase, it can attempt to charge in that charge phase even if it ran in the same turn."
+        },
+        {
+          "name": "Stomping Charge",
+          "desc": "After a model from this unit makes a charge move, pick 1 enemy unit within 1\" of it and roll a dice. If the roll is equal to or greater than the Stomping Charge value for the charging model shown on the damage table above, that unit suffers D3 mortal wounds. If this unit has more than 1 model, do not allocate the mortal wounds until all of the models in this unit have made their charge moves."
+        },
+        {
+          "name": "Stuff'Em In Me Bag",
+          "desc": "After a model from this unit piles in, you can pick 1 enemy model within 3\" of it and roll a dice. If the roll is at least double that model’s Wounds characteristic, it is slain."
+        },
+        {
+          "name": "Timber!",
+          "desc": "If a model from this unit is slain, before removing it from the battlefield, the players must roll off. The winner must pick a point on the battlefield 3\" from that model. Each unit within 2\" of that point suffers D3 mortal wounds unless it is a Gargant. The model is then removed from the battlefield."
+        }
+      ],
+      "damage_table": [
+        {
+          "wound_track_position": "1",
+          "stomping_charge": "2+",
+          "massive_club": "10",
+          "'eadbutt": "4",
+          "min_wounds_suffered": "0"
+        },
+        {
+          "wound_track_position": "2",
+          "stomping_charge": "3+",
+          "massive_club": "9",
+          "'eadbutt": "3",
+          "min_wounds_suffered": "3"
+        },
+        {
+          "wound_track_position": "3",
+          "stomping_charge": "4+",
+          "massive_club": "8",
+          "'eadbutt": "3",
+          "min_wounds_suffered": "5"
+        },
+        {
+          "wound_track_position": "4",
+          "stomping_charge": "5+",
+          "massive_club": "6",
+          "'eadbutt": "2",
+          "min_wounds_suffered": "8"
+        },
+        {
+          "wound_track_position": "5",
+          "stomping_charge": "6+",
+          "massive_club": "4",
+          "'eadbutt": "1",
+          "min_wounds_suffered": "10"
+        }
+        
+      ],
+      "keywords": [
+        "DESTRUCTION",
+        "SONS OF BEHEMAT",
+        "GARGANT",
+        "MONSTER",
+        "MANCRUSHER"
+      ]
+    }
+  ]
+}
