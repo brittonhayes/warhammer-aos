@@ -4,7 +4,7 @@ on: [ pull_request ]
 
 jobs:
   misspell:
-    name: runner / misspell
+    name: misspell
     runs-on: ubuntu-latest
     steps:
       - name: Check out code.
@@ -17,7 +17,7 @@ jobs:
           locale: "US"
 
   golangci-lint:
-    name: runner / golangci-lint
+    name: golangci-lint
     runs-on: ubuntu-latest
     steps:
       - name: Check out code into the Go module directory
