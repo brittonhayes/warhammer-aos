@@ -1,0 +1,210 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "unit_schema.json",
+  "type": "object",
+  "definitions": {
+    "missile": {
+      "$id": "#/definitions/missile",
+      "type": "object",
+      "required": [
+        "name",
+        "range",
+        "attacks",
+        "to_hit",
+        "to_wound",
+        "rend",
+        "damage"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "range": {
+          "type": "string"
+        },
+        "attacks": {
+          "type": "string"
+        },
+        "to_hit": {
+          "type": "string"
+        },
+        "to_wound": {
+          "type": "string"
+        },
+        "rend": {
+          "type": "string"
+        },
+        "damage": {
+          "type": "string"
+        }
+      }
+    },
+    "melee": {
+      "$id": "#/definitions/melee",
+      "type": "object",
+      "required": [
+        "name",
+        "range",
+        "attacks",
+        "to_hit",
+        "to_wound",
+        "rend",
+        "damage"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "range": {
+          "type": "string"
+        },
+        "attacks": {
+          "type": "string"
+        },
+        "to_hit": {
+          "type": "string"
+        },
+        "to_wound": {
+          "type": "string"
+        },
+        "rend": {
+          "type": "string"
+        },
+        "damage": {
+          "type": "string"
+        }
+      }
+    },
+    "ability": {
+      "$id": "#/definitions/ability",
+      "type": "object",
+      "required": [
+        "name",
+        "desc"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        }
+      }
+    },
+    "keyword": {
+      "$id": "#/definitions/keyword",
+      "type": "string"
+    },
+    "attribute": {
+      "$id": "#/definitions/attribute",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        }
+      }
+    },
+    "dmg_table": {
+      "$id": "#/definitions/dmg_table",
+      "type": "array",
+      "properties": {
+        "wound_track_position": {
+          "type": "string"
+        },
+        "move": {
+          "type": "string"
+        },
+        "min_wounds_suffered": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "properties": {
+    "unit": {
+      "$id": "#/properties/unit",
+      "type": "object",
+      "required": [
+        "name",
+        "size",
+        "move",
+        "save",
+        "bravery",
+        "wounds",
+        "abilites",
+        "keywords"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "pattern": "^[A-Za-z'].*"
+        },
+        "size": {
+          "type": "string",
+          "pattern": "^([0-9xm]|Use model mm).*"
+        },
+        "move": {
+          "type": "string",
+          "pattern": "^([0-9+-]|See Damage Table)"
+        },
+        "save": {
+          "type": "string",
+          "pattern": "^[0-9+-]"
+        },
+        "bravery": {
+          "type": "string",
+          "pattern": "^[0-9+-]"
+        },
+        "wounds": {
+          "type": "string",
+          "pattern": "^[0-9+-]"
+        },
+        "missile_weapon": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/missile"
+          }
+        },
+        "melee_weapon": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/melee"
+          }
+        },
+        "abilites": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ability"
+          }
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/keyword"
+          }
+        },
+        "command_abilities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/attribute"
+          }
+        },
+        "magic": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/attribute"
+          }
+        },
+        "damage_table": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dmg_table"
+          }
+        }
+      }
+    }
+  }
+}
