@@ -16,4 +16,4 @@ jobs:
       - name: "Validate JSON"
         continue-on-error: true
         run: |
-          ajv test -s schema.json -d "./data/**/*.json" --strict=false --valid | grep '$!"passed test"'
+          ajv validate -s schema/armies/armies_schema.json -r 'schema/armies/unit_schema.json' -d "./data/armies/*.json"
