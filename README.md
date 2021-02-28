@@ -16,15 +16,12 @@ The API is free and public. Try it out!
 
 ### 🌐 [aos-api.com/armies](https://aos-api.com/armies)
 
-[comment]: <> (## Docs 📝)
+## Docs 📝
 
-[comment]: <> (Looking for API documentation? We've got 'em! Our docs cover everything you can request from our API, how to do it, and)
+Looking for API documentation? We've got 'em! Our documentation covers 
+everything you can request from our API.
 
-[comment]: <> (how it works on the backend for anyone curious. Check em out!)
-
-[comment]: <> (To get an example of a JSON response, check out the [data/json]&#40;data/json&#41; directory.)
-
-[comment]: <> (### 🌐 [aos-api.com/docs]&#40;https://github.com/brittonhayes/warhammer-aos&#41;)
+### 🌐 [docs.aos-api.com](http://docs.aos-api.com/)
 
 ---
 
