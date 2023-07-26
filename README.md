@@ -1,3 +1,9 @@
+# ⚠️ ARCHIVED 
+
+Re-built from the ground up in the new and improved ✨ [github.com/brittonhayes/warhammer](https://github.com/brittonhayes/warhammer) ✨
+
+---
+
 # Warhammer - Age of Sigmar API ⚔️
 
 A REST API for public Warhammer Age of Sigmar data. Built with Go + Lambda.
